@@ -6,6 +6,7 @@ apply plugin: 'shadow'
 
 compileJava {
     options.encoding = 'UTF-8'
+    options.compilerArgs = ['-Xmaxerrs', '10000']
 }
 
 buildscript {
