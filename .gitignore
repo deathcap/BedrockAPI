@@ -1,3 +1,9 @@
 .gradle
 .idea
 *.iml
+*.swp
+build
+classes
+target
+dependency-reduced-pom.xml
+
