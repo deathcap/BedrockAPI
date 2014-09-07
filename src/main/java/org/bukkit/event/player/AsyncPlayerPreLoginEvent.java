@@ -1,15 +1,9 @@
 package org.bukkit.event.player;
 
-import java.io.Serializable;
-import org.bukkit.event.player.AsyncPlayerPreLoginEvent;
-import org.bukkit.event.player.AsyncPlayerPreLoginEvent.Result;
 import java.net.InetAddress;
 import java.util.UUID;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
-import org.bukkit.event.player.AsyncPlayerPreLoginEvent.Result;
-import org.bukkit.event.player.PlayerPreLoginEvent.Result;
-
 
 public class AsyncPlayerPreLoginEvent extends Event  {
 

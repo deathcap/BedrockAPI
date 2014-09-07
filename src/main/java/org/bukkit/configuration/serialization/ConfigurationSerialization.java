@@ -1,5 +1,7 @@
 package org.bukkit.configuration.serialization;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
 import java.util.Map;
 import org.bukkit.configuration.serialization.ConfigurationSerializable;
 

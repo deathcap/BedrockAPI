@@ -13,7 +13,11 @@ import java.io.ObjectStreamConstants;
 public class BukkitObjectInputStream extends ObjectInputStream  {
 
 
-	protected Object resolveObject(Object obj) throws IOException {
+    public BukkitObjectInputStream(InputStream in) throws IOException {
+        super(in);
+    }
+
+    protected Object resolveObject(Object obj) throws IOException {
 		return null;
 	}
 }

@@ -10,7 +10,18 @@ import org.bukkit.conversations.ConversationContext;
 public class ConversationAbandonedEvent extends EventObject  {
 
 
-	public ConversationCanceller getCanceller() {
+    /**
+     * Constructs a prototypical Event.
+     *
+     * @param source The object on which the Event initially occurred.
+     * @throws IllegalArgumentException
+     *          if source is null.
+     */
+    public ConversationAbandonedEvent(Object source) {
+        super(source);
+    }
+
+    public ConversationCanceller getCanceller() {
 		return null;
 	}
 

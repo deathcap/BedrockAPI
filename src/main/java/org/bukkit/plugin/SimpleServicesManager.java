@@ -12,7 +12,6 @@ public class SimpleServicesManager extends Object implements ServicesManager  {
 
 
 	public <T> void register(Class<T> service, T provider, Plugin plugin, ServicePriority priority) {
-		return null;
 	}
 
 	public void unregisterAll(Plugin plugin) {
@@ -45,6 +44,6 @@ public class SimpleServicesManager extends Object implements ServicesManager  {
 	}
 
 	public <T> boolean isProvidedFor(Class<T> service) {
-		return null;
+		return false;
 	}
 }

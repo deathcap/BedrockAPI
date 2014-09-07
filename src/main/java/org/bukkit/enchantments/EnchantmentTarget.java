@@ -22,7 +22,9 @@ public enum EnchantmentTarget  {
 
 
 
-	public abstract boolean includes(Material item);
+	public boolean includes(Material item) {
+        return false;
+    }
 
 	public boolean includes(ItemStack item) {
 		return false;
