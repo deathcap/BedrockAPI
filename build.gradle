@@ -29,6 +29,9 @@ repositories {
 dependencies {
     compile 'org.avaje:ebean:2.8.1'
     compile 'org.yaml:snakeyaml:1.14'
+    compile 'commons-lang:commons-lang:2.6'
+    compile 'com.googlecode.json-simple:json-simple:1.1.1'
+    compile 'com.google.guava:guava:18.0'
 }
 
 shadow {
