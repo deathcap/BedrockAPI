@@ -4,6 +4,8 @@ import org.bukkit.metadata.LazyMetadataValue;
 import org.bukkit.metadata.MetadataValue;
 import org.bukkit.plugin.Plugin;
 
+import java.lang.ref.WeakReference;
+
 
 public abstract class MetadataValueAdapter extends Object implements MetadataValue  {
 

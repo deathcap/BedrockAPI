@@ -13,9 +13,11 @@ public class VehicleDamageEvent extends VehicleEvent implements Cancellable  {
 
 
 	@Deprecated public VehicleDamageEvent(Vehicle vehicle, Entity attacker, int damage) {
+        super(vehicle);
 	}
 
 	public VehicleDamageEvent(Vehicle vehicle, Entity attacker, double damage) {
+        super(vehicle);
 	}
 
 	public Entity getAttacker() {

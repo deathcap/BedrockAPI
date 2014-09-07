@@ -17,6 +17,7 @@ public class InventoryDragEvent extends InventoryInteractEvent  {
 
 
 	public InventoryDragEvent(InventoryView what, ItemStack newCursor, ItemStack oldCursor, boolean right, Map<Integer,ItemStack> slots) {
+        super(what);
 	}
 
 	public Map<Integer,ItemStack> getNewItems() {

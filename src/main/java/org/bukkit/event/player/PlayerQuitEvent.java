@@ -11,6 +11,7 @@ public class PlayerQuitEvent extends PlayerEvent  {
 
 
 	public PlayerQuitEvent(Player who, String quitMessage) {
+        super(who);
 	}
 
 	public String getQuitMessage() {

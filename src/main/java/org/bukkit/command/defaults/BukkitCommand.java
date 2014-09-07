@@ -12,8 +12,10 @@ public abstract class BukkitCommand extends Command  {
 
 
 	protected BukkitCommand(String name) {
+        super(name);
 	}
 
 	protected BukkitCommand(String name, String description, String usageMessage, List<String> aliases) {
+        super(name);
 	}
 }

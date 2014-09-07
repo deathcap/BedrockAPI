@@ -15,6 +15,7 @@ import org.bukkit.event.painting.PaintingEvent;
 
 
 	public PaintingPlaceEvent(Painting painting, Player player, Block block, BlockFace blockFace) {
+        super(painting);
 	}
 
 	public Player getPlayer() {

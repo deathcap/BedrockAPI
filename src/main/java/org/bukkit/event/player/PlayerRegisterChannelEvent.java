@@ -11,5 +11,6 @@ public class PlayerRegisterChannelEvent extends PlayerChannelEvent  {
 
 
 	public PlayerRegisterChannelEvent(Player player, String channel) {
+        super(player, channel);
 	}
 }

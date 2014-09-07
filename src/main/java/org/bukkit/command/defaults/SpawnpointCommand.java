@@ -10,6 +10,7 @@ public class SpawnpointCommand extends VanillaCommand  {
 
 
 	public SpawnpointCommand() {
+        super("Spawnpoint");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

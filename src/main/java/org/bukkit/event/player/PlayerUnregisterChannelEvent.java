@@ -11,5 +11,6 @@ public class PlayerUnregisterChannelEvent extends PlayerChannelEvent  {
 
 
 	public PlayerUnregisterChannelEvent(Player player, String channel) {
+        super(player, channel);
 	}
 }

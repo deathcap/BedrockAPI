@@ -11,6 +11,7 @@ public class VehicleCreateEvent extends VehicleEvent  {
 
 
 	public VehicleCreateEvent(Vehicle vehicle) {
+        super(vehicle);
 	}
 
 	public HandlerList getHandlers() {

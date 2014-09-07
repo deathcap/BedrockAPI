@@ -9,6 +9,7 @@ public class MeCommand extends VanillaCommand  {
 
 
 	public MeCommand() {
+        super("Me");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

@@ -10,6 +10,7 @@ public class ListCommand extends VanillaCommand  {
 
 
 	public ListCommand() {
+        super("List");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

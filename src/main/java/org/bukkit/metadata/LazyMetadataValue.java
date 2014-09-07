@@ -15,12 +15,15 @@ public class LazyMetadataValue extends MetadataValueAdapter implements MetadataV
 
 
 	public LazyMetadataValue(Plugin owningPlugin, Callable<Object> lazyValue) {
+        super(owningPlugin);
 	}
 
 	public LazyMetadataValue(Plugin owningPlugin, LazyMetadataValue.CacheStrategy cacheStrategy, Callable<Object> lazyValue) {
+        super(owningPlugin);
 	}
 
 	protected LazyMetadataValue(Plugin owningPlugin) {
+        super(owningPlugin);
 	}
 
 	public Object value() {

@@ -12,6 +12,7 @@ public class PlayerChangedWorldEvent extends PlayerEvent  {
 
 
 	public PlayerChangedWorldEvent(Player player, World from) {
+        super(player);
 	}
 
 	public World getFrom() {

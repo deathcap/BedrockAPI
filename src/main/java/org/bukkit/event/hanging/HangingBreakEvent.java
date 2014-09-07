@@ -17,6 +17,7 @@ public class HangingBreakEvent extends HangingEvent implements Cancellable  {
 
 
 	public HangingBreakEvent(Hanging hanging, HangingBreakEvent.RemoveCause cause) {
+        super(hanging);
 	}
 
 	public HangingBreakEvent.RemoveCause getCause() {

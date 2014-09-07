@@ -13,6 +13,7 @@ public class PlayerShearEntityEvent extends PlayerEvent implements Cancellable  
 
 
 	public PlayerShearEntityEvent(Player who, Entity what) {
+        super(who);
 	}
 
 	public boolean isCancelled() {

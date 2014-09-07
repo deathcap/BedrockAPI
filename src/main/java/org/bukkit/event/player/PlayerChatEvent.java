@@ -13,9 +13,11 @@ import org.bukkit.event.player.PlayerEvent;
 
 
 	public PlayerChatEvent(Player player, String message) {
+        super(player);
 	}
 
 	public PlayerChatEvent(Player player, String message, String format, Set<Player> recipients) {
+        super(player);
 	}
 
 	public boolean isCancelled() {

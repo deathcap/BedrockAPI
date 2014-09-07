@@ -10,6 +10,7 @@ public class DeopCommand extends VanillaCommand  {
 
 
 	public DeopCommand() {
+        super("Deop");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

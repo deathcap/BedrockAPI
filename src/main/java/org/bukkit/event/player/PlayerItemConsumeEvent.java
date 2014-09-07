@@ -13,6 +13,7 @@ public class PlayerItemConsumeEvent extends PlayerEvent implements Cancellable  
 
 
 	public PlayerItemConsumeEvent(Player player, ItemStack item) {
+        super(player);
 	}
 
 	public ItemStack getItem() {

@@ -13,6 +13,7 @@ public class VehicleDestroyEvent extends VehicleEvent implements Cancellable  {
 
 
 	public VehicleDestroyEvent(Vehicle vehicle, Entity attacker) {
+        super(vehicle);
 	}
 
 	public Entity getAttacker() {

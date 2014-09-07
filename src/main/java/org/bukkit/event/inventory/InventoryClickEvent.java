@@ -19,12 +19,15 @@ public class InventoryClickEvent extends InventoryInteractEvent  {
 
 
 	@Deprecated public InventoryClickEvent(InventoryView view, InventoryType.SlotType type, int slot, boolean right, boolean shift) {
+        super(view);
 	}
 
 	public InventoryClickEvent(InventoryView view, InventoryType.SlotType type, int slot, ClickType click, InventoryAction action) {
+        super(view);
 	}
 
 	public InventoryClickEvent(InventoryView view, InventoryType.SlotType type, int slot, ClickType click, InventoryAction action, int key) {
+        super(view);
 	}
 
 	public InventoryType.SlotType getSlotType() {

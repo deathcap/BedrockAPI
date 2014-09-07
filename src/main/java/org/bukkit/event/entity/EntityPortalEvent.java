@@ -19,6 +19,7 @@ public class EntityPortalEvent extends EntityTeleportEvent  {
 	protected TravelAgent travelAgent = null;
 
 	public EntityPortalEvent(Entity entity, Location from, Location to, TravelAgent pta) {
+        super(entity, from, to);
 	}
 
 	public void useTravelAgent(boolean useTravelAgent) {

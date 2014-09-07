@@ -14,6 +14,7 @@ import org.bukkit.inventory.Inventory;
 	protected Inventory inventory = null;
 
 	public PlayerInventoryEvent(Player player, Inventory inventory) {
+        super(player);
 	}
 
 	public Inventory getInventory() {

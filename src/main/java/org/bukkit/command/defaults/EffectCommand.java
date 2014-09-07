@@ -10,6 +10,7 @@ public class EffectCommand extends VanillaCommand  {
 
 
 	public EffectCommand() {
+        super("Effect");
 	}
 
 	public boolean execute(CommandSender sender, String commandLabel, String[] args) {

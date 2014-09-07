@@ -10,6 +10,7 @@ public class WeatherCommand extends VanillaCommand  {
 
 
 	public WeatherCommand() {
+        super("Weather");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

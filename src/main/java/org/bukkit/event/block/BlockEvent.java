@@ -29,6 +29,10 @@ public abstract class BlockEvent extends Event  {
 
 	protected Block block = null;
 
+    public BlockEvent() {
+        // TODO
+    }
+
 	public BlockEvent(Block theBlock) {
 	}
 

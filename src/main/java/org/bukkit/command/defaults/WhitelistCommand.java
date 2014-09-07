@@ -10,6 +10,7 @@ public class WhitelistCommand extends VanillaCommand  {
 
 
 	public WhitelistCommand() {
+        super("Whitelist");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

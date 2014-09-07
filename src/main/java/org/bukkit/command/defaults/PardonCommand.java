@@ -10,6 +10,7 @@ public class PardonCommand extends VanillaCommand  {
 
 
 	public PardonCommand() {
+        super("Pardon");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

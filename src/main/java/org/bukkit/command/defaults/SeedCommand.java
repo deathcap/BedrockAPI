@@ -10,6 +10,7 @@ public class SeedCommand extends VanillaCommand  {
 
 
 	public SeedCommand() {
+        super("Seed");
 	}
 
 	public boolean execute(CommandSender sender, String commandLabel, String[] args) {

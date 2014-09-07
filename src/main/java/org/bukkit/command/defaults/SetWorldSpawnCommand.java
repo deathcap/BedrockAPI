@@ -10,6 +10,7 @@ public class SetWorldSpawnCommand extends VanillaCommand  {
 
 
 	public SetWorldSpawnCommand() {
+        super("SetWorldSpawn");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

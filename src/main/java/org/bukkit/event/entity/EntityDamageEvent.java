@@ -22,6 +22,10 @@ import org.bukkit.event.entity.EntityEvent;
 public class EntityDamageEvent extends EntityEvent implements Cancellable  {
 
 
+    public EntityDamageEvent() {
+        // TODO
+    }
+
 	@Deprecated public EntityDamageEvent(Entity damagee, EntityDamageEvent.DamageCause cause, int damage) {
 	}
 

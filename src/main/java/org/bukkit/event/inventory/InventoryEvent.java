@@ -20,6 +20,10 @@ public class InventoryEvent extends Event  {
 
 	protected InventoryView transaction = null;
 
+    public InventoryEvent() {
+        // TODO
+    }
+
 	public InventoryEvent(InventoryView transaction) {
 	}
 

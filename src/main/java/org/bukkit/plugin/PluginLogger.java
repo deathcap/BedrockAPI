@@ -9,7 +9,8 @@ public class PluginLogger extends Logger  {
 
 
 	public PluginLogger(Plugin context) {
-	}
+        super(context.getName(), context.getName()); // TODO
+    }
 
     /**
      * Protected method to construct a logger for a named subsystem.

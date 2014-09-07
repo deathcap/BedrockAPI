@@ -10,6 +10,7 @@ public class VersionCommand extends BukkitCommand  {
 
 
 	public VersionCommand(String name) {
+        super("Version");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

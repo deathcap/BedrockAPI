@@ -10,6 +10,7 @@ public class MemoryConfigurationOptions extends ConfigurationOptions  {
 
 
 	protected MemoryConfigurationOptions(MemoryConfiguration configuration) {
+        super(configuration);
 	}
 
 	public MemoryConfiguration configuration() {

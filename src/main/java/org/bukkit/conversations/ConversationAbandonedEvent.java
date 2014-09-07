@@ -11,9 +11,11 @@ public class ConversationAbandonedEvent extends EventObject  {
 
 
 	public ConversationAbandonedEvent(Conversation conversation) {
+        super(conversation);
 	}
 
 	public ConversationAbandonedEvent(Conversation conversation, ConversationCanceller canceller) {
+        super(conversation);
 	}
 
     /**

@@ -9,6 +9,7 @@ public class PluginsCommand extends BukkitCommand  {
 
 
 	public PluginsCommand(String name) {
+        super("Plugins");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

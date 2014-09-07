@@ -9,6 +9,7 @@ public class SpreadPlayersCommand extends VanillaCommand  {
 
 
 	public SpreadPlayersCommand() {
+        super("SpreadPlayers");
 	}
 
 	public boolean execute(CommandSender sender, String commandLabel, String[] args) {

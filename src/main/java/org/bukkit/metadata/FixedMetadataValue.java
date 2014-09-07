@@ -11,6 +11,7 @@ public class FixedMetadataValue extends LazyMetadataValue  {
 
 
 	public FixedMetadataValue(Plugin owningPlugin, Object value) {
+        super(owningPlugin);
 	}
 
 	public void invalidate() {

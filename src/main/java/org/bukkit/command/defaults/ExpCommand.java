@@ -10,6 +10,7 @@ public class ExpCommand extends VanillaCommand  {
 
 
 	public ExpCommand() {
+        super("Exp");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

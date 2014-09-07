@@ -12,21 +12,27 @@ public class Chest extends DirectionalContainer  {
 
 
 	public Chest() {
+        super(Material.CHEST);
 	}
 
 	public Chest(BlockFace direction) {
+        super(Material.CHEST);
 	}
 
 	@Deprecated public Chest(int type) {
+        super(Material.getMaterial(type));
 	}
 
 	public Chest(Material type) {
+        super(type);
 	}
 
 	@Deprecated public Chest(int type, byte data) {
+        super(Material.getMaterial(type));
 	}
 
 	@Deprecated public Chest(Material type, byte data) {
+        super(type);
 	}
 
 	public Chest clone() {

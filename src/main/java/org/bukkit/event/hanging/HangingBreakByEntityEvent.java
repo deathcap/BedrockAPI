@@ -14,6 +14,7 @@ public class HangingBreakByEntityEvent extends HangingBreakEvent  {
 
 
 	public HangingBreakByEntityEvent(Hanging hanging, Entity remover) {
+        super(hanging, RemoveCause.ENTITY);
 	}
 
 	public Entity getRemover() {

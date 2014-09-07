@@ -12,6 +12,7 @@ public class ThunderChangeEvent extends WeatherEvent implements Cancellable  {
 
 
 	public ThunderChangeEvent(World world, boolean to) {
+        super(world);
 	}
 
 	public boolean isCancelled() {

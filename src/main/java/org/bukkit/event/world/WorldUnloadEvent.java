@@ -12,6 +12,7 @@ public class WorldUnloadEvent extends WorldEvent implements Cancellable  {
 
 
 	public WorldUnloadEvent(World world) {
+        super(world);
 	}
 
 	public boolean isCancelled() {

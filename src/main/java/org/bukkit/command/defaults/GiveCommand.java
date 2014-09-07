@@ -10,6 +10,7 @@ public class GiveCommand extends VanillaCommand  {
 
 
 	public GiveCommand() {
+        super("Give");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

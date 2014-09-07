@@ -14,6 +14,7 @@ import org.bukkit.event.painting.PaintingEvent;
 
 
 	public PaintingBreakByEntityEvent(Painting painting, Entity remover) {
+        super(painting, RemoveCause.ENTITY);
 	}
 
 	public Entity getRemover() {

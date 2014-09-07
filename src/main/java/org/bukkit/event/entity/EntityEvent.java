@@ -38,6 +38,10 @@ public abstract class EntityEvent extends Event  {
 
 	protected Entity entity = null;
 
+    public EntityEvent() {
+        // TODO
+    }
+
 	public EntityEvent(Entity what) {
 	}
 

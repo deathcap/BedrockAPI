@@ -50,9 +50,11 @@ public abstract class VanillaCommand extends Command  {
 
 
 	protected VanillaCommand(String name) {
+        super(name);
 	}
 
 	protected VanillaCommand(String name, String description, String usageMessage, List<String> aliases) {
+        super(name);
 	}
 
 	public boolean matches(String input) {

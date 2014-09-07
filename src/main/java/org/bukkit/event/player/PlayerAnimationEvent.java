@@ -13,6 +13,7 @@ public class PlayerAnimationEvent extends PlayerEvent implements Cancellable  {
 
 
 	public PlayerAnimationEvent(Player player) {
+        super(player);
 	}
 
 	public PlayerAnimationType getAnimationType() {

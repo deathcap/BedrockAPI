@@ -13,6 +13,7 @@ public class PlayerBedEnterEvent extends PlayerEvent implements Cancellable  {
 
 
 	public PlayerBedEnterEvent(Player who, Block bed) {
+        super(who);
 	}
 
 	public boolean isCancelled() {

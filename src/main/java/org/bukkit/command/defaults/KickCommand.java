@@ -10,6 +10,7 @@ public class KickCommand extends VanillaCommand  {
 
 
 	public KickCommand() {
+        super("Kick");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

@@ -13,6 +13,7 @@ public class VehicleEnterEvent extends VehicleEvent implements Cancellable  {
 
 
 	public VehicleEnterEvent(Vehicle vehicle, Entity entered) {
+        super(vehicle);
 	}
 
 	public Entity getEntered() {

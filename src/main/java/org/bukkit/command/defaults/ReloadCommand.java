@@ -9,6 +9,7 @@ public class ReloadCommand extends BukkitCommand  {
 
 
 	public ReloadCommand(String name) {
+        super("Reload");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

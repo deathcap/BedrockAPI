@@ -13,6 +13,7 @@ public class PlayerEditBookEvent extends PlayerEvent implements Cancellable  {
 
 
 	public PlayerEditBookEvent(Player who, int slot, BookMeta previousBookMeta, BookMeta newBookMeta, boolean isSigning) {
+        super(who);
 	}
 
 	public BookMeta getPreviousBookMeta() {

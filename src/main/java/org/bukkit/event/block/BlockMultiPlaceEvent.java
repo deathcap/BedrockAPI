@@ -16,6 +16,7 @@ public class BlockMultiPlaceEvent extends BlockPlaceEvent  {
 
 
 	public BlockMultiPlaceEvent(List<BlockState> states, Block clicked, ItemStack itemInHand, Player thePlayer, boolean canBuild) {
+        super(null, states.get(0), clicked, itemInHand, thePlayer, canBuild); // TODO
 	}
 
 	public List<BlockState> getReplacedBlockStates() {

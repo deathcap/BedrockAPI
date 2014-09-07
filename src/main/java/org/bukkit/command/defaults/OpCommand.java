@@ -10,6 +10,7 @@ public class OpCommand extends VanillaCommand  {
 
 
 	public OpCommand() {
+        super("Op");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

@@ -15,18 +15,23 @@ public class PlayerLoginEvent extends PlayerEvent  {
 
 
 	@Deprecated public PlayerLoginEvent(Player player) {
+        super(player);
 	}
 
 	@Deprecated public PlayerLoginEvent(Player player, String hostname) {
+        super(player);
 	}
 
 	public PlayerLoginEvent(Player player, String hostname, InetAddress address) {
+        super(player);
 	}
 
 	@Deprecated public PlayerLoginEvent(Player player, PlayerLoginEvent.Result result, String message) {
+        super(player);
 	}
 
 	public PlayerLoginEvent(Player player, String hostname, InetAddress address, PlayerLoginEvent.Result result, String message) {
+        super(player);
 	}
 
 	public PlayerLoginEvent.Result getResult() {

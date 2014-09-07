@@ -11,6 +11,7 @@ public class PlayerJoinEvent extends PlayerEvent  {
 
 
 	public PlayerJoinEvent(Player playerJoined, String joinMessage) {
+        super(playerJoined);
 	}
 
 	public String getJoinMessage() {

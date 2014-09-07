@@ -9,6 +9,7 @@ public class TellCommand extends VanillaCommand  {
 
 
 	public TellCommand() {
+        super("Tell");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

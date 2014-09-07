@@ -10,6 +10,7 @@ public class TeleportCommand extends VanillaCommand  {
 
 
 	public TeleportCommand() {
+        super("Teleport");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

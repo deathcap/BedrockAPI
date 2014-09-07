@@ -12,6 +12,10 @@ import org.bukkit.material.TexturedMaterial;
 public abstract class TexturedMaterial extends MaterialData  {
 
 
+    public TexturedMaterial() {
+        // TODO
+    }
+
 	public TexturedMaterial(Material m) {
 	}
 

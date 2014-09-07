@@ -12,6 +12,10 @@ import org.bukkit.material.MaterialData;
 public class FurnaceAndDispenser extends DirectionalContainer  {
 
 
+    public FurnaceAndDispenser() {
+        // TODO
+    }
+
 	@Deprecated public FurnaceAndDispenser(int type) {
 	}
 

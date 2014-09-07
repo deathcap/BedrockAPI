@@ -48,9 +48,10 @@ public abstract class PlayerEvent extends Event  {
 	protected Player player = null;
 
 	public PlayerEvent(Player who) {
+        this.player = who;
 	}
 
 	public final Player getPlayer() {
-		return null;
+		return this.player;
 	}
 }

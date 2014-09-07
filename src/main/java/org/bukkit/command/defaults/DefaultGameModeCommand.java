@@ -10,6 +10,7 @@ public class DefaultGameModeCommand extends VanillaCommand  {
 
 
 	public DefaultGameModeCommand() {
+        super("DefaultGameMode");
 	}
 
 	public boolean execute(CommandSender sender, String commandLabel, String[] args) {

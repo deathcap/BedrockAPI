@@ -10,6 +10,7 @@ public class BanListCommand extends VanillaCommand  {
 
 
 	public BanListCommand() {
+        super("BanList");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

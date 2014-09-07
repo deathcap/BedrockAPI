@@ -11,6 +11,7 @@ public class WorldLoadEvent extends WorldEvent  {
 
 
 	public WorldLoadEvent(World world) {
+        super(world);
 	}
 
 	public HandlerList getHandlers() {

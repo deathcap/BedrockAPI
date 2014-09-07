@@ -19,9 +19,11 @@ public class PlayerTeleportEvent extends PlayerMoveEvent  {
 
 
 	public PlayerTeleportEvent(Player player, Location from, Location to) {
+        super(player, from, to);
 	}
 
 	public PlayerTeleportEvent(Player player, Location from, Location to, PlayerTeleportEvent.TeleportCause cause) {
+        super(player, from, to);
 	}
 
 	public PlayerTeleportEvent.TeleportCause getCause() {

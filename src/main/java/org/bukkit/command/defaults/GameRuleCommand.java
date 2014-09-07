@@ -10,6 +10,7 @@ public class GameRuleCommand extends VanillaCommand  {
 
 
 	public GameRuleCommand() {
+        super("GameRule");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

@@ -13,6 +13,7 @@ public class PlayerAchievementAwardedEvent extends PlayerEvent implements Cancel
 
 
 	public PlayerAchievementAwardedEvent(Player player, Achievement achievement) {
+        super(player);
 	}
 
 	public Achievement getAchievement() {

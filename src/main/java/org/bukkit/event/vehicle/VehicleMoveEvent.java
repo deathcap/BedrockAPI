@@ -12,6 +12,7 @@ public class VehicleMoveEvent extends VehicleEvent  {
 
 
 	public VehicleMoveEvent(Vehicle vehicle, Location from, Location to) {
+        super(vehicle);
 	}
 
 	public Location getFrom() {

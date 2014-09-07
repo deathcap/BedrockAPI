@@ -13,6 +13,7 @@ public class PlayerDropItemEvent extends PlayerEvent implements Cancellable  {
 
 
 	public PlayerDropItemEvent(Player player, Item drop) {
+        super(player);
 	}
 
 	public Item getItemDrop() {

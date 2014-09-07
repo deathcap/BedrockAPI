@@ -11,6 +11,7 @@ public class PlayerLevelChangeEvent extends PlayerEvent  {
 
 
 	public PlayerLevelChangeEvent(Player player, int oldLevel, int newLevel) {
+        super(player);
 	}
 
 	public int getOldLevel() {

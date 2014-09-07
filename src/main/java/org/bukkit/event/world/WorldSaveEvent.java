@@ -11,6 +11,7 @@ public class WorldSaveEvent extends WorldEvent  {
 
 
 	public WorldSaveEvent(World world) {
+        super(world);
 	}
 
 	public HandlerList getHandlers() {

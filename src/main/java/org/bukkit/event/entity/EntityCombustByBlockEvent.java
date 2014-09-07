@@ -13,6 +13,7 @@ public class EntityCombustByBlockEvent extends EntityCombustEvent  {
 
 
 	public EntityCombustByBlockEvent(Block combuster, Entity combustee, int duration) {
+        super(combustee, duration);
 	}
 
 	public Block getCombuster() {

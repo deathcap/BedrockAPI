@@ -42,6 +42,10 @@ import org.bukkit.material.Wool;
 
 public class MaterialData extends Object implements Cloneable  {
 
+    public MaterialData() {
+        // TODO
+    }
+
 
 	@Deprecated public MaterialData(int type) {
 	}

@@ -13,6 +13,7 @@ public class VehicleExitEvent extends VehicleEvent implements Cancellable  {
 
 
 	public VehicleExitEvent(Vehicle vehicle, LivingEntity exited) {
+        super(vehicle);
 	}
 
 	public LivingEntity getExited() {

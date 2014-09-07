@@ -10,6 +10,7 @@ public class EnchantCommand extends VanillaCommand  {
 
 
 	public EnchantCommand() {
+        super("Enchant");
 	}
 
 	public boolean execute(CommandSender sender, String commandLabel, String[] args) {

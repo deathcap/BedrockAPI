@@ -14,6 +14,7 @@ public class PlayerUnleashEntityEvent extends EntityUnleashEvent implements Canc
 
 
 	public PlayerUnleashEntityEvent(Entity entity, Player player) {
+        super(entity, UnleashReason.PLAYER_UNLEASH);
 	}
 
 	public Player getPlayer() {

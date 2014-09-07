@@ -9,6 +9,7 @@ public class EnchantmentWrapper extends Enchantment  {
 
 
 	public EnchantmentWrapper(int id) {
+        super(id);
 	}
 
 	public Enchantment getEnchantment() {

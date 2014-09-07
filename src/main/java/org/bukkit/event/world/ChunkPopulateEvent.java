@@ -12,6 +12,7 @@ public class ChunkPopulateEvent extends ChunkEvent  {
 
 
 	public ChunkPopulateEvent(Chunk chunk) {
+        super(chunk);
 	}
 
 	public HandlerList getHandlers() {

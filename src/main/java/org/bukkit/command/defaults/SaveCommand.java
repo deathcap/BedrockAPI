@@ -10,6 +10,7 @@ public class SaveCommand extends VanillaCommand  {
 
 
 	public SaveCommand() {
+        super("Save");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

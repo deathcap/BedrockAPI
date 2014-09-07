@@ -10,6 +10,7 @@ public class ScoreboardCommand extends VanillaCommand  {
 
 
 	public ScoreboardCommand() {
+        super("Scoreboard");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

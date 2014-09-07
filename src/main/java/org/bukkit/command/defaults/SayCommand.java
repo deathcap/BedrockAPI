@@ -10,6 +10,7 @@ public class SayCommand extends VanillaCommand  {
 
 
 	public SayCommand() {
+        super("Say");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

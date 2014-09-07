@@ -12,6 +12,7 @@ public class EntityCombustByEntityEvent extends EntityCombustEvent  {
 
 
 	public EntityCombustByEntityEvent(Entity combuster, Entity combustee, int duration) {
+        super(combustee, duration);
 	}
 
 	public Entity getCombuster() {

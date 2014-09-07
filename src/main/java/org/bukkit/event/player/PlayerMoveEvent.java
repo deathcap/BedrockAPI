@@ -14,6 +14,7 @@ public class PlayerMoveEvent extends PlayerEvent implements Cancellable  {
 
 
 	public PlayerMoveEvent(Player player, Location from, Location to) {
+        super(player);
 	}
 
 	public boolean isCancelled() {

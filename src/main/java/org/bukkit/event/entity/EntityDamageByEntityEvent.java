@@ -15,6 +15,7 @@ public class EntityDamageByEntityEvent extends EntityDamageEvent  {
 
 
 	@Deprecated public EntityDamageByEntityEvent(Entity damager, Entity damagee, EntityDamageEvent.DamageCause cause, int damage) {
+        //TODO super(damager, cause, damagee, damage);
 	}
 
 	@Deprecated public EntityDamageByEntityEvent(Entity damager, Entity damagee, EntityDamageEvent.DamageCause cause, double damage) {

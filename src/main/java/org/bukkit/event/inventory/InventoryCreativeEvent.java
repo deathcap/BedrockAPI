@@ -15,6 +15,7 @@ public class InventoryCreativeEvent extends InventoryClickEvent  {
 
 
 	public InventoryCreativeEvent(InventoryView what, InventoryType.SlotType type, int slot, ItemStack newItem) {
+        super(what, type, slot, false, false);
 	}
 
 	public ItemStack getCursor() {

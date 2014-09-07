@@ -12,6 +12,7 @@ public class ChunkLoadEvent extends ChunkEvent  {
 
 
 	public ChunkLoadEvent(Chunk chunk, boolean newChunk) {
+        super(chunk);
 	}
 
 	public boolean isNewChunk() {

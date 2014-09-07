@@ -10,6 +10,7 @@ public class ClearCommand extends VanillaCommand  {
 
 
 	public ClearCommand() {
+        super("Clear");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

@@ -15,6 +15,7 @@ public class BlockPistonRetractEvent extends BlockPistonEvent  {
 
 
 	public BlockPistonRetractEvent(Block block, BlockFace direction) {
+        super(block, direction);
 	}
 
 	public Location getRetractLocation() {

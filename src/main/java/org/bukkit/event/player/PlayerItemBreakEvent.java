@@ -12,6 +12,7 @@ public class PlayerItemBreakEvent extends PlayerEvent  {
 
 
 	public PlayerItemBreakEvent(Player player, ItemStack brokenItem) {
+        super(player);
 	}
 
 	public ItemStack getBrokenItem() {

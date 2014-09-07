@@ -10,6 +10,7 @@ public class ToggleDownfallCommand extends VanillaCommand  {
 
 
 	public ToggleDownfallCommand() {
+        super("ToggleDownfall");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

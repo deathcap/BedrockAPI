@@ -13,6 +13,7 @@ public class VehicleBlockCollisionEvent extends VehicleCollisionEvent  {
 
 
 	public VehicleBlockCollisionEvent(Vehicle vehicle, Block block) {
+        super(vehicle);
 	}
 
 	public Block getBlock() {

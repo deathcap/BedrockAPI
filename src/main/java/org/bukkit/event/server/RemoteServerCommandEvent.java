@@ -12,6 +12,7 @@ public class RemoteServerCommandEvent extends ServerCommandEvent  {
 
 
 	public RemoteServerCommandEvent(CommandSender sender, String command) {
+        super(sender, command);
 	}
 
 	public HandlerList getHandlers() {

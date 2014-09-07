@@ -12,6 +12,7 @@ public class PlayerKickEvent extends PlayerEvent implements Cancellable  {
 
 
 	public PlayerKickEvent(Player playerKicked, String kickReason, String leaveMessage) {
+        super(playerKicked);
 	}
 
 	public String getReason() {

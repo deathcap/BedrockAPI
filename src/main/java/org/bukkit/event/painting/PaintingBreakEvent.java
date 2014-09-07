@@ -17,6 +17,7 @@ import org.bukkit.event.painting.PaintingEvent;
 
 
 	public PaintingBreakEvent(Painting painting, PaintingBreakEvent.RemoveCause cause) {
+        super(painting);
 	}
 
 	public PaintingBreakEvent.RemoveCause getCause() {

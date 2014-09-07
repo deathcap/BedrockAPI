@@ -13,6 +13,7 @@ public class PlayerPickupItemEvent extends PlayerEvent implements Cancellable  {
 
 
 	public PlayerPickupItemEvent(Player player, Item item, int remaining) {
+        super(player);
 	}
 
 	public Item getItem() {

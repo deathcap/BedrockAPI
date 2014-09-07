@@ -12,6 +12,7 @@ public class ExpBottleEvent extends ProjectileHitEvent  {
 
 
 	public ExpBottleEvent(ThrownExpBottle bottle, int exp) {
+        super(bottle);
 	}
 
 	public ThrownExpBottle getEntity() {

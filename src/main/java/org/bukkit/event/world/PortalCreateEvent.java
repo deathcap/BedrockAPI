@@ -19,6 +19,7 @@ public class PortalCreateEvent extends WorldEvent implements Cancellable  {
 
 
 	public PortalCreateEvent(Collection<Block> blocks, World world, PortalCreateEvent.CreateReason reason) {
+        super(world);
 	}
 
 	public ArrayList<Block> getBlocks() {

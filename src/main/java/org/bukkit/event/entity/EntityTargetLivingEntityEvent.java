@@ -14,6 +14,7 @@ public class EntityTargetLivingEntityEvent extends EntityTargetEvent  {
 
 
 	public EntityTargetLivingEntityEvent(Entity entity, LivingEntity target, EntityTargetEvent.TargetReason reason) {
+        super(entity, target, reason);
 	}
 
 	public LivingEntity getTarget() {

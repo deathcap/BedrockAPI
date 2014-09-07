@@ -10,6 +10,7 @@ public class AchievementCommand extends VanillaCommand  {
 
 
 	public AchievementCommand() {
+        super("Achievement");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

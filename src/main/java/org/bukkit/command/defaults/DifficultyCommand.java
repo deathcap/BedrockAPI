@@ -10,6 +10,7 @@ public class DifficultyCommand extends VanillaCommand  {
 
 
 	public DifficultyCommand() {
+        super("Difficulty");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

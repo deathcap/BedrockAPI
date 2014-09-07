@@ -17,12 +17,15 @@ public class PlayerStatisticIncrementEvent extends PlayerEvent implements Cancel
 	protected final Statistic statistic = null;
 
 	public PlayerStatisticIncrementEvent(Player player, Statistic statistic, int initialValue, int newValue) {
+        super(player);
 	}
 
 	public PlayerStatisticIncrementEvent(Player player, Statistic statistic, int initialValue, int newValue, EntityType entityType) {
+        super(player);
 	}
 
 	public PlayerStatisticIncrementEvent(Player player, Statistic statistic, int initialValue, int newValue, Material material) {
+        super(player);
 	}
 
 	public Statistic getStatistic() {

@@ -16,6 +16,10 @@ public class DirectionalContainer extends MaterialData implements Directional  {
 	@Deprecated public DirectionalContainer(int type) {
 	}
 
+    public DirectionalContainer() {
+        // TODO
+    }
+
 	public DirectionalContainer(Material type) {
 	}
 

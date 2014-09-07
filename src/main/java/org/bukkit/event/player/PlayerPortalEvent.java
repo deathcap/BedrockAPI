@@ -21,9 +21,11 @@ public class PlayerPortalEvent extends PlayerTeleportEvent  {
 	protected TravelAgent travelAgent = null;
 
 	public PlayerPortalEvent(Player player, Location from, Location to, TravelAgent pta) {
+        super(player, from, to);
 	}
 
 	public PlayerPortalEvent(Player player, Location from, Location to, TravelAgent pta, PlayerTeleportEvent.TeleportCause cause) {
+        super(player, from, to);
 	}
 
 	public void useTravelAgent(boolean useTravelAgent) {

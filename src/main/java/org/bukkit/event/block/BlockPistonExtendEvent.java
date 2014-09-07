@@ -15,6 +15,7 @@ public class BlockPistonExtendEvent extends BlockPistonEvent  {
 
 
 	public BlockPistonExtendEvent(Block block, int length, BlockFace direction) {
+        super(block, direction);
 	}
 
 	public int getLength() {

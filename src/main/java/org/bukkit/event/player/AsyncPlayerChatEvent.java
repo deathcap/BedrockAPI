@@ -14,6 +14,7 @@ public class AsyncPlayerChatEvent extends PlayerEvent implements Cancellable  {
 
 
 	public AsyncPlayerChatEvent(boolean async, Player who, String message, Set<Player> players) {
+        super(who);
 	}
 
 	public String getMessage() {

@@ -15,6 +15,7 @@ public class PlayerInteractEntityEvent extends PlayerEvent implements Cancellabl
 	protected Entity clickedEntity = null;
 
 	public PlayerInteractEntityEvent(Player who, Entity clickedEntity) {
+        super(who);
 	}
 
 	public boolean isCancelled() {

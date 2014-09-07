@@ -16,9 +16,6 @@ public class BukkitObjectInputStream extends ObjectInputStream  {
 	protected BukkitObjectInputStream() throws IOException, SecurityException {
 	}
 
-	public BukkitObjectInputStream(InputStream in) throws IOException {
-	}
-
     public BukkitObjectInputStream(InputStream in) throws IOException {
         super(in);
     }

@@ -12,6 +12,7 @@ public class PlayerRespawnEvent extends PlayerEvent  {
 
 
 	public PlayerRespawnEvent(Player respawnPlayer, Location respawnLocation, boolean isBedSpawn) {
+        super(respawnPlayer);
 	}
 
 	public Location getRespawnLocation() {

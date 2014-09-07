@@ -25,6 +25,7 @@ public class PlayerInteractEvent extends PlayerEvent implements Cancellable  {
 	protected BlockFace blockFace = null;
 
 	public PlayerInteractEvent(Player who, Action action, ItemStack item, Block clickedBlock, BlockFace clickedFace) {
+        super(who);
 	}
 
 	public Action getAction() {

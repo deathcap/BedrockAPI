@@ -16,6 +16,9 @@ import org.bukkit.material.TripwireHook;
 
 public abstract class SimpleAttachableMaterialData extends MaterialData implements Attachable  {
 
+    public SimpleAttachableMaterialData() {
+        // TODO
+    }
 
 	@Deprecated public SimpleAttachableMaterialData(int type) {
 	}

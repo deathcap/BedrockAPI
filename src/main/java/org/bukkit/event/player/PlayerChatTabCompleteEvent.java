@@ -12,6 +12,7 @@ public class PlayerChatTabCompleteEvent extends PlayerEvent  {
 
 
 	public PlayerChatTabCompleteEvent(Player who, String message, Collection<String> completions) {
+        super(who);
 	}
 
 	public String getChatMessage() {

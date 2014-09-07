@@ -7,6 +7,7 @@ public class PotionEffectTypeWrapper extends PotionEffectType  {
 
 
 	protected PotionEffectTypeWrapper(int id) {
+        super(id);
 	}
 
 	public double getDurationModifier() {

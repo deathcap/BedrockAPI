@@ -18,12 +18,15 @@ public class CraftItemEvent extends InventoryClickEvent  {
 
 
 	@Deprecated public CraftItemEvent(Recipe recipe, InventoryView what, InventoryType.SlotType type, int slot, boolean right, boolean shift) {
+        super(what, type, slot, right, shift);
 	}
 
 	public CraftItemEvent(Recipe recipe, InventoryView what, InventoryType.SlotType type, int slot, ClickType click, InventoryAction action) {
+        super(what, type, slot, false, false);
 	}
 
 	public CraftItemEvent(Recipe recipe, InventoryView what, InventoryType.SlotType type, int slot, ClickType click, InventoryAction action, int key) {
+        super(what, type, slot, false, false);
 	}
 
 	public Recipe getRecipe() {

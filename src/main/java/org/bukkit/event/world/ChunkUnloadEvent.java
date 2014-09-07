@@ -13,6 +13,7 @@ public class ChunkUnloadEvent extends ChunkEvent implements Cancellable  {
 
 
 	public ChunkUnloadEvent(Chunk chunk) {
+        super(chunk);
 	}
 
 	public boolean isCancelled() {

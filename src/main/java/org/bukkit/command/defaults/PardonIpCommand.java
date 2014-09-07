@@ -10,6 +10,7 @@ public class PardonIpCommand extends VanillaCommand  {
 
 
 	public PardonIpCommand() {
+        super("PardonIp");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

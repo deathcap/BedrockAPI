@@ -15,6 +15,7 @@ public class EntityBlockFormEvent extends BlockFormEvent  {
 
 
 	public EntityBlockFormEvent(Entity entity, Block block, BlockState blockstate) {
+        super(block, blockstate);
 	}
 
 	public Entity getEntity() {

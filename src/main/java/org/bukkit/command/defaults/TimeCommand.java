@@ -10,6 +10,7 @@ public class TimeCommand extends VanillaCommand  {
 
 
 	public TimeCommand() {
+        super("Time");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

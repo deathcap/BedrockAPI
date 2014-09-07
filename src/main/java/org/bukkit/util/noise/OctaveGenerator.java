@@ -16,6 +16,10 @@ public abstract class OctaveGenerator extends Object  {
 
 	protected double zScale = 0.0;
 
+    protected OctaveGenerator() {
+        // TODO
+    }
+
 	protected OctaveGenerator(NoiseGenerator[] octaves) {
 	}
 

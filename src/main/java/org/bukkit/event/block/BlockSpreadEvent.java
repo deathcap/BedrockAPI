@@ -15,6 +15,7 @@ public class BlockSpreadEvent extends BlockFormEvent  {
 
 
 	public BlockSpreadEvent(Block block, Block source, BlockState newState) {
+        super(block, newState); // TODO: block or source?
 	}
 
 	public Block getSource() {

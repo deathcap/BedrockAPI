@@ -14,6 +14,7 @@ public final class PluginCommand extends Command implements PluginIdentifiableCo
 
 
 	protected PluginCommand(String name, Plugin owner) {
+        super(name);
 	}
 
 	public boolean execute(CommandSender sender, String commandLabel, String[] args) {

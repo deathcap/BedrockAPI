@@ -9,6 +9,7 @@ public class TestForCommand extends VanillaCommand  {
 
 
 	public TestForCommand() {
+        super("TestFor");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

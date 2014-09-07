@@ -15,6 +15,7 @@ public class HangingPlaceEvent extends HangingEvent implements Cancellable  {
 
 
 	public HangingPlaceEvent(Hanging hanging, Player player, Block block, BlockFace blockFace) {
+        super(hanging);
 	}
 
 	public Player getPlayer() {

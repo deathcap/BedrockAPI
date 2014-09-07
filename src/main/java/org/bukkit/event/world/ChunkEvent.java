@@ -15,6 +15,7 @@ public abstract class ChunkEvent extends WorldEvent  {
 	protected Chunk chunk = null;
 
 	protected ChunkEvent(Chunk chunk) {
+        super(chunk.getWorld());
 	}
 
 	public Chunk getChunk() {

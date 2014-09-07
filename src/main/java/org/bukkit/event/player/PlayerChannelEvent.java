@@ -13,6 +13,7 @@ public abstract class PlayerChannelEvent extends PlayerEvent  {
 
 
 	public PlayerChannelEvent(Player player, String channel) {
+        super(player);
 	}
 
 	public final String getChannel() {

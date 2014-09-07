@@ -8,6 +8,7 @@ public class MultipleCommandAlias extends Command  {
 
 
 	public MultipleCommandAlias(String name, Command[] commands) {
+        super(name);
 	}
 
 	public Command[] getCommands() {

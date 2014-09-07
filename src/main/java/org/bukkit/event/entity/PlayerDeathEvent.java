@@ -13,12 +13,15 @@ public class PlayerDeathEvent extends EntityDeathEvent  {
 
 
 	public PlayerDeathEvent(Player player, List<ItemStack> drops, int droppedExp, String deathMessage) {
+        super(player, drops);
 	}
 
 	public PlayerDeathEvent(Player player, List<ItemStack> drops, int droppedExp, int newExp, String deathMessage) {
+        super(player, drops);
 	}
 
 	public PlayerDeathEvent(Player player, List<ItemStack> drops, int droppedExp, int newExp, int newTotalExp, int newLevel, String deathMessage) {
+        super(player, drops);
 	}
 
 	public Player getEntity() {

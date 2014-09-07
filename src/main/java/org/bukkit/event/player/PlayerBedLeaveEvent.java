@@ -12,6 +12,7 @@ public class PlayerBedLeaveEvent extends PlayerEvent  {
 
 
 	public PlayerBedLeaveEvent(Player who, Block bed) {
+        super(who);
 	}
 
 	public Block getBed() {

@@ -17,6 +17,7 @@ public class PlayerBucketFillEvent extends PlayerBucketEvent  {
 
 
 	public PlayerBucketFillEvent(Player who, Block blockClicked, BlockFace blockFace, Material bucket, ItemStack itemInHand) {
+        super(who, blockClicked, blockFace, bucket, itemInHand);
 	}
 
 	public HandlerList getHandlers() {

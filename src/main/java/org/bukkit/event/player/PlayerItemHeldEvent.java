@@ -12,6 +12,7 @@ public class PlayerItemHeldEvent extends PlayerEvent implements Cancellable  {
 
 
 	public PlayerItemHeldEvent(Player player, int previous, int current) {
+        super(player);
 	}
 
 	public int getPreviousSlot() {

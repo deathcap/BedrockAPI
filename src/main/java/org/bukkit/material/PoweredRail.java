@@ -12,18 +12,23 @@ public class PoweredRail extends ExtendedRails implements Redstone  {
 
 
 	public PoweredRail() {
+       super(Material.POWERED_RAIL);
 	}
 
 	@Deprecated public PoweredRail(int type) {
+        super(Material.getMaterial(type));
 	}
 
 	public PoweredRail(Material type) {
+        super(type);
 	}
 
 	@Deprecated public PoweredRail(int type, byte data) {
+        super(Material.getMaterial(type));
 	}
 
 	@Deprecated public PoweredRail(Material type, byte data) {
+        super(type);
 	}
 
 	public boolean isPowered() {

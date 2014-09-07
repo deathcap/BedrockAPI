@@ -9,6 +9,7 @@ public class PlaySoundCommand extends VanillaCommand  {
 
 
 	public PlaySoundCommand() {
+        super("PlaySound");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

@@ -12,6 +12,7 @@ public class PluginEnableEvent extends PluginEvent  {
 
 
 	public PluginEnableEvent(Plugin plugin) {
+        super(plugin);
 	}
 
 	public HandlerList getHandlers() {

@@ -10,6 +10,7 @@ public class TimingsCommand extends BukkitCommand  {
 
 
 	public TimingsCommand(String name) {
+        super("Timings");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

@@ -13,6 +13,7 @@ public class PlayerGameModeChangeEvent extends PlayerEvent implements Cancellabl
 
 
 	public PlayerGameModeChangeEvent(Player player, GameMode newGameMode) {
+        super(player);
 	}
 
 	public boolean isCancelled() {

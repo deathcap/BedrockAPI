@@ -13,6 +13,7 @@ public class BlockBreakEvent extends BlockExpEvent implements Cancellable  {
 
 
 	public BlockBreakEvent(Block theBlock, Player player) {
+        super(theBlock, player.getTotalExperience()); // TODO: exp?
 	}
 
 	public Player getPlayer() {

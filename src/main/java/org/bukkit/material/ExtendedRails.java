@@ -11,6 +11,9 @@ import org.bukkit.material.Rails;
 
 public class ExtendedRails extends Rails  {
 
+    public ExtendedRails() {
+        // TODO
+    }
 
 	@Deprecated public ExtendedRails(int type) {
 	}

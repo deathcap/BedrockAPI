@@ -14,6 +14,7 @@ public class VehicleEntityCollisionEvent extends VehicleCollisionEvent implement
 
 
 	public VehicleEntityCollisionEvent(Vehicle vehicle, Entity entity) {
+        super(vehicle);
 	}
 
 	public Entity getEntity() {

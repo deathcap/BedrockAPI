@@ -12,6 +12,7 @@ public class FileConfigurationOptions extends MemoryConfigurationOptions  {
 
 
 	protected FileConfigurationOptions(MemoryConfiguration configuration) {
+        super(configuration);
 	}
 
 	public FileConfiguration configuration() {

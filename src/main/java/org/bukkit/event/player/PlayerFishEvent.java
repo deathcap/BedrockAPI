@@ -18,9 +18,11 @@ public class PlayerFishEvent extends PlayerEvent implements Cancellable  {
 
 
 	@Deprecated public PlayerFishEvent(Player player, Entity entity, PlayerFishEvent.State state) {
+        super(player);
 	}
 
 	public PlayerFishEvent(Player player, Entity entity, Fish hookEntity, PlayerFishEvent.State state) {
+        super(player);
 	}
 
 	public Entity getCaught() {

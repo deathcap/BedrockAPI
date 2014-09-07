@@ -12,6 +12,7 @@ public class SpawnChangeEvent extends WorldEvent  {
 
 
 	public SpawnChangeEvent(World world, Location previousLocation) {
+        super(world);
 	}
 
 	public Location getPreviousLocation() {

@@ -14,9 +14,11 @@ public class PlayerEggThrowEvent extends PlayerEvent  {
 
 
 	public PlayerEggThrowEvent(Player player, Egg egg, boolean hatching, byte numHatches, EntityType hatchingType) {
+        super(player);
 	}
 
 	@Deprecated public PlayerEggThrowEvent(Player player, Egg egg, boolean hatching, byte numHatches, CreatureType hatchingType) {
+        super(player);
 	}
 
 	public Egg getEgg() {

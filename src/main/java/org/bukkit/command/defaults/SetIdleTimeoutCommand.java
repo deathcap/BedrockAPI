@@ -10,6 +10,7 @@ public class SetIdleTimeoutCommand extends VanillaCommand  {
 
 
 	public SetIdleTimeoutCommand() {
+        super("SetIdleTimeout");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

@@ -10,6 +10,7 @@ public class StopCommand extends VanillaCommand  {
 
 
 	public StopCommand() {
+        super("Stop");
 	}
 
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {

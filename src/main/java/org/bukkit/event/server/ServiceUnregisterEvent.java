@@ -12,6 +12,7 @@ public class ServiceUnregisterEvent extends ServiceEvent  {
 
 
 	public ServiceUnregisterEvent(RegisteredServiceProvider<?> serviceProvider) {
+        super(serviceProvider);
 	}
 
 	public HandlerList getHandlers() {

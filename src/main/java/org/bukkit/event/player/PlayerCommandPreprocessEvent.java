@@ -13,9 +13,11 @@ public class PlayerCommandPreprocessEvent extends PlayerEvent implements Cancell
 
 
 	public PlayerCommandPreprocessEvent(Player player, String message) {
+        super(player);
 	}
 
 	public PlayerCommandPreprocessEvent(Player player, String message, Set<Player> recipients) {
+        super(player);
 	}
 
 	public boolean isCancelled() {

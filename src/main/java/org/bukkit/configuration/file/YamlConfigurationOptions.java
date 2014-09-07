@@ -11,6 +11,7 @@ public class YamlConfigurationOptions extends FileConfigurationOptions  {
 
 
 	protected YamlConfigurationOptions(YamlConfiguration configuration) {
+        super(configuration);
 	}
 
 	public YamlConfiguration configuration() {
