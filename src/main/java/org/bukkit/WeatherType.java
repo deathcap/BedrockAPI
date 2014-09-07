@@ -9,6 +9,4 @@ public enum WeatherType  {
 	DOWNFALL,
 	CLEAR,
 	;
-
-
 }

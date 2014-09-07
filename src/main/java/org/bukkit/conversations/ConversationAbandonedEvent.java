@@ -10,6 +10,12 @@ import org.bukkit.conversations.ConversationContext;
 public class ConversationAbandonedEvent extends EventObject  {
 
 
+	public ConversationAbandonedEvent(Conversation conversation) {
+	}
+
+	public ConversationAbandonedEvent(Conversation conversation, ConversationCanceller canceller) {
+	}
+
     /**
      * Constructs a prototypical Event.
      *

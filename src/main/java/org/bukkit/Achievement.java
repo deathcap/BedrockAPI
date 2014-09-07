@@ -41,8 +41,6 @@ public enum Achievement  {
 	DIAMONDS_TO_YOU,
 	;
 
-
-
 	public boolean hasParent() {
 		return false;
 	}

@@ -11,6 +11,24 @@ import org.bukkit.util.Vector;
 public class Vector extends Object implements Cloneable, ConfigurationSerializable  {
 
 
+	protected double x = 0.0;
+
+	protected double y = 0.0;
+
+	protected double z = 0.0;
+
+	public Vector() {
+	}
+
+	public Vector(int x, int y, int z) {
+	}
+
+	public Vector(double x, double y, double z) {
+	}
+
+	public Vector(float x, float y, float z) {
+	}
+
 	public Vector add(Vector vec) {
 		return null;
 	}

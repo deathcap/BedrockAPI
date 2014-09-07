@@ -13,6 +13,12 @@ import org.bukkit.util.CachedServerIcon;
 public class ServerListPingEvent extends ServerEvent implements Iterable<Player>  {
 
 
+	public ServerListPingEvent(InetAddress address, String motd, int numPlayers, int maxPlayers) {
+	}
+
+	protected ServerListPingEvent(InetAddress address, String motd, int maxPlayers) {
+	}
+
 	public InetAddress getAddress() {
 		return null;
 	}

@@ -9,6 +9,24 @@ import org.bukkit.material.MaterialData;
 public class Leaves extends MaterialData  {
 
 
+	public Leaves() {
+	}
+
+	public Leaves(TreeSpecies species) {
+	}
+
+	@Deprecated public Leaves(int type) {
+	}
+
+	public Leaves(Material type) {
+	}
+
+	@Deprecated public Leaves(int type, byte data) {
+	}
+
+	@Deprecated public Leaves(Material type, byte data) {
+	}
+
 	public TreeSpecies getSpecies() {
 		return null;
 	}

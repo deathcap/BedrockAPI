@@ -11,6 +11,9 @@ import org.bukkit.event.entity.ProjectileHitEvent;
 public class ExpBottleEvent extends ProjectileHitEvent  {
 
 
+	public ExpBottleEvent(ThrownExpBottle bottle, int exp) {
+	}
+
 	public ThrownExpBottle getEntity() {
 		return null;
 	}

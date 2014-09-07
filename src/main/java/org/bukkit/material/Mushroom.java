@@ -10,6 +10,15 @@ import org.bukkit.material.Mushroom;
 public class Mushroom extends MaterialData  {
 
 
+	public Mushroom(Material shroom) {
+	}
+
+	@Deprecated public Mushroom(Material shroom, byte data) {
+	}
+
+	@Deprecated public Mushroom(int type, byte data) {
+	}
+
 	public boolean isStem() {
 		return false;
 	}

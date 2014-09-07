@@ -10,6 +10,27 @@ import org.bukkit.material.Tree;
 public class Tree extends MaterialData  {
 
 
+	public Tree() {
+	}
+
+	public Tree(TreeSpecies species) {
+	}
+
+	public Tree(TreeSpecies species, BlockFace dir) {
+	}
+
+	@Deprecated public Tree(int type) {
+	}
+
+	public Tree(Material type) {
+	}
+
+	@Deprecated public Tree(int type, byte data) {
+	}
+
+	@Deprecated public Tree(Material type, byte data) {
+	}
+
 	public TreeSpecies getSpecies() {
 		return null;
 	}

@@ -11,6 +11,9 @@ import org.bukkit.inventory.ItemStack;
 public class PlayerItemBreakEvent extends PlayerEvent  {
 
 
+	public PlayerItemBreakEvent(Player player, ItemStack brokenItem) {
+	}
+
 	public ItemStack getBrokenItem() {
 		return null;
 	}

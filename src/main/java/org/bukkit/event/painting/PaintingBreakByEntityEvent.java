@@ -13,6 +13,9 @@ import org.bukkit.event.painting.PaintingEvent;
 @Deprecated public class PaintingBreakByEntityEvent extends PaintingBreakEvent  {
 
 
+	public PaintingBreakByEntityEvent(Painting painting, Entity remover) {
+	}
+
 	public Entity getRemover() {
 		return null;
 	}

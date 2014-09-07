@@ -13,6 +13,9 @@ import org.bukkit.event.player.PlayerTeleportEvent;
 public class PlayerMoveEvent extends PlayerEvent implements Cancellable  {
 
 
+	public PlayerMoveEvent(Player player, Location from, Location to) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

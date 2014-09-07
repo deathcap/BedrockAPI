@@ -10,6 +10,9 @@ import org.bukkit.help.HelpTopic;
 public class HelpCommand extends VanillaCommand  {
 
 
+	public HelpCommand() {
+	}
+
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {
 		return false;
 	}

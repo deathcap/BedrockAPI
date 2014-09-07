@@ -8,6 +8,9 @@ import org.bukkit.command.defaults.VanillaCommand;
 public class TestForCommand extends VanillaCommand  {
 
 
+	public TestForCommand() {
+	}
+
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {
 		return false;
 	}

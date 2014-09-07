@@ -12,6 +12,12 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerCommandPreprocessEvent extends PlayerEvent implements Cancellable  {
 
 
+	public PlayerCommandPreprocessEvent(Player player, String message) {
+	}
+
+	public PlayerCommandPreprocessEvent(Player player, String message, Set<Player> recipients) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

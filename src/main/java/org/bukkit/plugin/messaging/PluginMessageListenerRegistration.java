@@ -8,6 +8,9 @@ import org.bukkit.plugin.messaging.PluginMessageListener;
 public final class PluginMessageListenerRegistration extends Object  {
 
 
+	public PluginMessageListenerRegistration(Messenger messenger, Plugin plugin, String channel, PluginMessageListener listener) {
+	}
+
 	public String getChannel() {
 		return null;
 	}

@@ -11,6 +11,18 @@ import org.bukkit.material.PistonExtensionMaterial;
 public class PistonExtensionMaterial extends MaterialData implements Attachable  {
 
 
+	@Deprecated public PistonExtensionMaterial(int type) {
+	}
+
+	public PistonExtensionMaterial(Material type) {
+	}
+
+	@Deprecated public PistonExtensionMaterial(int type, byte data) {
+	}
+
+	@Deprecated public PistonExtensionMaterial(Material type, byte data) {
+	}
+
 	public void setFacingDirection(BlockFace face) {
 	}
 

@@ -68,6 +68,4 @@ public enum Biome  {
 	EXTREME_HILLS_PLUS_MOUNTAINS,
 	MEGA_SPRUCE_TAIGA_HILLS,
 	;
-
-
 }

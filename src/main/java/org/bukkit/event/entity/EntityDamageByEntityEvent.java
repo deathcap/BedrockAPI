@@ -14,6 +14,15 @@ import org.bukkit.event.entity.EntityEvent;
 public class EntityDamageByEntityEvent extends EntityDamageEvent  {
 
 
+	@Deprecated public EntityDamageByEntityEvent(Entity damager, Entity damagee, EntityDamageEvent.DamageCause cause, int damage) {
+	}
+
+	@Deprecated public EntityDamageByEntityEvent(Entity damager, Entity damagee, EntityDamageEvent.DamageCause cause, double damage) {
+	}
+
+	public EntityDamageByEntityEvent(Entity damager, Entity damagee, EntityDamageEvent.DamageCause cause, Map<EntityDamageEvent.DamageModifier,Double> modifiers, Map<EntityDamageEvent.DamageModifier,? extends com.google.common.base.Function<? super Double,Double>> modifierFunctions) {
+	}
+
 	public Entity getDamager() {
 		return null;
 	}

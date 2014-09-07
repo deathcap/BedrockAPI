@@ -12,6 +12,12 @@ import org.bukkit.event.player.PlayerEvent;
 @Deprecated public class PlayerChatEvent extends PlayerEvent implements Cancellable  {
 
 
+	public PlayerChatEvent(Player player, String message) {
+	}
+
+	public PlayerChatEvent(Player player, String message, String format, Set<Player> recipients) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

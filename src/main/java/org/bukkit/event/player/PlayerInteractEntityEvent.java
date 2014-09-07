@@ -12,6 +12,11 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerInteractEntityEvent extends PlayerEvent implements Cancellable  {
 
 
+	protected Entity clickedEntity = null;
+
+	public PlayerInteractEntityEvent(Player who, Entity clickedEntity) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

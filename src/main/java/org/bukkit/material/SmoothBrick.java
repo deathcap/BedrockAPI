@@ -10,6 +10,21 @@ import org.bukkit.material.TexturedMaterial;
 public class SmoothBrick extends TexturedMaterial  {
 
 
+	public SmoothBrick() {
+	}
+
+	@Deprecated public SmoothBrick(int type) {
+	}
+
+	public SmoothBrick(Material type) {
+	}
+
+	@Deprecated public SmoothBrick(int type, byte data) {
+	}
+
+	@Deprecated public SmoothBrick(Material type, byte data) {
+	}
+
 	public List<Material> getTextures() {
 		return null;
 	}

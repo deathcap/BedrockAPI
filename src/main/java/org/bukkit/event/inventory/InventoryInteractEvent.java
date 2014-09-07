@@ -13,6 +13,9 @@ import org.bukkit.inventory.InventoryView;
 public abstract class InventoryInteractEvent extends InventoryEvent implements Cancellable  {
 
 
+	public InventoryInteractEvent(InventoryView transaction) {
+	}
+
 	public HumanEntity getWhoClicked() {
 		return null;
 	}

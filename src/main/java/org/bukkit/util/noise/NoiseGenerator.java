@@ -6,6 +6,17 @@ import org.bukkit.util.noise.PerlinNoiseGenerator;
 public abstract class NoiseGenerator extends Object  {
 
 
+	protected final int[] perm = null;
+
+	protected double offsetX = 0.0;
+
+	protected double offsetY = 0.0;
+
+	protected double offsetZ = 0.0;
+
+	public NoiseGenerator() {
+	}
+
 	public static int floor(double x) {
 		return 0;
 	}

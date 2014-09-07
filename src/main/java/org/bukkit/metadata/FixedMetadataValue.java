@@ -10,6 +10,9 @@ import org.bukkit.plugin.Plugin;
 public class FixedMetadataValue extends LazyMetadataValue  {
 
 
+	public FixedMetadataValue(Plugin owningPlugin, Object value) {
+	}
+
 	public void invalidate() {
 	}
 

@@ -11,6 +11,9 @@ import org.bukkit.event.world.WorldEvent;
 public class SpawnChangeEvent extends WorldEvent  {
 
 
+	public SpawnChangeEvent(World world, Location previousLocation) {
+	}
+
 	public Location getPreviousLocation() {
 		return null;
 	}

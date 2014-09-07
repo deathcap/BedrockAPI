@@ -14,6 +14,9 @@ import org.bukkit.event.hanging.HangingEvent;
 public class HangingPlaceEvent extends HangingEvent implements Cancellable  {
 
 
+	public HangingPlaceEvent(Hanging hanging, Player player, Block block, BlockFace blockFace) {
+	}
+
 	public Player getPlayer() {
 		return null;
 	}

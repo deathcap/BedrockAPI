@@ -11,6 +11,9 @@ import org.bukkit.inventory.ItemStack;
 public class InventoryMoveItemEvent extends Event implements Cancellable  {
 
 
+	public InventoryMoveItemEvent(Inventory sourceInventory, ItemStack itemStack, Inventory destinationInventory, boolean didSourceInitiate) {
+	}
+
 	public Inventory getSource() {
 		return null;
 	}

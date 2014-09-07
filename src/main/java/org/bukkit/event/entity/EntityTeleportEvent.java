@@ -14,6 +14,9 @@ import org.bukkit.event.entity.EntityPortalExitEvent;
 public class EntityTeleportEvent extends EntityEvent implements Cancellable  {
 
 
+	public EntityTeleportEvent(Entity what, Location from, Location to) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

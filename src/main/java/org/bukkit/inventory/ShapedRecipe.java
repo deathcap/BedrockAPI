@@ -11,6 +11,9 @@ import org.bukkit.material.MaterialData;
 public class ShapedRecipe extends Object implements Recipe  {
 
 
+	public ShapedRecipe(ItemStack result) {
+	}
+
 	public ShapedRecipe shape(String... shape) {
 		return null;
 	}

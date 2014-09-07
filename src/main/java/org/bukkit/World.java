@@ -276,8 +276,6 @@ public interface World extends PluginMessageRecipient, Metadatable  {
 		THE_END,
 		;
 	
-	
-	
 		@Deprecated public int getId() {
 			return 0;
 		}

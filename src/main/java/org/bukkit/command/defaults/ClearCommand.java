@@ -9,6 +9,9 @@ import org.bukkit.command.defaults.VanillaCommand;
 public class ClearCommand extends VanillaCommand  {
 
 
+	public ClearCommand() {
+	}
+
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {
 		return false;
 	}

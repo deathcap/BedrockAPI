@@ -12,6 +12,11 @@ import org.bukkit.event.world.WorldEvent;
 public abstract class ChunkEvent extends WorldEvent  {
 
 
+	protected Chunk chunk = null;
+
+	protected ChunkEvent(Chunk chunk) {
+	}
+
 	public Chunk getChunk() {
 		return null;
 	}

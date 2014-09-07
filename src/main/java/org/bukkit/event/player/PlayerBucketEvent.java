@@ -16,6 +16,9 @@ import org.bukkit.inventory.ItemStack;
 public abstract class PlayerBucketEvent extends PlayerEvent implements Cancellable  {
 
 
+	public PlayerBucketEvent(Player who, Block blockClicked, BlockFace blockFace, Material bucket, ItemStack itemInHand) {
+	}
+
 	public Material getBucket() {
 		return null;
 	}

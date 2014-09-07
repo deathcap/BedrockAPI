@@ -9,6 +9,9 @@ import org.bukkit.command.defaults.VanillaCommand;
 public class SeedCommand extends VanillaCommand  {
 
 
+	public SeedCommand() {
+	}
+
 	public boolean execute(CommandSender sender, String commandLabel, String[] args) {
 		return false;
 	}

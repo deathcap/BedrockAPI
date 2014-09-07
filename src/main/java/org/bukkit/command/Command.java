@@ -14,6 +14,16 @@ import org.bukkit.command.defaults.VanillaCommand;
 public abstract class Command extends Object  {
 
 
+	protected String description = null;
+
+	protected String usageMessage = null;
+
+	protected Command(String name) {
+	}
+
+	protected Command(String name, String description, String usageMessage, List<String> aliases) {
+	}
+
 	public abstract boolean execute(CommandSender sender, String commandLabel, String[] args);
 
 	@Deprecated public List<String> tabComplete(CommandSender sender, String[] args) {

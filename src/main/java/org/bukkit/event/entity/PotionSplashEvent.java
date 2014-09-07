@@ -15,6 +15,9 @@ import org.bukkit.event.entity.ProjectileHitEvent;
 public class PotionSplashEvent extends ProjectileHitEvent implements Cancellable  {
 
 
+	public PotionSplashEvent(ThrownPotion potion, Map<LivingEntity,Double> affectedEntities) {
+	}
+
 	public ThrownPotion getEntity() {
 		return null;
 	}

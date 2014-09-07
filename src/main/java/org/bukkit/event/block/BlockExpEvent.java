@@ -12,6 +12,9 @@ import org.bukkit.event.inventory.FurnaceExtractEvent;
 public class BlockExpEvent extends BlockEvent  {
 
 
+	public BlockExpEvent(Block block, int exp) {
+	}
+
 	public int getExpToDrop() {
 		return 0;
 	}

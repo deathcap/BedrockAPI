@@ -11,6 +11,11 @@ import org.bukkit.event.weather.WeatherChangeEvent;
 public abstract class WeatherEvent extends Event  {
 
 
+	protected World world = null;
+
+	public WeatherEvent(World where) {
+	}
+
 	public final World getWorld() {
 		return null;
 	}

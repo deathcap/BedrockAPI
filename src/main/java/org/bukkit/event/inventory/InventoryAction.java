@@ -26,6 +26,4 @@ public enum InventoryAction  {
 	COLLECT_TO_CURSOR,
 	UNKNOWN,
 	;
-
-
 }

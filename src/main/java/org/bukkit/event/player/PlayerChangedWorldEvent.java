@@ -11,6 +11,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerChangedWorldEvent extends PlayerEvent  {
 
 
+	public PlayerChangedWorldEvent(Player player, World from) {
+	}
+
 	public World getFrom() {
 		return null;
 	}

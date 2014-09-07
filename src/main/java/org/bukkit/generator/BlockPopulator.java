@@ -8,5 +8,8 @@ import org.bukkit.World;
 public abstract class BlockPopulator extends Object  {
 
 
+	public BlockPopulator() {
+	}
+
 	public abstract void populate(World world, Random random, Chunk source);
 }

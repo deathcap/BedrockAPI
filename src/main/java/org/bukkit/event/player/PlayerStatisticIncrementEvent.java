@@ -14,6 +14,17 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerStatisticIncrementEvent extends PlayerEvent implements Cancellable  {
 
 
+	protected final Statistic statistic = null;
+
+	public PlayerStatisticIncrementEvent(Player player, Statistic statistic, int initialValue, int newValue) {
+	}
+
+	public PlayerStatisticIncrementEvent(Player player, Statistic statistic, int initialValue, int newValue, EntityType entityType) {
+	}
+
+	public PlayerStatisticIncrementEvent(Player player, Statistic statistic, int initialValue, int newValue, Material material) {
+	}
+
 	public Statistic getStatistic() {
 		return null;
 	}

@@ -14,8 +14,6 @@ public enum TreeSpecies  {
 	DARK_OAK,
 	;
 
-
-
 	@Deprecated public byte getData() {
 		return 0;
 	}

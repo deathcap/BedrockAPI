@@ -18,6 +18,12 @@ import org.bukkit.event.entity.EntityEvent;
 public class CreatureSpawnEvent extends EntityEvent implements Cancellable  {
 
 
+	public CreatureSpawnEvent(LivingEntity spawnee, CreatureSpawnEvent.SpawnReason spawnReason) {
+	}
+
+	@Deprecated public CreatureSpawnEvent(Entity spawnee, CreatureType type, Location loc, CreatureSpawnEvent.SpawnReason reason) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}
@@ -80,7 +86,5 @@ public class CreatureSpawnEvent extends EntityEvent implements Cancellable  {
 		CUSTOM,
 		DEFAULT,
 		;
-	
-	
 	}
 }

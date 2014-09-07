@@ -8,6 +8,11 @@ import org.bukkit.map.MinecraftFont;
 public class MapFont extends Object  {
 
 
+	protected boolean malleable = false;
+
+	public MapFont() {
+	}
+
 	public void setChar(char ch, MapFont.CharacterSprite sprite) {
 	}
 
@@ -32,6 +37,9 @@ public class MapFont extends Object  {
 	
 	public static class CharacterSprite extends Object  {
 	
+	
+		public CharacterSprite(int width, int height, boolean[] data) {
+		}
 	
 		public boolean get(int row, int col) {
 			return false;

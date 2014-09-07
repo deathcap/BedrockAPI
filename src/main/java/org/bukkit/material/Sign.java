@@ -11,6 +11,21 @@ import org.bukkit.material.Sign;
 public class Sign extends MaterialData implements Attachable  {
 
 
+	public Sign() {
+	}
+
+	@Deprecated public Sign(int type) {
+	}
+
+	public Sign(Material type) {
+	}
+
+	@Deprecated public Sign(int type, byte data) {
+	}
+
+	@Deprecated public Sign(Material type, byte data) {
+	}
+
 	public boolean isWallSign() {
 		return false;
 	}

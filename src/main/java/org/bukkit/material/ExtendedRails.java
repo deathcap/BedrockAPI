@@ -12,6 +12,18 @@ import org.bukkit.material.Rails;
 public class ExtendedRails extends Rails  {
 
 
+	@Deprecated public ExtendedRails(int type) {
+	}
+
+	public ExtendedRails(Material type) {
+	}
+
+	@Deprecated public ExtendedRails(int type, byte data) {
+	}
+
+	@Deprecated public ExtendedRails(Material type, byte data) {
+	}
+
 	public boolean isCurve() {
 		return false;
 	}

@@ -13,6 +13,9 @@ import org.bukkit.plugin.Plugin;
 public final class PluginCommand extends Command implements PluginIdentifiableCommand  {
 
 
+	protected PluginCommand(String name, Plugin owner) {
+	}
+
 	public boolean execute(CommandSender sender, String commandLabel, String[] args) {
 		return false;
 	}

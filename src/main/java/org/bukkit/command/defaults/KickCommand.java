@@ -9,6 +9,9 @@ import org.bukkit.command.defaults.VanillaCommand;
 public class KickCommand extends VanillaCommand  {
 
 
+	public KickCommand() {
+	}
+
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {
 		return false;
 	}

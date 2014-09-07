@@ -10,6 +10,9 @@ import org.bukkit.map.MapView;
 public class MapInitializeEvent extends ServerEvent  {
 
 
+	public MapInitializeEvent(MapView mapView) {
+	}
+
 	public MapView getMap() {
 		return null;
 	}

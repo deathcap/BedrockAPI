@@ -12,6 +12,9 @@ import org.bukkit.event.vehicle.VehicleEvent;
 public class VehicleEnterEvent extends VehicleEvent implements Cancellable  {
 
 
+	public VehicleEnterEvent(Vehicle vehicle, Entity entered) {
+	}
+
 	public Entity getEntered() {
 		return null;
 	}

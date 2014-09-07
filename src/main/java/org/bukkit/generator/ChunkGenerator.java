@@ -13,6 +13,9 @@ import org.bukkit.generator.ChunkGenerator.BiomeGrid;
 public abstract class ChunkGenerator extends Object  {
 
 
+	public ChunkGenerator() {
+	}
+
 	@Deprecated public byte[] generate(World world, Random random, int x, int z) {
 		return null;
 	}

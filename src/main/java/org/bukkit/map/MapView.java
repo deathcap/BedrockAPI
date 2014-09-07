@@ -50,9 +50,6 @@ public interface MapView  {
 		FARTHEST,
 		;
 	
-	
-	
-	
 		@Deprecated public byte getValue() {
 			return 0;
 		}

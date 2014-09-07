@@ -19,6 +19,26 @@ import org.bukkit.plugin.Plugin;
 public class Conversation extends Object  {
 
 
+	protected Prompt currentPrompt = null;
+
+	protected ConversationContext context = null;
+
+	protected boolean modal = false;
+
+	protected boolean localEchoEnabled = false;
+
+	protected ConversationPrefix prefix = null;
+
+	protected List<ConversationCanceller> cancellers = null;
+
+	protected List<ConversationAbandonedListener> abandonedListeners = null;
+
+	public Conversation(Plugin plugin, Conversable forWhom, Prompt firstPrompt) {
+	}
+
+	public Conversation(Plugin plugin, Conversable forWhom, Prompt firstPrompt, Map<Object,Object> initialSessionData) {
+	}
+
 	public Conversable getForWhom() {
 		return null;
 	}
@@ -80,7 +100,5 @@ public class Conversation extends Object  {
 		STARTED,
 		ABANDONED,
 		;
-	
-	
 	}
 }

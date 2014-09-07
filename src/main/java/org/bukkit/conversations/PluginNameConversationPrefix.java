@@ -9,6 +9,18 @@ import org.bukkit.plugin.Plugin;
 public class PluginNameConversationPrefix extends Object implements ConversationPrefix  {
 
 
+	protected String separator = null;
+
+	protected ChatColor prefixColor = null;
+
+	protected Plugin plugin = null;
+
+	public PluginNameConversationPrefix(Plugin plugin) {
+	}
+
+	public PluginNameConversationPrefix(Plugin plugin, String separator, ChatColor prefixColor) {
+	}
+
 	public String getPrefix(ConversationContext context) {
 		return null;
 	}

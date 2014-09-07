@@ -9,6 +9,9 @@ import org.bukkit.map.MapCursor.Type;
 public final class MapCursor extends Object  {
 
 
+	@Deprecated public MapCursor(byte x, byte y, byte direction, byte type, boolean visible) {
+	}
+
 	public byte getX() {
 		return 0;
 	}
@@ -62,8 +65,6 @@ public final class MapCursor extends Object  {
 		BLUE_POINTER,
 		WHITE_CROSS,
 		;
-	
-	
 	
 		@Deprecated public byte getValue() {
 			return 0;

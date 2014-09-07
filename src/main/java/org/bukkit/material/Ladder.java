@@ -12,6 +12,21 @@ import org.bukkit.material.SimpleAttachableMaterialData;
 public class Ladder extends SimpleAttachableMaterialData  {
 
 
+	public Ladder() {
+	}
+
+	@Deprecated public Ladder(int type) {
+	}
+
+	public Ladder(Material type) {
+	}
+
+	@Deprecated public Ladder(int type, byte data) {
+	}
+
+	@Deprecated public Ladder(Material type, byte data) {
+	}
+
 	public BlockFace getAttachedFace() {
 		return null;
 	}

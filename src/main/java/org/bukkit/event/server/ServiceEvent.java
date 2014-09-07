@@ -11,6 +11,9 @@ import org.bukkit.plugin.RegisteredServiceProvider;
 public abstract class ServiceEvent extends ServerEvent  {
 
 
+	public ServiceEvent(RegisteredServiceProvider<?> provider) {
+	}
+
 	public RegisteredServiceProvider<?> getProvider() {
 		return null;
 	}

@@ -13,6 +13,9 @@ import org.bukkit.event.block.BlockPistonRetractEvent;
 public abstract class BlockPistonEvent extends BlockEvent implements Cancellable  {
 
 
+	public BlockPistonEvent(Block block, BlockFace direction) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

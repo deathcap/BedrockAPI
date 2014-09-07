@@ -10,6 +10,18 @@ import org.bukkit.material.Stairs;
 public class Stairs extends MaterialData implements Directional  {
 
 
+	@Deprecated public Stairs(int type) {
+	}
+
+	public Stairs(Material type) {
+	}
+
+	@Deprecated public Stairs(int type, byte data) {
+	}
+
+	@Deprecated public Stairs(Material type, byte data) {
+	}
+
 	public BlockFace getAscendingDirection() {
 		return null;
 	}

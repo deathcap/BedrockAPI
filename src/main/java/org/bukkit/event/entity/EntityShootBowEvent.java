@@ -14,6 +14,9 @@ import org.bukkit.inventory.ItemStack;
 public class EntityShootBowEvent extends EntityEvent implements Cancellable  {
 
 
+	public EntityShootBowEvent(LivingEntity shooter, ItemStack bow, Projectile projectile, float force) {
+	}
+
 	public LivingEntity getEntity() {
 		return null;
 	}

@@ -11,6 +11,9 @@ import org.bukkit.event.world.WorldEvent;
 public class WorldUnloadEvent extends WorldEvent implements Cancellable  {
 
 
+	public WorldUnloadEvent(World world) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

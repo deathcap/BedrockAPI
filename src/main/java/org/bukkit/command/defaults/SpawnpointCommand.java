@@ -9,6 +9,9 @@ import org.bukkit.command.defaults.VanillaCommand;
 public class SpawnpointCommand extends VanillaCommand  {
 
 
+	public SpawnpointCommand() {
+	}
+
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {
 		return false;
 	}

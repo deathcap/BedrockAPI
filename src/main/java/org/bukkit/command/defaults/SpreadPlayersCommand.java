@@ -8,6 +8,9 @@ import org.bukkit.command.defaults.VanillaCommand;
 public class SpreadPlayersCommand extends VanillaCommand  {
 
 
+	public SpreadPlayersCommand() {
+	}
+
 	public boolean execute(CommandSender sender, String commandLabel, String[] args) {
 		return false;
 	}

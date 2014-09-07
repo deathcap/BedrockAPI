@@ -27,8 +27,6 @@ public enum InventoryType  {
 	HOPPER,
 	;
 
-
-
 	public int getDefaultSize() {
 		return 0;
 	}
@@ -50,7 +48,5 @@ public enum InventoryType  {
 		OUTSIDE,
 		FUEL,
 		;
-	
-	
 	}
 }

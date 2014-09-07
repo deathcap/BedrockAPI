@@ -14,6 +14,9 @@ import org.bukkit.event.entity.EntityEvent;
 public class EntityExplodeEvent extends EntityEvent implements Cancellable  {
 
 
+	public EntityExplodeEvent(Entity what, Location location, List<Block> blocks, float yield) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

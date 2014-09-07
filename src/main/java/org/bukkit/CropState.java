@@ -16,8 +16,6 @@ public enum CropState  {
 	RIPE,
 	;
 
-
-
 	@Deprecated public byte getData() {
 		return 0;
 	}

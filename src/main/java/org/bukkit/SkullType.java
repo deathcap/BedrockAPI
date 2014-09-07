@@ -12,6 +12,4 @@ public enum SkullType  {
 	PLAYER,
 	CREEPER,
 	;
-
-
 }

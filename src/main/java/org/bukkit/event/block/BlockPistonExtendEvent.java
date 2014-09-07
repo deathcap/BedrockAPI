@@ -14,6 +14,9 @@ import org.bukkit.event.block.BlockPistonEvent;
 public class BlockPistonExtendEvent extends BlockPistonEvent  {
 
 
+	public BlockPistonExtendEvent(Block block, int length, BlockFace direction) {
+	}
+
 	public int getLength() {
 		return 0;
 	}

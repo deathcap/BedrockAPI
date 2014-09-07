@@ -16,6 +16,30 @@ import org.bukkit.potion.PotionType;
 public class Potion extends Object  {
 
 
+	public Potion(PotionType type) {
+	}
+
+	@Deprecated public Potion(PotionType type, Potion.Tier tier) {
+	}
+
+	@Deprecated public Potion(PotionType type, Potion.Tier tier, boolean splash) {
+	}
+
+	@Deprecated public Potion(PotionType type, Potion.Tier tier, boolean splash, boolean extended) {
+	}
+
+	public Potion(PotionType type, int level) {
+	}
+
+	@Deprecated public Potion(PotionType type, int level, boolean splash) {
+	}
+
+	@Deprecated public Potion(PotionType type, int level, boolean splash, boolean extended) {
+	}
+
+	public Potion(int name) {
+	}
+
 	public Potion splash() {
 		return null;
 	}
@@ -112,8 +136,6 @@ public class Potion extends Object  {
 		ONE,
 		TWO,
 		;
-	
-	
 	
 		public int getDamageBit() {
 			return 0;

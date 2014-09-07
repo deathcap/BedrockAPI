@@ -9,6 +9,24 @@ import org.bukkit.material.MaterialData;
 public class LongGrass extends MaterialData  {
 
 
+	public LongGrass() {
+	}
+
+	public LongGrass(GrassSpecies species) {
+	}
+
+	@Deprecated public LongGrass(int type) {
+	}
+
+	public LongGrass(Material type) {
+	}
+
+	@Deprecated public LongGrass(int type, byte data) {
+	}
+
+	@Deprecated public LongGrass(Material type, byte data) {
+	}
+
 	public GrassSpecies getSpecies() {
 		return null;
 	}

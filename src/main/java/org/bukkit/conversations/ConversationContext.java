@@ -8,6 +8,9 @@ import org.bukkit.plugin.Plugin;
 public class ConversationContext extends Object  {
 
 
+	public ConversationContext(Plugin plugin, Conversable forWhom, Map<Object,Object> initialSessionData) {
+	}
+
 	public Plugin getPlugin() {
 		return null;
 	}

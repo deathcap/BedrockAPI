@@ -16,6 +16,12 @@ import org.bukkit.event.entity.EntityEvent;
 public class CreeperPowerEvent extends EntityEvent implements Cancellable  {
 
 
+	public CreeperPowerEvent(Creeper creeper, LightningStrike bolt, CreeperPowerEvent.PowerCause cause) {
+	}
+
+	public CreeperPowerEvent(Creeper creeper, CreeperPowerEvent.PowerCause cause) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}
@@ -52,7 +58,5 @@ public class CreeperPowerEvent extends EntityEvent implements Cancellable  {
 		SET_ON,
 		SET_OFF,
 		;
-	
-	
 	}
 }

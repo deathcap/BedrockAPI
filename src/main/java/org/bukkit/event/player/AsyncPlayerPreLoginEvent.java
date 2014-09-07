@@ -8,6 +8,12 @@ import org.bukkit.event.HandlerList;
 public class AsyncPlayerPreLoginEvent extends Event  {
 
 
+	@Deprecated public AsyncPlayerPreLoginEvent(String name, InetAddress ipAddress) {
+	}
+
+	public AsyncPlayerPreLoginEvent(String name, InetAddress ipAddress, UUID uniqueId) {
+	}
+
 	public AsyncPlayerPreLoginEvent.Result getLoginResult() {
 		return null;
 	}
@@ -69,7 +75,5 @@ public class AsyncPlayerPreLoginEvent extends Event  {
 		KICK_WHITELIST,
 		KICK_OTHER,
 		;
-	
-	
 	}
 }

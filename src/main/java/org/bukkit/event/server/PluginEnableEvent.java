@@ -11,6 +11,9 @@ import org.bukkit.plugin.Plugin;
 public class PluginEnableEvent extends PluginEvent  {
 
 
+	public PluginEnableEvent(Plugin plugin) {
+	}
+
 	public HandlerList getHandlers() {
 		return null;
 	}

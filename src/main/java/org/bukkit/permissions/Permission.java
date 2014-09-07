@@ -11,6 +11,32 @@ import org.bukkit.permissions.PermissionDefault;
 public class Permission extends Object  {
 
 
+	public static final PermissionDefault DEFAULT_PERMISSION = null;
+
+	public Permission(String name) {
+	}
+
+	public Permission(String name, String description) {
+	}
+
+	public Permission(String name, PermissionDefault defaultValue) {
+	}
+
+	public Permission(String name, String description, PermissionDefault defaultValue) {
+	}
+
+	public Permission(String name, Map<String,Boolean> children) {
+	}
+
+	public Permission(String name, String description, Map<String,Boolean> children) {
+	}
+
+	public Permission(String name, PermissionDefault defaultValue, Map<String,Boolean> children) {
+	}
+
+	public Permission(String name, String description, PermissionDefault defaultValue, Map<String,Boolean> children) {
+	}
+
 	public String getName() {
 		return null;
 	}

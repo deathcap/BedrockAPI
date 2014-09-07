@@ -9,6 +9,15 @@ import org.bukkit.potion.PotionEffectType;
 public class PotionEffect extends Object implements ConfigurationSerializable  {
 
 
+	public PotionEffect(PotionEffectType type, int duration, int amplifier, boolean ambient) {
+	}
+
+	public PotionEffect(PotionEffectType type, int duration, int amplifier) {
+	}
+
+	public PotionEffect(Map<String,Object> map) {
+	}
+
 	public Map<String,Object> serialize() {
 		return null;
 	}

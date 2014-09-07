@@ -8,6 +8,17 @@ import org.bukkit.util.noise.SimplexOctaveGenerator;
 public abstract class OctaveGenerator extends Object  {
 
 
+	protected final NoiseGenerator[] octaves = null;
+
+	protected double xScale = 0.0;
+
+	protected double yScale = 0.0;
+
+	protected double zScale = 0.0;
+
+	protected OctaveGenerator(NoiseGenerator[] octaves) {
+	}
+
 	public void setScale(double scale) {
 	}
 

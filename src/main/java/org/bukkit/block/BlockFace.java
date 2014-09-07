@@ -27,8 +27,6 @@ public enum BlockFace  {
 	SELF,
 	;
 
-
-
 	public int getModX() {
 		return 0;
 	}

@@ -12,6 +12,9 @@ import org.bukkit.inventory.ItemStack;
 public class FurnaceSmeltEvent extends BlockEvent implements Cancellable  {
 
 
+	public FurnaceSmeltEvent(Block furnace, ItemStack source, ItemStack result) {
+	}
+
 	@Deprecated public Block getFurnace() {
 		return null;
 	}

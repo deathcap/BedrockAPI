@@ -14,6 +14,21 @@ import org.bukkit.material.MaterialData;
 public class CocoaPlant extends MaterialData implements Directional, Attachable  {
 
 
+	public CocoaPlant() {
+	}
+
+	@Deprecated public CocoaPlant(int type) {
+	}
+
+	@Deprecated public CocoaPlant(int type, byte data) {
+	}
+
+	public CocoaPlant(CocoaPlant.CocoaPlantSize sz) {
+	}
+
+	public CocoaPlant(CocoaPlant.CocoaPlantSize sz, BlockFace dir) {
+	}
+
 	public CocoaPlant.CocoaPlantSize getSize() {
 		return null;
 	}
@@ -49,7 +64,5 @@ public class CocoaPlant extends MaterialData implements Directional, Attachable 
 		MEDIUM,
 		LARGE,
 		;
-	
-	
 	}
 }

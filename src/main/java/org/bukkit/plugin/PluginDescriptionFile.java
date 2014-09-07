@@ -16,6 +16,15 @@ import org.bukkit.plugin.PluginLoadOrder;
 public final class PluginDescriptionFile extends Object  {
 
 
+	public PluginDescriptionFile(InputStream stream) throws InvalidDescriptionException {
+	}
+
+	public PluginDescriptionFile(Reader reader) throws InvalidDescriptionException {
+	}
+
+	public PluginDescriptionFile(String pluginName, String pluginVersion, String mainClass) {
+	}
+
 	public String getName() {
 		return null;
 	}

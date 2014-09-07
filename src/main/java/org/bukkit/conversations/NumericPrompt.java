@@ -8,6 +8,9 @@ import org.bukkit.conversations.ValidatingPrompt;
 public abstract class NumericPrompt extends ValidatingPrompt  {
 
 
+	public NumericPrompt() {
+	}
+
 	protected boolean isInputValid(ConversationContext context, String input) {
 		return false;
 	}

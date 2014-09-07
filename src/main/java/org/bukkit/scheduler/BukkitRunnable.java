@@ -7,6 +7,9 @@ import org.bukkit.scheduler.BukkitTask;
 public abstract class BukkitRunnable extends Object implements Runnable  {
 
 
+	public BukkitRunnable() {
+	}
+
 	public void cancel() throws IllegalStateException {
 	}
 

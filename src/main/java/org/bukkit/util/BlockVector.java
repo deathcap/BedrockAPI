@@ -9,6 +9,21 @@ import org.bukkit.util.Vector;
 public class BlockVector extends Vector  {
 
 
+	public BlockVector() {
+	}
+
+	public BlockVector(Vector vec) {
+	}
+
+	public BlockVector(int x, int y, int z) {
+	}
+
+	public BlockVector(double x, double y, double z) {
+	}
+
+	public BlockVector(float x, float y, float z) {
+	}
+
 	public boolean equals(Object obj) {
 		return false;
 	}

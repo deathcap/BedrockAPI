@@ -13,6 +13,21 @@ import org.bukkit.material.TrapDoor;
 public class TrapDoor extends SimpleAttachableMaterialData implements Openable  {
 
 
+	public TrapDoor() {
+	}
+
+	@Deprecated public TrapDoor(int type) {
+	}
+
+	public TrapDoor(Material type) {
+	}
+
+	@Deprecated public TrapDoor(int type, byte data) {
+	}
+
+	@Deprecated public TrapDoor(Material type, byte data) {
+	}
+
 	public boolean isOpen() {
 		return false;
 	}

@@ -10,6 +10,15 @@ import org.bukkit.material.Openable;
 public class Gate extends MaterialData implements Directional, Openable  {
 
 
+	public Gate() {
+	}
+
+	public Gate(int type, byte data) {
+	}
+
+	public Gate(byte data) {
+	}
+
 	public void setFacingDirection(BlockFace face) {
 	}
 

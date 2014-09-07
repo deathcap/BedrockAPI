@@ -23,8 +23,6 @@ import org.bukkit.Warning.WarningState;
 		DEFAULT,
 		;
 	
-	
-	
 		public boolean printFor(Warning warning) {
 			return false;
 		}

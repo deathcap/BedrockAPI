@@ -13,6 +13,21 @@ import org.bukkit.material.Torch;
 public class RedstoneTorch extends Torch implements Redstone  {
 
 
+	public RedstoneTorch() {
+	}
+
+	@Deprecated public RedstoneTorch(int type) {
+	}
+
+	public RedstoneTorch(Material type) {
+	}
+
+	@Deprecated public RedstoneTorch(int type, byte data) {
+	}
+
+	@Deprecated public RedstoneTorch(Material type, byte data) {
+	}
+
 	public boolean isPowered() {
 		return false;
 	}

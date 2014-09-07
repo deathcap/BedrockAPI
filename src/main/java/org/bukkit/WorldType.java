@@ -13,8 +13,6 @@ public enum WorldType  {
 	AMPLIFIED,
 	;
 
-
-
 	public String getName() {
 		return null;
 	}

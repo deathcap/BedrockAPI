@@ -9,6 +9,24 @@ import org.bukkit.material.MaterialData;
 public class Crops extends MaterialData  {
 
 
+	public Crops() {
+	}
+
+	public Crops(CropState state) {
+	}
+
+	@Deprecated public Crops(int type) {
+	}
+
+	public Crops(Material type) {
+	}
+
+	@Deprecated public Crops(int type, byte data) {
+	}
+
+	@Deprecated public Crops(Material type, byte data) {
+	}
+
 	public CropState getState() {
 		return null;
 	}

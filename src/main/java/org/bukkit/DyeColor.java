@@ -25,8 +25,6 @@ public enum DyeColor  {
 	BLACK,
 	;
 
-
-
 	@Deprecated public byte getData() {
 		return 0;
 	}

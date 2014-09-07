@@ -14,6 +14,9 @@ import org.bukkit.inventory.ItemStack;
 public class InventoryCreativeEvent extends InventoryClickEvent  {
 
 
+	public InventoryCreativeEvent(InventoryView what, InventoryType.SlotType type, int slot, ItemStack newItem) {
+	}
+
 	public ItemStack getCursor() {
 		return null;
 	}

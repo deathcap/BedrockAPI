@@ -9,6 +9,9 @@ import org.bukkit.command.defaults.VanillaCommand;
 public class EffectCommand extends VanillaCommand  {
 
 
+	public EffectCommand() {
+	}
+
 	public boolean execute(CommandSender sender, String commandLabel, String[] args) {
 		return false;
 	}

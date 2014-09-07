@@ -8,6 +8,9 @@ import org.bukkit.plugin.ServicePriority;
 public class RegisteredServiceProvider<T> extends Object implements Comparable<RegisteredServiceProvider<?>>  {
 
 
+	public RegisteredServiceProvider(Class<T> service, T provider, ServicePriority priority, Plugin plugin) {
+	}
+
 	public Class<T> getService() {
 		return null;
 	}

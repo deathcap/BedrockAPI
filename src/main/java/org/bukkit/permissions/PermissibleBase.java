@@ -12,6 +12,9 @@ import org.bukkit.plugin.Plugin;
 public class PermissibleBase extends Object implements Permissible  {
 
 
+	public PermissibleBase(ServerOperator opable) {
+	}
+
 	public boolean isOp() {
 		return false;
 	}

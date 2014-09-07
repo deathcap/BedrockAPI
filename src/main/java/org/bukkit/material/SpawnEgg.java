@@ -8,6 +8,18 @@ import org.bukkit.material.SpawnEgg;
 public class SpawnEgg extends MaterialData  {
 
 
+	public SpawnEgg() {
+	}
+
+	@Deprecated public SpawnEgg(int type, byte data) {
+	}
+
+	@Deprecated public SpawnEgg(byte data) {
+	}
+
+	public SpawnEgg(EntityType type) {
+	}
+
 	public EntityType getSpawnedType() {
 		return null;
 	}

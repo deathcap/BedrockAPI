@@ -14,6 +14,21 @@ import org.bukkit.event.player.PlayerLoginEvent.Result;
 public class PlayerLoginEvent extends PlayerEvent  {
 
 
+	@Deprecated public PlayerLoginEvent(Player player) {
+	}
+
+	@Deprecated public PlayerLoginEvent(Player player, String hostname) {
+	}
+
+	public PlayerLoginEvent(Player player, String hostname, InetAddress address) {
+	}
+
+	@Deprecated public PlayerLoginEvent(Player player, PlayerLoginEvent.Result result, String message) {
+	}
+
+	public PlayerLoginEvent(Player player, String hostname, InetAddress address, PlayerLoginEvent.Result result, String message) {
+	}
+
 	public PlayerLoginEvent.Result getResult() {
 		return null;
 	}
@@ -61,7 +76,5 @@ public class PlayerLoginEvent extends PlayerEvent  {
 		KICK_WHITELIST,
 		KICK_OTHER,
 		;
-	
-	
 	}
 }

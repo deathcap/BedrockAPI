@@ -11,6 +11,4 @@ public enum NetherWartsState  {
 	STAGE_TWO,
 	RIPE,
 	;
-
-
 }

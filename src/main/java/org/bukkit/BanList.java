@@ -30,7 +30,5 @@ public interface BanList  {
 		NAME,
 		IP,
 		;
-	
-	
 	}
 }

@@ -10,6 +10,4 @@ public enum PortalType  {
 	ENDER,
 	CUSTOM,
 	;
-
-
 }

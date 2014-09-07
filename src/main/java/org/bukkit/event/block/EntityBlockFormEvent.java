@@ -14,6 +14,9 @@ import org.bukkit.event.block.BlockGrowEvent;
 public class EntityBlockFormEvent extends BlockFormEvent  {
 
 
+	public EntityBlockFormEvent(Entity entity, Block block, BlockState blockstate) {
+	}
+
 	public Entity getEntity() {
 		return null;
 	}

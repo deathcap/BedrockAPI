@@ -11,6 +11,9 @@ import org.bukkit.event.world.WorldEvent;
 public class ChunkPopulateEvent extends ChunkEvent  {
 
 
+	public ChunkPopulateEvent(Chunk chunk) {
+	}
+
 	public HandlerList getHandlers() {
 		return null;
 	}

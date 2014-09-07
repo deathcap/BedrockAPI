@@ -9,6 +9,9 @@ import org.bukkit.command.defaults.VanillaCommand;
 public class SaveCommand extends VanillaCommand  {
 
 
+	public SaveCommand() {
+	}
+
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {
 		return false;
 	}

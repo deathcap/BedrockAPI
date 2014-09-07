@@ -11,6 +11,9 @@ import org.bukkit.event.entity.EntityEvent;
 public class EntityPortalEnterEvent extends EntityEvent  {
 
 
+	public EntityPortalEnterEvent(Entity entity, Location location) {
+	}
+
 	public Location getLocation() {
 		return null;
 	}

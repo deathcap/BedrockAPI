@@ -14,8 +14,6 @@ public enum EventPriority  {
 	MONITOR,
 	;
 
-
-
 	public int getSlot() {
 		return 0;
 	}

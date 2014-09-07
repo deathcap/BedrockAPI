@@ -12,8 +12,6 @@ public enum Rotation  {
 	COUNTER_CLOCKWISE,
 	;
 
-
-
 	public Rotation rotateClockwise() {
 		return null;
 	}

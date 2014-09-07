@@ -10,6 +10,11 @@ import org.bukkit.event.hanging.HangingPlaceEvent;
 public abstract class HangingEvent extends Event  {
 
 
+	protected Hanging hanging = null;
+
+	protected HangingEvent(Hanging painting) {
+	}
+
 	public Hanging getEntity() {
 		return null;
 	}

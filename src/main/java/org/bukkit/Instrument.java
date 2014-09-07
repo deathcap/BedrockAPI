@@ -13,8 +13,6 @@ public enum Instrument  {
 	BASS_GUITAR,
 	;
 
-
-
 	@Deprecated public byte getType() {
 		return 0;
 	}

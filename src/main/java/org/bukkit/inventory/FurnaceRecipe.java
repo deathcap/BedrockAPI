@@ -10,6 +10,15 @@ import org.bukkit.material.MaterialData;
 public class FurnaceRecipe extends Object implements Recipe  {
 
 
+	public FurnaceRecipe(ItemStack result, Material source) {
+	}
+
+	public FurnaceRecipe(ItemStack result, MaterialData source) {
+	}
+
+	@Deprecated public FurnaceRecipe(ItemStack result, Material source, int data) {
+	}
+
 	public FurnaceRecipe setInput(MaterialData input) {
 		return null;
 	}

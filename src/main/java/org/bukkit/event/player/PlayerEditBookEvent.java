@@ -12,6 +12,9 @@ import org.bukkit.inventory.meta.BookMeta;
 public class PlayerEditBookEvent extends PlayerEvent implements Cancellable  {
 
 
+	public PlayerEditBookEvent(Player who, int slot, BookMeta previousBookMeta, BookMeta newBookMeta, boolean isSigning) {
+	}
+
 	public BookMeta getPreviousBookMeta() {
 		return null;
 	}

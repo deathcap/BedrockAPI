@@ -9,6 +9,9 @@ import org.bukkit.command.defaults.VanillaCommand;
 public class PardonIpCommand extends VanillaCommand  {
 
 
+	public PardonIpCommand() {
+	}
+
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {
 		return false;
 	}

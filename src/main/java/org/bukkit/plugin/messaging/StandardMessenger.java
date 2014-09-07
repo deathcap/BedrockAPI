@@ -14,6 +14,9 @@ import org.bukkit.plugin.messaging.PluginMessageListenerRegistration;
 public class StandardMessenger extends Object implements Messenger  {
 
 
+	public StandardMessenger() {
+	}
+
 	public boolean isReservedChannel(String channel) {
 		return false;
 	}

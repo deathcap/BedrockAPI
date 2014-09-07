@@ -10,8 +10,6 @@ public enum CoalType  {
 	CHARCOAL,
 	;
 
-
-
 	@Deprecated public byte getData() {
 		return 0;
 	}

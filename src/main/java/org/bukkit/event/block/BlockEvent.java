@@ -27,6 +27,11 @@ import org.bukkit.event.inventory.FurnaceSmeltEvent;
 public abstract class BlockEvent extends Event  {
 
 
+	protected Block block = null;
+
+	public BlockEvent(Block theBlock) {
+	}
+
 	public final Block getBlock() {
 		return null;
 	}

@@ -10,6 +10,9 @@ import org.bukkit.event.block.BlockEvent;
 public class BlockRedstoneEvent extends BlockEvent  {
 
 
+	public BlockRedstoneEvent(Block block, int oldCurrent, int newCurrent) {
+	}
+
 	public int getOldCurrent() {
 		return 0;
 	}

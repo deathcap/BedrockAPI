@@ -41,8 +41,6 @@ public enum Statistic  {
 	ENTITY_KILLED_BY,
 	;
 
-
-
 	public Statistic.Type getType() {
 		return null;
 	}
@@ -65,7 +63,5 @@ public enum Statistic  {
 		BLOCK,
 		ENTITY,
 		;
-	
-	
 	}
 }

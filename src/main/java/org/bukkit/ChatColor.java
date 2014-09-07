@@ -31,8 +31,6 @@ public enum ChatColor  {
 	COLOR_CHAR,
 	;
 
-
-
 	public char getChar() {
 		return '\0';
 	}

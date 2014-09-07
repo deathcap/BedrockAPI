@@ -11,6 +11,9 @@ import org.bukkit.event.server.ServerEvent;
 public class RemoteServerCommandEvent extends ServerCommandEvent  {
 
 
+	public RemoteServerCommandEvent(CommandSender sender, String command) {
+	}
+
 	public HandlerList getHandlers() {
 		return null;
 	}

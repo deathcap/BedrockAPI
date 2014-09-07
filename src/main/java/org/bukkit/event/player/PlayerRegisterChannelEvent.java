@@ -9,4 +9,7 @@ import org.bukkit.event.player.PlayerEvent;
 
 public class PlayerRegisterChannelEvent extends PlayerChannelEvent  {
 
+
+	public PlayerRegisterChannelEvent(Player player, String channel) {
+	}
 }

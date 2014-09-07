@@ -23,6 +23,4 @@ public enum TreeType  {
 	MEGA_REDWOOD,
 	TALL_BIRCH,
 	;
-
-
 }

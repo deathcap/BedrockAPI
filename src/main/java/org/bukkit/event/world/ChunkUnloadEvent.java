@@ -12,6 +12,9 @@ import org.bukkit.event.world.WorldEvent;
 public class ChunkUnloadEvent extends ChunkEvent implements Cancellable  {
 
 
+	public ChunkUnloadEvent(Chunk chunk) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

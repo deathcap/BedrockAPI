@@ -12,6 +12,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerDropItemEvent extends PlayerEvent implements Cancellable  {
 
 
+	public PlayerDropItemEvent(Player player, Item drop) {
+	}
+
 	public Item getItemDrop() {
 		return null;
 	}

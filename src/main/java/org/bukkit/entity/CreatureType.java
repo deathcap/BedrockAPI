@@ -33,8 +33,6 @@ import org.bukkit.entity.EntityType;
 	VILLAGER,
 	;
 
-
-
 	public String getName() {
 		return null;
 	}

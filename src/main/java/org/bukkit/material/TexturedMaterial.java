@@ -12,6 +12,18 @@ import org.bukkit.material.TexturedMaterial;
 public abstract class TexturedMaterial extends MaterialData  {
 
 
+	public TexturedMaterial(Material m) {
+	}
+
+	@Deprecated public TexturedMaterial(int type) {
+	}
+
+	@Deprecated public TexturedMaterial(int type, byte data) {
+	}
+
+	@Deprecated public TexturedMaterial(Material type, byte data) {
+	}
+
 	public abstract List<Material> getTextures();
 
 	public Material getMaterial() {

@@ -13,6 +13,9 @@ import org.bukkit.inventory.ItemStack;
 public class BlockDamageEvent extends BlockEvent implements Cancellable  {
 
 
+	public BlockDamageEvent(Player player, Block block, ItemStack itemInHand, boolean instaBreak) {
+	}
+
 	public Player getPlayer() {
 		return null;
 	}

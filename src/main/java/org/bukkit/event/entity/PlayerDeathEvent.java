@@ -12,6 +12,15 @@ import org.bukkit.inventory.ItemStack;
 public class PlayerDeathEvent extends EntityDeathEvent  {
 
 
+	public PlayerDeathEvent(Player player, List<ItemStack> drops, int droppedExp, String deathMessage) {
+	}
+
+	public PlayerDeathEvent(Player player, List<ItemStack> drops, int droppedExp, int newExp, String deathMessage) {
+	}
+
+	public PlayerDeathEvent(Player player, List<ItemStack> drops, int droppedExp, int newExp, int newTotalExp, int newLevel, String deathMessage) {
+	}
+
 	public Player getEntity() {
 		return null;
 	}

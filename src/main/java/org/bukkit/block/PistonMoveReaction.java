@@ -11,8 +11,6 @@ public enum PistonMoveReaction  {
 	BLOCK,
 	;
 
-
-
 	@Deprecated public int getId() {
 		return 0;
 	}

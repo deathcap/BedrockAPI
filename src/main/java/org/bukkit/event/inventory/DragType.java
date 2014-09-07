@@ -9,6 +9,4 @@ public enum DragType  {
 	SINGLE,
 	EVEN,
 	;
-
-
 }

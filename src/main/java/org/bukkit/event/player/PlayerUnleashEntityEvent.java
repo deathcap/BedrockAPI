@@ -13,6 +13,9 @@ import org.bukkit.event.entity.EntityUnleashEvent.UnleashReason;
 public class PlayerUnleashEntityEvent extends EntityUnleashEvent implements Cancellable  {
 
 
+	public PlayerUnleashEntityEvent(Entity entity, Player player) {
+	}
+
 	public Player getPlayer() {
 		return null;
 	}

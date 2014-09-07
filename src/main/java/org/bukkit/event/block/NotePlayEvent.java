@@ -13,6 +13,9 @@ import org.bukkit.event.block.BlockEvent;
 public class NotePlayEvent extends BlockEvent implements Cancellable  {
 
 
+	public NotePlayEvent(Block block, Instrument instrument, Note note) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

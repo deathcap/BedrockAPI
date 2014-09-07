@@ -12,6 +12,18 @@ import org.bukkit.material.TripwireHook;
 public class TripwireHook extends SimpleAttachableMaterialData implements Redstone  {
 
 
+	public TripwireHook() {
+	}
+
+	@Deprecated public TripwireHook(int type) {
+	}
+
+	@Deprecated public TripwireHook(int type, byte data) {
+	}
+
+	public TripwireHook(BlockFace dir) {
+	}
+
 	public boolean isConnected() {
 		return false;
 	}

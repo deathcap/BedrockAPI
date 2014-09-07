@@ -10,6 +10,11 @@ import org.bukkit.command.defaults.VanillaCommand;
 public class BanIpCommand extends VanillaCommand  {
 
 
+	public static final Pattern ipValidity = null;
+
+	public BanIpCommand() {
+	}
+
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {
 		return false;
 	}

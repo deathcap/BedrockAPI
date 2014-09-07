@@ -8,6 +8,13 @@ import org.yaml.snakeyaml.nodes.Tag;
 public class YamlRepresenter extends org.yaml.snakeyaml.representer.Representer  {
 
 
+	protected Map<Class<? extends Object>,org.yaml.snakeyaml.nodes.Tag> classTags = null;
+
+	public static Pattern BINARY_PATTERN = null;
+
+	public YamlRepresenter() {
+	}
+
 	protected org.yaml.snakeyaml.nodes.Tag getTag(Class<?> arg0, org.yaml.snakeyaml.nodes.Tag arg1) {
 		return null;
 	}

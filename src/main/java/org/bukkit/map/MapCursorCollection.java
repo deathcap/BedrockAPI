@@ -6,6 +6,9 @@ import org.bukkit.map.MapCursor;
 public final class MapCursorCollection extends Object  {
 
 
+	public MapCursorCollection() {
+	}
+
 	public int size() {
 		return 0;
 	}

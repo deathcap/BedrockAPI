@@ -9,6 +9,9 @@ import org.bukkit.command.defaults.VanillaCommand;
 public class GameRuleCommand extends VanillaCommand  {
 
 
+	public GameRuleCommand() {
+	}
+
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {
 		return false;
 	}

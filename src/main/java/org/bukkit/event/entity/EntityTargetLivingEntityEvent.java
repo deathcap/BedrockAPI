@@ -13,6 +13,9 @@ import org.bukkit.event.entity.EntityTargetEvent.TargetReason;
 public class EntityTargetLivingEntityEvent extends EntityTargetEvent  {
 
 
+	public EntityTargetLivingEntityEvent(Entity entity, LivingEntity target, EntityTargetEvent.TargetReason reason) {
+	}
+
 	public LivingEntity getTarget() {
 		return null;
 	}

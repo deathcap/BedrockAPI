@@ -8,6 +8,21 @@ import org.bukkit.material.MaterialData;
 public class FlowerPot extends MaterialData  {
 
 
+	public FlowerPot() {
+	}
+
+	@Deprecated public FlowerPot(int type) {
+	}
+
+	public FlowerPot(Material type) {
+	}
+
+	@Deprecated public FlowerPot(int type, byte data) {
+	}
+
+	@Deprecated public FlowerPot(Material type, byte data) {
+	}
+
 	public MaterialData getContents() {
 		return null;
 	}

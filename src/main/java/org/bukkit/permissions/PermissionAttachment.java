@@ -10,6 +10,9 @@ import org.bukkit.plugin.Plugin;
 public class PermissionAttachment extends Object  {
 
 
+	public PermissionAttachment(Plugin plugin, Permissible Permissible) {
+	}
+
 	public Plugin getPlugin() {
 		return null;
 	}

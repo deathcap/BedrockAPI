@@ -10,6 +10,11 @@ import org.bukkit.event.painting.PaintingPlaceEvent;
 @Deprecated public abstract class PaintingEvent extends Event  {
 
 
+	protected Painting painting = null;
+
+	protected PaintingEvent(Painting painting) {
+	}
+
 	public Painting getPainting() {
 		return null;
 	}

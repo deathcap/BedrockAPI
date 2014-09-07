@@ -13,6 +13,12 @@ import org.bukkit.inventory.ItemStack;
 public class EntityDeathEvent extends EntityEvent  {
 
 
+	public EntityDeathEvent(LivingEntity entity, List<ItemStack> drops) {
+	}
+
+	public EntityDeathEvent(LivingEntity what, List<ItemStack> drops, int droppedExp) {
+	}
+
 	public LivingEntity getEntity() {
 		return null;
 	}

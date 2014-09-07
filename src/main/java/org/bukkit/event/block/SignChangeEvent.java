@@ -12,6 +12,9 @@ import org.bukkit.event.block.BlockEvent;
 public class SignChangeEvent extends BlockEvent implements Cancellable  {
 
 
+	public SignChangeEvent(Block theBlock, Player thePlayer, String[] theLines) {
+	}
+
 	public Player getPlayer() {
 		return null;
 	}

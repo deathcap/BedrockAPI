@@ -11,6 +11,9 @@ import org.bukkit.event.block.BlockEvent;
 public class BlockBurnEvent extends BlockEvent implements Cancellable  {
 
 
+	public BlockBurnEvent(Block block) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

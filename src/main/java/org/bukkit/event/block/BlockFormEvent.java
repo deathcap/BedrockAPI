@@ -15,6 +15,9 @@ import org.bukkit.event.block.EntityBlockFormEvent;
 public class BlockFormEvent extends BlockGrowEvent implements Cancellable  {
 
 
+	public BlockFormEvent(Block block, BlockState newState) {
+	}
+
 	public HandlerList getHandlers() {
 		return null;
 	}

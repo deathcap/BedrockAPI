@@ -13,6 +13,21 @@ import org.bukkit.material.SimpleAttachableMaterialData;
 public class Button extends SimpleAttachableMaterialData implements Redstone  {
 
 
+	public Button() {
+	}
+
+	@Deprecated public Button(int type) {
+	}
+
+	public Button(Material type) {
+	}
+
+	@Deprecated public Button(int type, byte data) {
+	}
+
+	@Deprecated public Button(Material type, byte data) {
+	}
+
 	public boolean isPowered() {
 		return false;
 	}

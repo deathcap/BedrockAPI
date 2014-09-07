@@ -7,4 +7,9 @@ import org.bukkit.map.MinecraftFont;
 
 public class MinecraftFont extends MapFont  {
 
+
+	public static final MinecraftFont Font = null;
+
+	public MinecraftFont() {
+	}
 }

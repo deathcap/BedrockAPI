@@ -10,6 +10,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerQuitEvent extends PlayerEvent  {
 
 
+	public PlayerQuitEvent(Player who, String quitMessage) {
+	}
+
 	public String getQuitMessage() {
 		return null;
 	}

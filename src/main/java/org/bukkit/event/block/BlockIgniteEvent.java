@@ -17,6 +17,18 @@ import org.bukkit.event.block.BlockIgniteEvent.IgniteCause;
 public class BlockIgniteEvent extends BlockEvent implements Cancellable  {
 
 
+	@Deprecated public BlockIgniteEvent(Block theBlock, BlockIgniteEvent.IgniteCause cause, Player thePlayer) {
+	}
+
+	public BlockIgniteEvent(Block theBlock, BlockIgniteEvent.IgniteCause cause, Entity ignitingEntity) {
+	}
+
+	public BlockIgniteEvent(Block theBlock, BlockIgniteEvent.IgniteCause cause, Block ignitingBlock) {
+	}
+
+	public BlockIgniteEvent(Block theBlock, BlockIgniteEvent.IgniteCause cause, Entity ignitingEntity, Block ignitingBlock) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}
@@ -61,7 +73,5 @@ public class BlockIgniteEvent extends BlockEvent implements Cancellable  {
 		ENDER_CRYSTAL,
 		EXPLOSION,
 		;
-	
-	
 	}
 }

@@ -9,6 +9,9 @@ import org.bukkit.command.defaults.BukkitCommand;
 public class VersionCommand extends BukkitCommand  {
 
 
+	public VersionCommand(String name) {
+	}
+
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {
 		return false;
 	}

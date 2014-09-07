@@ -12,6 +12,24 @@ import org.bukkit.material.MaterialData;
 public class Furnace extends FurnaceAndDispenser  {
 
 
+	public Furnace() {
+	}
+
+	public Furnace(BlockFace direction) {
+	}
+
+	@Deprecated public Furnace(int type) {
+	}
+
+	public Furnace(Material type) {
+	}
+
+	@Deprecated public Furnace(int type, byte data) {
+	}
+
+	@Deprecated public Furnace(Material type, byte data) {
+	}
+
 	public Furnace clone() {
 		return null;
 	}

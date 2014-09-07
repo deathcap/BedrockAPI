@@ -16,6 +16,9 @@ import org.bukkit.event.entity.EntityTargetLivingEntityEvent;
 public class EntityTargetEvent extends EntityEvent implements Cancellable  {
 
 
+	public EntityTargetEvent(Entity entity, Entity target, EntityTargetEvent.TargetReason reason) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}
@@ -61,7 +64,5 @@ public class EntityTargetEvent extends EntityEvent implements Cancellable  {
 		COLLISION,
 		CUSTOM,
 		;
-	
-	
 	}
 }

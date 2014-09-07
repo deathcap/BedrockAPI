@@ -10,6 +10,9 @@ import org.bukkit.event.vehicle.VehicleEvent;
 public class VehicleUpdateEvent extends VehicleEvent  {
 
 
+	public VehicleUpdateEvent(Vehicle vehicle) {
+	}
+
 	public HandlerList getHandlers() {
 		return null;
 	}

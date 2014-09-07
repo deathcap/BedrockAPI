@@ -17,6 +17,18 @@ import org.bukkit.configuration.file.YamlConfiguration;
 public abstract class FileConfiguration extends MemoryConfiguration  {
 
 
+	@Deprecated public static final boolean UTF8_OVERRIDE = false;
+
+	@Deprecated public static final boolean UTF_BIG = false;
+
+	@Deprecated public static final boolean SYSTEM_UTF = false;
+
+	public FileConfiguration() {
+	}
+
+	public FileConfiguration(Configuration defaults) {
+	}
+
 	public void save(File file) throws IOException {
 	}
 

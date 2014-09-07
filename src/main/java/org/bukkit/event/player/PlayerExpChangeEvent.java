@@ -10,6 +10,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerExpChangeEvent extends PlayerEvent  {
 
 
+	public PlayerExpChangeEvent(Player player, int expAmount) {
+	}
+
 	public int getAmount() {
 		return 0;
 	}

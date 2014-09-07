@@ -9,6 +9,9 @@ import org.bukkit.configuration.file.FileConfigurationOptions;
 public class MemoryConfigurationOptions extends ConfigurationOptions  {
 
 
+	protected MemoryConfigurationOptions(MemoryConfiguration configuration) {
+	}
+
 	public MemoryConfiguration configuration() {
 		return null;
 	}

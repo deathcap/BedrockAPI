@@ -10,6 +10,21 @@ import org.bukkit.material.TexturedMaterial;
 public class Step extends TexturedMaterial  {
 
 
+	public Step() {
+	}
+
+	@Deprecated public Step(int type) {
+	}
+
+	public Step(Material type) {
+	}
+
+	@Deprecated public Step(int type, byte data) {
+	}
+
+	@Deprecated public Step(Material type, byte data) {
+	}
+
 	public List<Material> getTextures() {
 		return null;
 	}

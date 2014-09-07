@@ -22,6 +22,15 @@ import org.bukkit.event.entity.EntityEvent;
 public class EntityDamageEvent extends EntityEvent implements Cancellable  {
 
 
+	@Deprecated public EntityDamageEvent(Entity damagee, EntityDamageEvent.DamageCause cause, int damage) {
+	}
+
+	@Deprecated public EntityDamageEvent(Entity damagee, EntityDamageEvent.DamageCause cause, double damage) {
+	}
+
+	public EntityDamageEvent(Entity damagee, EntityDamageEvent.DamageCause cause, Map<EntityDamageEvent.DamageModifier,Double> modifiers, Map<EntityDamageEvent.DamageModifier,? extends com.google.common.base.Function<? super Double,Double>> modifierFunctions) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}
@@ -102,8 +111,6 @@ public class EntityDamageEvent extends EntityEvent implements Cancellable  {
 		THORNS,
 		CUSTOM,
 		;
-	
-	
 	}
 
 	
@@ -119,7 +126,5 @@ public class EntityDamageEvent extends EntityEvent implements Cancellable  {
 		MAGIC,
 		ABSORPTION,
 		;
-	
-	
 	}
 }

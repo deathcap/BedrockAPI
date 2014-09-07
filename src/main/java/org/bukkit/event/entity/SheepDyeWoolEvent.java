@@ -12,6 +12,9 @@ import org.bukkit.event.entity.EntityEvent;
 public class SheepDyeWoolEvent extends EntityEvent implements Cancellable  {
 
 
+	public SheepDyeWoolEvent(Sheep sheep, DyeColor color) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

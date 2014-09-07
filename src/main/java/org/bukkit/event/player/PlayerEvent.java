@@ -45,6 +45,11 @@ import org.bukkit.event.player.PlayerVelocityEvent;
 public abstract class PlayerEvent extends Event  {
 
 
+	protected Player player = null;
+
+	public PlayerEvent(Player who) {
+	}
+
 	public final Player getPlayer() {
 		return null;
 	}

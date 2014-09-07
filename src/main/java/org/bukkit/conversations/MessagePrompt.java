@@ -7,6 +7,9 @@ import org.bukkit.conversations.Prompt;
 public abstract class MessagePrompt extends Object implements Prompt  {
 
 
+	public MessagePrompt() {
+	}
+
 	public boolean blocksForInput(ConversationContext context) {
 		return false;
 	}

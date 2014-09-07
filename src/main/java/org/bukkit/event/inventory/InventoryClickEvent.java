@@ -18,6 +18,15 @@ import org.bukkit.inventory.ItemStack;
 public class InventoryClickEvent extends InventoryInteractEvent  {
 
 
+	@Deprecated public InventoryClickEvent(InventoryView view, InventoryType.SlotType type, int slot, boolean right, boolean shift) {
+	}
+
+	public InventoryClickEvent(InventoryView view, InventoryType.SlotType type, int slot, ClickType click, InventoryAction action) {
+	}
+
+	public InventoryClickEvent(InventoryView view, InventoryType.SlotType type, int slot, ClickType click, InventoryAction action, int key) {
+	}
+
 	public InventoryType.SlotType getSlotType() {
 		return null;
 	}

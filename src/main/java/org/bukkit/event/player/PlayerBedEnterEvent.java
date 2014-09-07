@@ -12,6 +12,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerBedEnterEvent extends PlayerEvent implements Cancellable  {
 
 
+	public PlayerBedEnterEvent(Player who, Block bed) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

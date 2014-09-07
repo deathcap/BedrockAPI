@@ -11,6 +11,10 @@ import org.bukkit.plugin.messaging.StandardMessenger;
 public interface Messenger  {
 
 
+	static final int MAX_MESSAGE_SIZE = 0;
+
+	static final int MAX_CHANNEL_SIZE = 0;
+
 	boolean isReservedChannel(String channel);
 
 	void registerOutgoingPluginChannel(Plugin plugin, String channel);

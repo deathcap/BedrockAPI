@@ -13,6 +13,9 @@ import org.bukkit.util.Vector;
 public class BlockDispenseEvent extends BlockEvent implements Cancellable  {
 
 
+	public BlockDispenseEvent(Block block, ItemStack dispensed, Vector velocity) {
+	}
+
 	public ItemStack getItem() {
 		return null;
 	}

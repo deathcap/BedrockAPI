@@ -15,6 +15,12 @@ import org.bukkit.event.entity.EntityRegainHealthEvent.RegainReason;
 public class EntityRegainHealthEvent extends EntityEvent implements Cancellable  {
 
 
+	@Deprecated public EntityRegainHealthEvent(Entity entity, int amount, EntityRegainHealthEvent.RegainReason regainReason) {
+	}
+
+	public EntityRegainHealthEvent(Entity entity, double amount, EntityRegainHealthEvent.RegainReason regainReason) {
+	}
+
 	public double getAmount() {
 		return 0.0;
 	}
@@ -63,7 +69,5 @@ public class EntityRegainHealthEvent extends EntityEvent implements Cancellable 
 		WITHER,
 		CUSTOM,
 		;
-	
-	
 	}
 }

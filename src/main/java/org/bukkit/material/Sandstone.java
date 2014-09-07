@@ -9,6 +9,24 @@ import org.bukkit.material.Sandstone;
 public class Sandstone extends MaterialData  {
 
 
+	public Sandstone() {
+	}
+
+	public Sandstone(SandstoneType type) {
+	}
+
+	@Deprecated public Sandstone(int type) {
+	}
+
+	public Sandstone(Material type) {
+	}
+
+	@Deprecated public Sandstone(int type, byte data) {
+	}
+
+	@Deprecated public Sandstone(Material type, byte data) {
+	}
+
 	public SandstoneType getType() {
 		return null;
 	}

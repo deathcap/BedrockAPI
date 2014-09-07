@@ -10,6 +10,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerLevelChangeEvent extends PlayerEvent  {
 
 
+	public PlayerLevelChangeEvent(Player player, int oldLevel, int newLevel) {
+	}
+
 	public int getOldLevel() {
 		return 0;
 	}

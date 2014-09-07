@@ -7,4 +7,13 @@ import org.bukkit.util.noise.OctaveGenerator;
 
 public class PerlinOctaveGenerator extends OctaveGenerator  {
 
+
+	public PerlinOctaveGenerator(World world, int octaves) {
+	}
+
+	public PerlinOctaveGenerator(long seed, int octaves) {
+	}
+
+	public PerlinOctaveGenerator(Random rand, int octaves) {
+	}
 }

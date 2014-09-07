@@ -14,6 +14,9 @@ import org.bukkit.event.block.BlockPistonEvent;
 public class BlockPistonRetractEvent extends BlockPistonEvent  {
 
 
+	public BlockPistonRetractEvent(Block block, BlockFace direction) {
+	}
+
 	public Location getRetractLocation() {
 		return null;
 	}

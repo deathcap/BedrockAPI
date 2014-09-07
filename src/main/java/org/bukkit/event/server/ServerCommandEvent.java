@@ -11,6 +11,9 @@ import org.bukkit.event.server.ServerEvent;
 public class ServerCommandEvent extends ServerEvent  {
 
 
+	public ServerCommandEvent(CommandSender sender, String command) {
+	}
+
 	public String getCommand() {
 		return null;
 	}

@@ -13,6 +13,9 @@ import org.bukkit.event.hanging.HangingEvent;
 public class HangingBreakByEntityEvent extends HangingBreakEvent  {
 
 
+	public HangingBreakByEntityEvent(Hanging hanging, Entity remover) {
+	}
+
 	public Entity getRemover() {
 		return null;
 	}

@@ -29,8 +29,6 @@ public interface Skeleton extends Monster  {
 		WITHER,
 		;
 	
-	
-	
 		@Deprecated public int getId() {
 			return 0;
 		}

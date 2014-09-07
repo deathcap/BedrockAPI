@@ -11,6 +11,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerRespawnEvent extends PlayerEvent  {
 
 
+	public PlayerRespawnEvent(Player respawnPlayer, Location respawnLocation, boolean isBedSpawn) {
+	}
+
 	public Location getRespawnLocation() {
 		return null;
 	}

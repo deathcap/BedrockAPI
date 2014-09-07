@@ -9,6 +9,21 @@ import org.bukkit.material.Redstone;
 public class Command extends MaterialData implements Redstone  {
 
 
+	public Command() {
+	}
+
+	@Deprecated public Command(int type) {
+	}
+
+	public Command(Material type) {
+	}
+
+	@Deprecated public Command(int type, byte data) {
+	}
+
+	@Deprecated public Command(Material type, byte data) {
+	}
+
 	public boolean isPowered() {
 		return false;
 	}

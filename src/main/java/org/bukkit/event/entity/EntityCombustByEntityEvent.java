@@ -11,6 +11,9 @@ import org.bukkit.event.entity.EntityEvent;
 public class EntityCombustByEntityEvent extends EntityCombustEvent  {
 
 
+	public EntityCombustByEntityEvent(Entity combuster, Entity combustee, int duration) {
+	}
+
 	public Entity getCombuster() {
 		return null;
 	}

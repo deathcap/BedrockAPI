@@ -12,6 +12,9 @@ import org.bukkit.util.Vector;
 public class PlayerVelocityEvent extends PlayerEvent implements Cancellable  {
 
 
+	public PlayerVelocityEvent(Player player, Vector velocity) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

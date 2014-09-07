@@ -29,8 +29,6 @@ public enum Effect  {
 	MOBSPAWNER_FLAMES,
 	;
 
-
-
 	@Deprecated public int getId() {
 		return 0;
 	}
@@ -55,7 +53,5 @@ public enum Effect  {
 		SOUND,
 		VISUAL,
 		;
-	
-	
 	}
 }

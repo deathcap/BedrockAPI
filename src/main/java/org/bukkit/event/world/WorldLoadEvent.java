@@ -10,6 +10,9 @@ import org.bukkit.event.world.WorldEvent;
 public class WorldLoadEvent extends WorldEvent  {
 
 
+	public WorldLoadEvent(World world) {
+	}
+
 	public HandlerList getHandlers() {
 		return null;
 	}

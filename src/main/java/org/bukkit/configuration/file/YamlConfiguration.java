@@ -17,6 +17,13 @@ import org.bukkit.configuration.file.YamlConfigurationOptions;
 public class YamlConfiguration extends FileConfiguration  {
 
 
+	protected static final String COMMENT_PREFIX = null;
+
+	protected static final String BLANK_CONFIG = null;
+
+	public YamlConfiguration() {
+	}
+
 	public String saveToString() {
 		return null;
 	}

@@ -9,6 +9,9 @@ import org.bukkit.command.defaults.VanillaCommand;
 public class EnchantCommand extends VanillaCommand  {
 
 
+	public EnchantCommand() {
+	}
+
 	public boolean execute(CommandSender sender, String commandLabel, String[] args) {
 		return false;
 	}

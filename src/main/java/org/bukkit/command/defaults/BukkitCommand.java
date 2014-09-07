@@ -10,4 +10,10 @@ import org.bukkit.command.defaults.VersionCommand;
 
 public abstract class BukkitCommand extends Command  {
 
+
+	protected BukkitCommand(String name) {
+	}
+
+	protected BukkitCommand(String name, String description, String usageMessage, List<String> aliases) {
+	}
 }

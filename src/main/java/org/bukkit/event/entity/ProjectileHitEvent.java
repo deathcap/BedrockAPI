@@ -12,6 +12,9 @@ import org.bukkit.event.entity.PotionSplashEvent;
 public class ProjectileHitEvent extends EntityEvent  {
 
 
+	public ProjectileHitEvent(Projectile projectile) {
+	}
+
 	public Projectile getEntity() {
 		return null;
 	}

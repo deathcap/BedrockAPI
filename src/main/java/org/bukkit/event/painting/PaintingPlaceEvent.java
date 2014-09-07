@@ -14,6 +14,9 @@ import org.bukkit.event.painting.PaintingEvent;
 @Deprecated public class PaintingPlaceEvent extends PaintingEvent implements Cancellable  {
 
 
+	public PaintingPlaceEvent(Painting painting, Player player, Block block, BlockFace blockFace) {
+	}
+
 	public Player getPlayer() {
 		return null;
 	}

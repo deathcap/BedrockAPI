@@ -9,6 +9,11 @@ import org.bukkit.conversations.ValidatingPrompt;
 public abstract class FixedSetPrompt extends ValidatingPrompt  {
 
 
+	protected List<String> fixedSet = null;
+
+	public FixedSetPrompt(String... fixedSet) {
+	}
+
 	protected boolean isInputValid(ConversationContext context, String input) {
 		return false;
 	}

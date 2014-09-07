@@ -11,6 +11,9 @@ import org.bukkit.event.world.WorldEvent;
 public class ChunkLoadEvent extends ChunkEvent  {
 
 
+	public ChunkLoadEvent(Chunk chunk, boolean newChunk) {
+	}
+
 	public boolean isNewChunk() {
 		return false;
 	}

@@ -12,6 +12,9 @@ import org.bukkit.event.block.BlockExpEvent;
 public class FurnaceExtractEvent extends BlockExpEvent  {
 
 
+	public FurnaceExtractEvent(Player player, Block block, Material itemType, int itemAmount, int exp) {
+	}
+
 	public Player getPlayer() {
 		return null;
 	}

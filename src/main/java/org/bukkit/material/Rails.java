@@ -10,6 +10,21 @@ import org.bukkit.material.Rails;
 public class Rails extends MaterialData  {
 
 
+	public Rails() {
+	}
+
+	@Deprecated public Rails(int type) {
+	}
+
+	public Rails(Material type) {
+	}
+
+	@Deprecated public Rails(int type, byte data) {
+	}
+
+	@Deprecated public Rails(Material type, byte data) {
+	}
+
 	public boolean isOnSlope() {
 		return false;
 	}

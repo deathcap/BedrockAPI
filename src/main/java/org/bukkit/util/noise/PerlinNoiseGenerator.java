@@ -10,6 +10,20 @@ import org.bukkit.util.noise.SimplexNoiseGenerator;
 public class PerlinNoiseGenerator extends NoiseGenerator  {
 
 
+	protected static final int[][] grad3 = null;
+
+	protected PerlinNoiseGenerator() {
+	}
+
+	public PerlinNoiseGenerator(World world) {
+	}
+
+	public PerlinNoiseGenerator(long seed) {
+	}
+
+	public PerlinNoiseGenerator(Random rand) {
+	}
+
 	public static double getNoise(double x) {
 		return 0.0;
 	}

@@ -9,6 +9,15 @@ import org.bukkit.plugin.Plugin;
 public class InactivityConversationCanceller extends Object implements ConversationCanceller  {
 
 
+	protected Plugin plugin = null;
+
+	protected int timeoutSeconds = 0;
+
+	protected Conversation conversation = null;
+
+	public InactivityConversationCanceller(Plugin plugin, int timeoutSeconds) {
+	}
+
 	public void setConversation(Conversation conversation) {
 	}
 

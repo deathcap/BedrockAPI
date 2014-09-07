@@ -8,6 +8,9 @@ import org.bukkit.conversations.ValidatingPrompt;
 public abstract class BooleanPrompt extends ValidatingPrompt  {
 
 
+	public BooleanPrompt() {
+	}
+
 	protected boolean isInputValid(ConversationContext context, String input) {
 		return false;
 	}

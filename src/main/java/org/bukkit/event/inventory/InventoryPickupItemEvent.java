@@ -11,6 +11,9 @@ import org.bukkit.inventory.Inventory;
 public class InventoryPickupItemEvent extends Event implements Cancellable  {
 
 
+	public InventoryPickupItemEvent(Inventory inventory, Item item) {
+	}
+
 	public Inventory getInventory() {
 		return null;
 	}

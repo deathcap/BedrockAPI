@@ -15,6 +15,27 @@ import org.bukkit.plugin.Plugin;
 public class ConversationFactory extends Object  {
 
 
+	protected Plugin plugin = null;
+
+	protected boolean isModal = false;
+
+	protected boolean localEchoEnabled = false;
+
+	protected ConversationPrefix prefix = null;
+
+	protected Prompt firstPrompt = null;
+
+	protected Map<Object,Object> initialSessionData = null;
+
+	protected String playerOnlyMessage = null;
+
+	protected List<ConversationCanceller> cancellers = null;
+
+	protected List<ConversationAbandonedListener> abandonedListeners = null;
+
+	public ConversationFactory(Plugin plugin) {
+	}
+
 	public ConversationFactory withModality(boolean modal) {
 		return null;
 	}

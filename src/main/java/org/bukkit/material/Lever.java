@@ -13,6 +13,21 @@ import org.bukkit.material.SimpleAttachableMaterialData;
 public class Lever extends SimpleAttachableMaterialData implements Redstone  {
 
 
+	public Lever() {
+	}
+
+	@Deprecated public Lever(int type) {
+	}
+
+	public Lever(Material type) {
+	}
+
+	@Deprecated public Lever(int type, byte data) {
+	}
+
+	@Deprecated public Lever(Material type, byte data) {
+	}
+
 	public boolean isPowered() {
 		return false;
 	}

@@ -201,6 +201,4 @@ public enum Sound  {
 	VILLAGER_NO,
 	VILLAGER_YES,
 	;
-
-
 }

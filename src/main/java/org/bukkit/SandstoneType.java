@@ -11,8 +11,6 @@ public enum SandstoneType  {
 	SMOOTH,
 	;
 
-
-
 	@Deprecated public byte getData() {
 		return 0;
 	}

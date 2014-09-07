@@ -9,6 +9,12 @@ import org.bukkit.conversations.ValidatingPrompt;
 public abstract class RegexPrompt extends ValidatingPrompt  {
 
 
+	public RegexPrompt(String regex) {
+	}
+
+	public RegexPrompt(Pattern pattern) {
+	}
+
 	protected boolean isInputValid(ConversationContext context, String input) {
 		return false;
 	}

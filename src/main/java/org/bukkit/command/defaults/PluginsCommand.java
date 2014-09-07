@@ -8,6 +8,9 @@ import org.bukkit.command.defaults.BukkitCommand;
 public class PluginsCommand extends BukkitCommand  {
 
 
+	public PluginsCommand(String name) {
+	}
+
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {
 		return false;
 	}

@@ -12,6 +12,9 @@ import org.bukkit.event.weather.WeatherEvent;
 public class LightningStrikeEvent extends WeatherEvent implements Cancellable  {
 
 
+	public LightningStrikeEvent(World world, LightningStrike bolt) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

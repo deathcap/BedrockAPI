@@ -18,6 +18,11 @@ import org.bukkit.inventory.InventoryView;
 public class InventoryEvent extends Event  {
 
 
+	protected InventoryView transaction = null;
+
+	public InventoryEvent(InventoryView transaction) {
+	}
+
 	public Inventory getInventory() {
 		return null;
 	}

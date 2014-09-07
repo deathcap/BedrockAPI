@@ -33,8 +33,6 @@ public interface Villager extends Ageable, NPC  {
 		BUTCHER,
 		;
 	
-	
-	
 		@Deprecated public int getId() {
 			return 0;
 		}

@@ -12,6 +12,12 @@ import org.bukkit.event.entity.EntityEvent;
 public class ExplosionPrimeEvent extends EntityEvent implements Cancellable  {
 
 
+	public ExplosionPrimeEvent(Entity what, float radius, boolean fire) {
+	}
+
+	public ExplosionPrimeEvent(Explosive explosive) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

@@ -10,6 +10,21 @@ import org.bukkit.material.MaterialData;
 public class Dye extends MaterialData implements Colorable  {
 
 
+	public Dye() {
+	}
+
+	@Deprecated public Dye(int type) {
+	}
+
+	public Dye(Material type) {
+	}
+
+	@Deprecated public Dye(int type, byte data) {
+	}
+
+	@Deprecated public Dye(Material type, byte data) {
+	}
+
 	public DyeColor getColor() {
 		return null;
 	}

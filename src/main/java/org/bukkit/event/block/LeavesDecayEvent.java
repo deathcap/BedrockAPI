@@ -11,6 +11,9 @@ import org.bukkit.event.block.BlockEvent;
 public class LeavesDecayEvent extends BlockEvent implements Cancellable  {
 
 
+	public LeavesDecayEvent(Block block) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

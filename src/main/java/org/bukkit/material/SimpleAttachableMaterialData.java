@@ -17,6 +17,24 @@ import org.bukkit.material.TripwireHook;
 public abstract class SimpleAttachableMaterialData extends MaterialData implements Attachable  {
 
 
+	@Deprecated public SimpleAttachableMaterialData(int type) {
+	}
+
+	public SimpleAttachableMaterialData(int type, BlockFace direction) {
+	}
+
+	public SimpleAttachableMaterialData(Material type, BlockFace direction) {
+	}
+
+	public SimpleAttachableMaterialData(Material type) {
+	}
+
+	@Deprecated public SimpleAttachableMaterialData(int type, byte data) {
+	}
+
+	@Deprecated public SimpleAttachableMaterialData(Material type, byte data) {
+	}
+
 	public BlockFace getFacing() {
 		return null;
 	}

@@ -11,8 +11,6 @@ public enum GameMode  {
 	ADVENTURE,
 	;
 
-
-
 	@Deprecated public int getValue() {
 		return 0;
 	}

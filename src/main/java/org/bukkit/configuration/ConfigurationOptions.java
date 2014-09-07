@@ -8,6 +8,9 @@ import org.bukkit.configuration.MemoryConfigurationOptions;
 public class ConfigurationOptions extends Object  {
 
 
+	protected ConfigurationOptions(Configuration configuration) {
+	}
+
 	public Configuration configuration() {
 		return null;
 	}

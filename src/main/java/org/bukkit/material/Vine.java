@@ -9,6 +9,21 @@ import org.bukkit.material.Vine;
 public class Vine extends MaterialData  {
 
 
+	public Vine() {
+	}
+
+	@Deprecated public Vine(int type, byte data) {
+	}
+
+	@Deprecated public Vine(byte data) {
+	}
+
+	public Vine(BlockFace... faces) {
+	}
+
+	public Vine(EnumSet<BlockFace> faces) {
+	}
+
 	public boolean isOnFace(BlockFace face) {
 		return false;
 	}

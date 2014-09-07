@@ -8,6 +8,17 @@ import org.bukkit.help.IndexHelpTopic;
 public abstract class HelpTopic extends Object  {
 
 
+	protected String name = null;
+
+	protected String shortText = null;
+
+	protected String fullText = null;
+
+	protected String amendedPermission = null;
+
+	public HelpTopic() {
+	}
+
 	public abstract boolean canSee(CommandSender player);
 
 	public void amendCanSee(String amendedPermission) {

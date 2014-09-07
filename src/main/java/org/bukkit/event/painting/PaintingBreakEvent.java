@@ -16,6 +16,9 @@ import org.bukkit.event.painting.PaintingEvent;
 @Deprecated public class PaintingBreakEvent extends PaintingEvent implements Cancellable  {
 
 
+	public PaintingBreakEvent(Painting painting, PaintingBreakEvent.RemoveCause cause) {
+	}
+
 	public PaintingBreakEvent.RemoveCause getCause() {
 		return null;
 	}
@@ -46,7 +49,5 @@ import org.bukkit.event.painting.PaintingEvent;
 		WATER,
 		PHYSICS,
 		;
-	
-	
 	}
 }

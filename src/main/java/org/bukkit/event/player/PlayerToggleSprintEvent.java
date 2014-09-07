@@ -11,6 +11,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerToggleSprintEvent extends PlayerEvent implements Cancellable  {
 
 
+	public PlayerToggleSprintEvent(Player player, boolean isSprinting) {
+	}
+
 	public boolean isSprinting() {
 		return false;
 	}

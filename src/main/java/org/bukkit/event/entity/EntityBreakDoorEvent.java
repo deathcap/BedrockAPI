@@ -12,6 +12,9 @@ import org.bukkit.event.entity.EntityEvent;
 public class EntityBreakDoorEvent extends EntityChangeBlockEvent  {
 
 
+	public EntityBreakDoorEvent(LivingEntity entity, Block targetBlock) {
+	}
+
 	public LivingEntity getEntity() {
 		return null;
 	}

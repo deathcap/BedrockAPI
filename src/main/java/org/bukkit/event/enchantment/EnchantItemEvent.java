@@ -16,6 +16,9 @@ import org.bukkit.inventory.ItemStack;
 public class EnchantItemEvent extends InventoryEvent implements Cancellable  {
 
 
+	public EnchantItemEvent(Player enchanter, InventoryView view, Block table, ItemStack item, int level, Map<Enchantment,Integer> enchants, int i) {
+	}
+
 	public Player getEnchanter() {
 		return null;
 	}

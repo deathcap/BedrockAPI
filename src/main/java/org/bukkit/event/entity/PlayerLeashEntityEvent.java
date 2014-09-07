@@ -11,6 +11,9 @@ import org.bukkit.event.HandlerList;
 public class PlayerLeashEntityEvent extends Event implements Cancellable  {
 
 
+	public PlayerLeashEntityEvent(Entity what, Entity leashHolder, Player leasher) {
+	}
+
 	public Entity getLeashHolder() {
 		return null;
 	}

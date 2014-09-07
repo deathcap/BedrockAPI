@@ -5,4 +5,10 @@ import java.io.Serializable;
 
 public class ChannelNameTooLongException extends RuntimeException  {
 
+
+	public ChannelNameTooLongException() {
+	}
+
+	public ChannelNameTooLongException(String channel) {
+	}
 }

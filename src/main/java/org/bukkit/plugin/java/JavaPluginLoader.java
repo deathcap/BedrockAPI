@@ -18,6 +18,9 @@ import org.bukkit.plugin.RegisteredListener;
 public final class JavaPluginLoader extends Object implements PluginLoader  {
 
 
+	@Deprecated public JavaPluginLoader(Server instance) {
+	}
+
 	public Plugin loadPlugin(File file) throws InvalidPluginException {
 		return null;
 	}

@@ -10,6 +10,4 @@ public enum DisplaySlot  {
 	PLAYER_LIST,
 	SIDEBAR,
 	;
-
-
 }

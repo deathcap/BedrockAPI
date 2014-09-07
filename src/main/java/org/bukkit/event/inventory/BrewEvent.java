@@ -12,6 +12,9 @@ import org.bukkit.inventory.BrewerInventory;
 public class BrewEvent extends BlockEvent implements Cancellable  {
 
 
+	public BrewEvent(Block brewer, BrewerInventory contents) {
+	}
+
 	public BrewerInventory getContents() {
 		return null;
 	}

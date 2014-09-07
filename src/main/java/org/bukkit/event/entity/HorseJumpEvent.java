@@ -11,6 +11,9 @@ import org.bukkit.event.entity.EntityEvent;
 public class HorseJumpEvent extends EntityEvent implements Cancellable  {
 
 
+	public HorseJumpEvent(Horse horse, float power) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

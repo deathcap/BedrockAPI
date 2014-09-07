@@ -16,6 +16,17 @@ import org.bukkit.inventory.ItemStack;
 public class PlayerInteractEvent extends PlayerEvent implements Cancellable  {
 
 
+	protected ItemStack item = null;
+
+	protected Action action = null;
+
+	protected Block blockClicked = null;
+
+	protected BlockFace blockFace = null;
+
+	public PlayerInteractEvent(Player who, Action action, ItemStack item, Block clickedBlock, BlockFace clickedFace) {
+	}
+
 	public Action getAction() {
 		return null;
 	}

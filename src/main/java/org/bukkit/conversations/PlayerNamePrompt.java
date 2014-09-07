@@ -10,6 +10,9 @@ import org.bukkit.plugin.Plugin;
 public abstract class PlayerNamePrompt extends ValidatingPrompt  {
 
 
+	public PlayerNamePrompt(Plugin plugin) {
+	}
+
 	protected boolean isInputValid(ConversationContext context, String input) {
 		return false;
 	}

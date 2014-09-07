@@ -43,6 +43,10 @@ import org.bukkit.util.CachedServerIcon;
 public interface Server extends PluginMessageRecipient  {
 
 
+	static final String BROADCAST_CHANNEL_ADMINISTRATIVE = null;
+
+	static final String BROADCAST_CHANNEL_USERS = null;
+
 	String getName();
 
 	String getVersion();

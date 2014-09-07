@@ -11,6 +11,9 @@ import org.bukkit.plugin.RegisteredServiceProvider;
 public class ServiceRegisterEvent extends ServiceEvent  {
 
 
+	public ServiceRegisterEvent(RegisteredServiceProvider<?> registeredProvider) {
+	}
+
 	public HandlerList getHandlers() {
 		return null;
 	}

@@ -13,6 +13,18 @@ import org.bukkit.material.MaterialData;
 public class DirectionalContainer extends MaterialData implements Directional  {
 
 
+	@Deprecated public DirectionalContainer(int type) {
+	}
+
+	public DirectionalContainer(Material type) {
+	}
+
+	@Deprecated public DirectionalContainer(int type, byte data) {
+	}
+
+	@Deprecated public DirectionalContainer(Material type, byte data) {
+	}
+
 	public void setFacingDirection(BlockFace face) {
 	}
 

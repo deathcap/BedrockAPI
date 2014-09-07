@@ -34,8 +34,6 @@ public enum Art  {
 	DONKEYKONG,
 	;
 
-
-
 	public int getBlockWidth() {
 		return 0;
 	}

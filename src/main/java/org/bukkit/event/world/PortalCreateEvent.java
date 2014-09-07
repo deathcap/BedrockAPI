@@ -18,6 +18,9 @@ import org.bukkit.event.world.WorldEvent;
 public class PortalCreateEvent extends WorldEvent implements Cancellable  {
 
 
+	public PortalCreateEvent(Collection<Block> blocks, World world, PortalCreateEvent.CreateReason reason) {
+	}
+
 	public ArrayList<Block> getBlocks() {
 		return null;
 	}
@@ -49,7 +52,5 @@ public class PortalCreateEvent extends WorldEvent implements Cancellable  {
 		FIRE,
 		OBC_DESTINATION,
 		;
-	
-	
 	}
 }

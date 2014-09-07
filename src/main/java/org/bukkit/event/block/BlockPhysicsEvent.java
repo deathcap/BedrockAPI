@@ -12,6 +12,9 @@ import org.bukkit.event.block.BlockEvent;
 public class BlockPhysicsEvent extends BlockEvent implements Cancellable  {
 
 
+	@Deprecated public BlockPhysicsEvent(Block block, int changed) {
+	}
+
 	@Deprecated public int getChangedTypeId() {
 		return 0;
 	}

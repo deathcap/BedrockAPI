@@ -14,6 +14,11 @@ import org.bukkit.inventory.ItemStack;
 public abstract class InventoryView extends Object  {
 
 
+	public static final int OUTSIDE = 0;
+
+	public InventoryView() {
+	}
+
 	public abstract Inventory getTopInventory();
 
 	public abstract Inventory getBottomInventory();
@@ -68,8 +73,6 @@ public abstract class InventoryView extends Object  {
 		ENCHANT_BUTTON2,
 		ENCHANT_BUTTON3,
 		;
-	
-	
 	
 		public InventoryType getType() {
 			return null;

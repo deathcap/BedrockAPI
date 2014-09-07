@@ -8,6 +8,15 @@ import org.bukkit.util.noise.OctaveGenerator;
 public class SimplexOctaveGenerator extends OctaveGenerator  {
 
 
+	public SimplexOctaveGenerator(World world, int octaves) {
+	}
+
+	public SimplexOctaveGenerator(long seed, int octaves) {
+	}
+
+	public SimplexOctaveGenerator(Random rand, int octaves) {
+	}
+
 	public void setScale(double scale) {
 	}
 

@@ -11,6 +11,9 @@ import org.bukkit.event.vehicle.VehicleEvent;
 public class VehicleMoveEvent extends VehicleEvent  {
 
 
+	public VehicleMoveEvent(Vehicle vehicle, Location from, Location to) {
+	}
+
 	public Location getFrom() {
 		return null;
 	}

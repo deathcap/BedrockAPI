@@ -9,6 +9,4 @@ public enum PluginChannelDirection  {
 	INCOMING,
 	OUTGOING,
 	;
-
-
 }

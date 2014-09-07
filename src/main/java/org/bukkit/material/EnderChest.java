@@ -11,6 +11,24 @@ import org.bukkit.material.MaterialData;
 public class EnderChest extends DirectionalContainer  {
 
 
+	public EnderChest() {
+	}
+
+	public EnderChest(BlockFace direction) {
+	}
+
+	@Deprecated public EnderChest(int type) {
+	}
+
+	public EnderChest(Material type) {
+	}
+
+	@Deprecated public EnderChest(int type, byte data) {
+	}
+
+	@Deprecated public EnderChest(Material type, byte data) {
+	}
+
 	public EnderChest clone() {
 		return null;
 	}

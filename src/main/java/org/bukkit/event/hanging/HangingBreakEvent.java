@@ -16,6 +16,9 @@ import org.bukkit.event.hanging.HangingEvent;
 public class HangingBreakEvent extends HangingEvent implements Cancellable  {
 
 
+	public HangingBreakEvent(Hanging hanging, HangingBreakEvent.RemoveCause cause) {
+	}
+
 	public HangingBreakEvent.RemoveCause getCause() {
 		return null;
 	}
@@ -46,7 +49,5 @@ public class HangingBreakEvent extends HangingEvent implements Cancellable  {
 		PHYSICS,
 		DEFAULT,
 		;
-	
-	
 	}
 }

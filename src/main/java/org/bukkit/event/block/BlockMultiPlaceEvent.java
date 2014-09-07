@@ -15,6 +15,9 @@ import org.bukkit.inventory.ItemStack;
 public class BlockMultiPlaceEvent extends BlockPlaceEvent  {
 
 
+	public BlockMultiPlaceEvent(List<BlockState> states, Block clicked, ItemStack itemInHand, Player thePlayer, boolean canBuild) {
+	}
+
 	public List<BlockState> getReplacedBlockStates() {
 		return null;
 	}

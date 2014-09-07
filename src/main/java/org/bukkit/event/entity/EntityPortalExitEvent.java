@@ -14,6 +14,9 @@ import org.bukkit.util.Vector;
 public class EntityPortalExitEvent extends EntityTeleportEvent  {
 
 
+	public EntityPortalExitEvent(Entity entity, Location from, Location to, Vector before, Vector after) {
+	}
+
 	public Vector getBefore() {
 		return null;
 	}

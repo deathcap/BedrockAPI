@@ -16,6 +16,9 @@ import org.bukkit.inventory.ItemStack;
 public class PlayerBucketFillEvent extends PlayerBucketEvent  {
 
 
+	public PlayerBucketFillEvent(Player who, Block blockClicked, BlockFace blockFace, Material bucket, ItemStack itemInHand) {
+	}
+
 	public HandlerList getHandlers() {
 		return null;
 	}

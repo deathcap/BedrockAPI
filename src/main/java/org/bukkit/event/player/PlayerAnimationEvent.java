@@ -12,6 +12,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerAnimationEvent extends PlayerEvent implements Cancellable  {
 
 
+	public PlayerAnimationEvent(Player player) {
+	}
+
 	public PlayerAnimationType getAnimationType() {
 		return null;
 	}

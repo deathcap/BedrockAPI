@@ -13,6 +13,12 @@ import org.bukkit.event.player.PlayerPreLoginEvent.Result;
 @Deprecated public class PlayerPreLoginEvent extends Event  {
 
 
+	@Deprecated public PlayerPreLoginEvent(String name, InetAddress ipAddress) {
+	}
+
+	public PlayerPreLoginEvent(String name, InetAddress ipAddress, UUID uniqueId) {
+	}
+
 	public PlayerPreLoginEvent.Result getResult() {
 		return null;
 	}
@@ -64,7 +70,5 @@ import org.bukkit.event.player.PlayerPreLoginEvent.Result;
 		KICK_WHITELIST,
 		KICK_OTHER,
 		;
-	
-	
 	}
 }

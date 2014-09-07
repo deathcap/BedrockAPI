@@ -12,8 +12,6 @@ public enum Difficulty  {
 	HARD,
 	;
 
-
-
 	@Deprecated public int getValue() {
 		return 0;
 	}

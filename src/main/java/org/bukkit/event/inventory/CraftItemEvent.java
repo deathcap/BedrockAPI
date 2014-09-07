@@ -17,6 +17,15 @@ import org.bukkit.inventory.Recipe;
 public class CraftItemEvent extends InventoryClickEvent  {
 
 
+	@Deprecated public CraftItemEvent(Recipe recipe, InventoryView what, InventoryType.SlotType type, int slot, boolean right, boolean shift) {
+	}
+
+	public CraftItemEvent(Recipe recipe, InventoryView what, InventoryType.SlotType type, int slot, ClickType click, InventoryAction action) {
+	}
+
+	public CraftItemEvent(Recipe recipe, InventoryView what, InventoryType.SlotType type, int slot, ClickType click, InventoryAction action, int key) {
+	}
+
 	public Recipe getRecipe() {
 		return null;
 	}

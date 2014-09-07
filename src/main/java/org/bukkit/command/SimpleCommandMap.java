@@ -13,6 +13,11 @@ import org.bukkit.command.CommandSender;
 public class SimpleCommandMap extends Object implements CommandMap  {
 
 
+	protected final Map<String,Command> knownCommands = null;
+
+	public SimpleCommandMap(Server server) {
+	}
+
 	public void setFallbackCommands() {
 	}
 

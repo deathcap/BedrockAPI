@@ -18,6 +18,12 @@ import org.bukkit.event.player.PlayerTeleportEvent.TeleportCause;
 public class PlayerTeleportEvent extends PlayerMoveEvent  {
 
 
+	public PlayerTeleportEvent(Player player, Location from, Location to) {
+	}
+
+	public PlayerTeleportEvent(Player player, Location from, Location to, PlayerTeleportEvent.TeleportCause cause) {
+	}
+
 	public PlayerTeleportEvent.TeleportCause getCause() {
 		return null;
 	}
@@ -42,7 +48,5 @@ public class PlayerTeleportEvent extends PlayerMoveEvent  {
 		END_PORTAL,
 		UNKNOWN,
 		;
-	
-	
 	}
 }

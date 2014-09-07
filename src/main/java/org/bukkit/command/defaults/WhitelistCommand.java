@@ -9,6 +9,9 @@ import org.bukkit.command.defaults.VanillaCommand;
 public class WhitelistCommand extends VanillaCommand  {
 
 
+	public WhitelistCommand() {
+	}
+
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {
 		return false;
 	}

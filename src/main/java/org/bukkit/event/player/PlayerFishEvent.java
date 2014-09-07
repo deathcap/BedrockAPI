@@ -17,6 +17,12 @@ import org.bukkit.event.player.PlayerFishEvent.State;
 public class PlayerFishEvent extends PlayerEvent implements Cancellable  {
 
 
+	@Deprecated public PlayerFishEvent(Player player, Entity entity, PlayerFishEvent.State state) {
+	}
+
+	public PlayerFishEvent(Player player, Entity entity, Fish hookEntity, PlayerFishEvent.State state) {
+	}
+
 	public Entity getCaught() {
 		return null;
 	}
@@ -62,7 +68,5 @@ public class PlayerFishEvent extends PlayerEvent implements Cancellable  {
 		IN_GROUND,
 		FAILED_ATTEMPT,
 		;
-	
-	
 	}
 }

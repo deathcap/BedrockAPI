@@ -9,6 +9,9 @@ import org.bukkit.command.defaults.VanillaCommand;
 public class KillCommand extends VanillaCommand  {
 
 
+	public KillCommand() {
+	}
+
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {
 		return false;
 	}

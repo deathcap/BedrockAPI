@@ -11,6 +11,9 @@ import org.bukkit.plugin.ServicesManager;
 public class SimpleServicesManager extends Object implements ServicesManager  {
 
 
+	public SimpleServicesManager() {
+	}
+
 	public <T> void register(Class<T> service, T provider, Plugin plugin, ServicePriority priority) {
 	}
 

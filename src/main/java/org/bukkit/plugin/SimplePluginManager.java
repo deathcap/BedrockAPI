@@ -20,6 +20,9 @@ import org.bukkit.plugin.UnknownDependencyException;
 public final class SimplePluginManager extends Object implements PluginManager  {
 
 
+	public SimplePluginManager(Server instance, SimpleCommandMap commandMap) {
+	}
+
 	public void registerInterface(Class<? extends PluginLoader> loader) throws IllegalArgumentException {
 	}
 

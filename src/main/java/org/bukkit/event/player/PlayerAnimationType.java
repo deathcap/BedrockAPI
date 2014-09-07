@@ -8,6 +8,4 @@ public enum PlayerAnimationType  {
 
 	ARM_SWING,
 	;
-
-
 }

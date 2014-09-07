@@ -12,6 +12,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerGameModeChangeEvent extends PlayerEvent implements Cancellable  {
 
 
+	public PlayerGameModeChangeEvent(Player player, GameMode newGameMode) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

@@ -22,8 +22,6 @@ public enum PotionType  {
 	INVISIBILITY,
 	;
 
-
-
 	public PotionEffectType getEffectType() {
 		return null;
 	}

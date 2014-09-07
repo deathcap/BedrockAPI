@@ -15,6 +15,14 @@ import org.bukkit.util.Vector;
 public class MemorySection extends Object implements ConfigurationSection  {
 
 
+	protected final Map<String,Object> map = null;
+
+	protected MemorySection() {
+	}
+
+	protected MemorySection(ConfigurationSection parent, String path) {
+	}
+
 	public Set<String> getKeys(boolean deep) {
 		return null;
 	}

@@ -13,6 +13,9 @@ import org.bukkit.event.entity.EntityEvent;
 public class EntityCombustEvent extends EntityEvent implements Cancellable  {
 
 
+	public EntityCombustEvent(Entity combustee, int duration) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

@@ -11,6 +11,9 @@ import org.bukkit.event.entity.EntityEvent;
 public class FoodLevelChangeEvent extends EntityEvent implements Cancellable  {
 
 
+	public FoodLevelChangeEvent(HumanEntity what, int level) {
+	}
+
 	public HumanEntity getEntity() {
 		return null;
 	}

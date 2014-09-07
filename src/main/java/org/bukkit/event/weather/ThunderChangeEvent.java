@@ -11,6 +11,9 @@ import org.bukkit.event.weather.WeatherEvent;
 public class ThunderChangeEvent extends WeatherEvent implements Cancellable  {
 
 
+	public ThunderChangeEvent(World world, boolean to) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

@@ -8,6 +8,12 @@ import org.bukkit.map.MapView;
 public abstract class MapRenderer extends Object  {
 
 
+	public MapRenderer() {
+	}
+
+	public MapRenderer(boolean contextual) {
+	}
+
 	public final boolean isContextual() {
 		return false;
 	}

@@ -11,6 +11,21 @@ import org.bukkit.material.Openable;
 @Deprecated public class Door extends MaterialData implements Directional, Openable  {
 
 
+	public Door() {
+	}
+
+	@Deprecated public Door(int type) {
+	}
+
+	public Door(Material type) {
+	}
+
+	@Deprecated public Door(int type, byte data) {
+	}
+
+	@Deprecated public Door(Material type, byte data) {
+	}
+
 	@Deprecated public boolean isOpen() {
 		return false;
 	}

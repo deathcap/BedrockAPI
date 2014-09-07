@@ -16,6 +16,9 @@ import org.bukkit.event.world.WorldUnloadEvent;
 public abstract class WorldEvent extends Event  {
 
 
+	public WorldEvent(World world) {
+	}
+
 	public World getWorld() {
 		return null;
 	}

@@ -12,6 +12,24 @@ import org.bukkit.material.MaterialData;
 public class Dispenser extends FurnaceAndDispenser  {
 
 
+	public Dispenser() {
+	}
+
+	public Dispenser(BlockFace direction) {
+	}
+
+	@Deprecated public Dispenser(int type) {
+	}
+
+	public Dispenser(Material type) {
+	}
+
+	@Deprecated public Dispenser(int type, byte data) {
+	}
+
+	@Deprecated public Dispenser(Material type, byte data) {
+	}
+
 	public void setFacingDirection(BlockFace face) {
 	}
 

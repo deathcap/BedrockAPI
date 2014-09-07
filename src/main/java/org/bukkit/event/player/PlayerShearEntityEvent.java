@@ -12,6 +12,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerShearEntityEvent extends PlayerEvent implements Cancellable  {
 
 
+	public PlayerShearEntityEvent(Player who, Entity what) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

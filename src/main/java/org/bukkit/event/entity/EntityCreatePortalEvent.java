@@ -14,6 +14,9 @@ import org.bukkit.event.entity.EntityEvent;
 public class EntityCreatePortalEvent extends EntityEvent implements Cancellable  {
 
 
+	public EntityCreatePortalEvent(LivingEntity what, List<BlockState> blocks, PortalType type) {
+	}
+
 	public LivingEntity getEntity() {
 		return null;
 	}

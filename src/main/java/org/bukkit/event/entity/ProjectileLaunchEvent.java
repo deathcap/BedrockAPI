@@ -12,6 +12,9 @@ import org.bukkit.event.entity.EntityEvent;
 public class ProjectileLaunchEvent extends EntityEvent implements Cancellable  {
 
 
+	public ProjectileLaunchEvent(Entity what) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

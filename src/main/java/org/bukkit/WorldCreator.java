@@ -11,6 +11,9 @@ import org.bukkit.generator.ChunkGenerator;
 public class WorldCreator extends Object  {
 
 
+	public WorldCreator(String name) {
+	}
+
 	public WorldCreator copy(World world) {
 		return null;
 	}

@@ -21,8 +21,6 @@ public enum EntityEffect  {
 	FIREWORK_EXPLODE,
 	;
 
-
-
 	@Deprecated public byte getData() {
 		return 0;
 	}

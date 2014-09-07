@@ -12,6 +12,9 @@ import org.bukkit.event.block.BlockEvent;
 public class BlockFadeEvent extends BlockEvent implements Cancellable  {
 
 
+	public BlockFadeEvent(Block block, BlockState newState) {
+	}
+
 	public BlockState getNewState() {
 		return null;
 	}

@@ -13,6 +13,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class AsyncPlayerChatEvent extends PlayerEvent implements Cancellable  {
 
 
+	public AsyncPlayerChatEvent(boolean async, Player who, String message, Set<Player> players) {
+	}
+
 	public String getMessage() {
 		return null;
 	}

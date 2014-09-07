@@ -11,6 +11,21 @@ import org.bukkit.material.Rails;
 public class DetectorRail extends ExtendedRails implements PressureSensor  {
 
 
+	public DetectorRail() {
+	}
+
+	@Deprecated public DetectorRail(int type) {
+	}
+
+	public DetectorRail(Material type) {
+	}
+
+	@Deprecated public DetectorRail(int type, byte data) {
+	}
+
+	@Deprecated public DetectorRail(Material type, byte data) {
+	}
+
 	public boolean isPressed() {
 		return false;
 	}

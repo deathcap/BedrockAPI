@@ -10,6 +10,21 @@ import org.bukkit.material.TexturedMaterial;
 public class MonsterEggs extends TexturedMaterial  {
 
 
+	public MonsterEggs() {
+	}
+
+	@Deprecated public MonsterEggs(int type) {
+	}
+
+	public MonsterEggs(Material type) {
+	}
+
+	@Deprecated public MonsterEggs(int type, byte data) {
+	}
+
+	@Deprecated public MonsterEggs(Material type, byte data) {
+	}
+
 	public List<Material> getTextures() {
 		return null;
 	}

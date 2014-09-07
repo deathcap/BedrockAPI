@@ -12,6 +12,36 @@ import org.bukkit.material.MaterialData;
 public class ItemStack extends Object implements Cloneable, ConfigurationSerializable  {
 
 
+	protected ItemStack() {
+	}
+
+	@Deprecated public ItemStack(int type) {
+	}
+
+	public ItemStack(Material type) {
+	}
+
+	@Deprecated public ItemStack(int type, int amount) {
+	}
+
+	public ItemStack(Material type, int amount) {
+	}
+
+	@Deprecated public ItemStack(int type, int amount, short damage) {
+	}
+
+	public ItemStack(Material type, int amount, short damage) {
+	}
+
+	@Deprecated public ItemStack(int type, int amount, short damage, Byte data) {
+	}
+
+	@Deprecated public ItemStack(Material type, int amount, short damage, Byte data) {
+	}
+
+	public ItemStack(ItemStack stack) throws IllegalArgumentException {
+	}
+
 	public Material getType() {
 		return null;
 	}

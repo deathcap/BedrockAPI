@@ -8,6 +8,11 @@ import org.bukkit.plugin.Plugin;
 public abstract class MetadataValueAdapter extends Object implements MetadataValue  {
 
 
+	protected final WeakReference<Plugin> owningPlugin = null;
+
+	protected MetadataValueAdapter(Plugin owningPlugin) {
+	}
+
 	public Plugin getOwningPlugin() {
 		return null;
 	}

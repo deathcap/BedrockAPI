@@ -8,6 +8,9 @@ import org.bukkit.plugin.Plugin;
 public class PluginLogger extends Logger  {
 
 
+	public PluginLogger(Plugin context) {
+	}
+
     /**
      * Protected method to construct a logger for a named subsystem.
      * <p/>

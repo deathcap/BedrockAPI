@@ -13,6 +13,9 @@ import org.bukkit.event.entity.EntityEvent;
 public class PigZapEvent extends EntityEvent implements Cancellable  {
 
 
+	public PigZapEvent(Pig pig, LightningStrike bolt, PigZombie pigzombie) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

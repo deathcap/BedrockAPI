@@ -9,6 +9,24 @@ import org.bukkit.material.WoodenStep;
 public class WoodenStep extends MaterialData  {
 
 
+	public WoodenStep() {
+	}
+
+	@Deprecated public WoodenStep(int type) {
+	}
+
+	public WoodenStep(TreeSpecies species) {
+	}
+
+	public WoodenStep(TreeSpecies species, boolean inv) {
+	}
+
+	@Deprecated public WoodenStep(int type, byte data) {
+	}
+
+	@Deprecated public WoodenStep(Material type, byte data) {
+	}
+
 	public TreeSpecies getSpecies() {
 		return null;
 	}

@@ -8,6 +8,9 @@ import org.bukkit.plugin.Plugin;
 public abstract class MetadataStoreBase<T> extends Object  {
 
 
+	public MetadataStoreBase() {
+	}
+
 	public void setMetadata(T subject, String metadataKey, MetadataValue newMetadataValue) {
 	}
 

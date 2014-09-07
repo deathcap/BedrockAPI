@@ -37,8 +37,6 @@ public interface Ocelot extends Animals, Tameable  {
 		SIAMESE_CAT,
 		;
 	
-	
-	
 		@Deprecated public int getId() {
 			return 0;
 		}

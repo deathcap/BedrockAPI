@@ -8,6 +8,21 @@ import org.bukkit.material.MaterialData;
 public class Cake extends MaterialData  {
 
 
+	public Cake() {
+	}
+
+	@Deprecated public Cake(int type) {
+	}
+
+	public Cake(Material type) {
+	}
+
+	@Deprecated public Cake(int type, byte data) {
+	}
+
+	@Deprecated public Cake(Material type, byte data) {
+	}
+
 	public int getSlicesEaten() {
 		return 0;
 	}

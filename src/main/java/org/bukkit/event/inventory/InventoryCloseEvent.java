@@ -11,6 +11,9 @@ import org.bukkit.inventory.InventoryView;
 public class InventoryCloseEvent extends InventoryEvent  {
 
 
+	public InventoryCloseEvent(InventoryView transaction) {
+	}
+
 	public final HumanEntity getPlayer() {
 		return null;
 	}

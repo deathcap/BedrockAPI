@@ -25,6 +25,15 @@ import org.bukkit.plugin.java.JavaPluginLoader;
 public abstract class JavaPlugin extends PluginBase  {
 
 
+	public JavaPlugin() {
+	}
+
+	@Deprecated protected JavaPlugin(PluginLoader loader, Server server, PluginDescriptionFile description, File dataFolder, File file) {
+	}
+
+	protected JavaPlugin(JavaPluginLoader loader, PluginDescriptionFile description, File dataFolder, File file) {
+	}
+
 	public final File getDataFolder() {
 		return null;
 	}

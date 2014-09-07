@@ -11,6 +11,18 @@ import org.bukkit.material.Redstone;
 public class PistonBaseMaterial extends MaterialData implements Directional, Redstone  {
 
 
+	@Deprecated public PistonBaseMaterial(int type) {
+	}
+
+	public PistonBaseMaterial(Material type) {
+	}
+
+	@Deprecated public PistonBaseMaterial(int type, byte data) {
+	}
+
+	@Deprecated public PistonBaseMaterial(Material type, byte data) {
+	}
+
 	public void setFacingDirection(BlockFace face) {
 	}
 

@@ -11,6 +11,9 @@ import org.bukkit.configuration.file.YamlConfigurationOptions;
 public class FileConfigurationOptions extends MemoryConfigurationOptions  {
 
 
+	protected FileConfigurationOptions(MemoryConfiguration configuration) {
+	}
+
 	public FileConfiguration configuration() {
 		return null;
 	}

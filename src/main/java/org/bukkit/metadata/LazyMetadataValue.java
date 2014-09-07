@@ -14,6 +14,15 @@ import org.bukkit.plugin.Plugin;
 public class LazyMetadataValue extends MetadataValueAdapter implements MetadataValue  {
 
 
+	public LazyMetadataValue(Plugin owningPlugin, Callable<Object> lazyValue) {
+	}
+
+	public LazyMetadataValue(Plugin owningPlugin, LazyMetadataValue.CacheStrategy cacheStrategy, Callable<Object> lazyValue) {
+	}
+
+	protected LazyMetadataValue(Plugin owningPlugin) {
+	}
+
 	public Object value() {
 		return null;
 	}
@@ -30,7 +39,5 @@ public class LazyMetadataValue extends MetadataValueAdapter implements MetadataV
 		NEVER_CACHE,
 		CACHE_ETERNALLY,
 		;
-	
-	
 	}
 }

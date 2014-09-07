@@ -11,6 +11,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerBedLeaveEvent extends PlayerEvent  {
 
 
+	public PlayerBedLeaveEvent(Player who, Block bed) {
+	}
+
 	public Block getBed() {
 		return null;
 	}

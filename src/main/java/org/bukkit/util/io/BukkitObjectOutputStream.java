@@ -14,6 +14,12 @@ import java.io.OutputStream;
 public class BukkitObjectOutputStream extends ObjectOutputStream  {
 
 
+	protected BukkitObjectOutputStream() throws IOException, SecurityException {
+	}
+
+	public BukkitObjectOutputStream(OutputStream out) throws IOException {
+	}
+
     public BukkitObjectOutputStream(OutputStream out) throws IOException {
         super(out);
     }

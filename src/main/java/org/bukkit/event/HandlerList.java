@@ -11,6 +11,9 @@ import org.bukkit.plugin.RegisteredListener;
 public class HandlerList extends Object  {
 
 
+	public HandlerList() {
+	}
+
 	public static void bakeAll() {
 	}
 

@@ -10,6 +10,24 @@ import org.bukkit.material.MaterialData;
 public class Bed extends MaterialData implements Directional  {
 
 
+	public Bed() {
+	}
+
+	public Bed(BlockFace direction) {
+	}
+
+	@Deprecated public Bed(int type) {
+	}
+
+	public Bed(Material type) {
+	}
+
+	@Deprecated public Bed(int type, byte data) {
+	}
+
+	@Deprecated public Bed(Material type, byte data) {
+	}
+
 	public boolean isHeadOfBed() {
 		return false;
 	}

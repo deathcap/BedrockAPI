@@ -15,6 +15,12 @@ import org.bukkit.event.entity.EntityEvent;
 public class EntityChangeBlockEvent extends EntityEvent implements Cancellable  {
 
 
+	@Deprecated public EntityChangeBlockEvent(LivingEntity what, Block block, Material to) {
+	}
+
+	@Deprecated public EntityChangeBlockEvent(Entity what, Block block, Material to, byte data) {
+	}
+
 	public Block getBlock() {
 		return null;
 	}

@@ -11,6 +11,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerKickEvent extends PlayerEvent implements Cancellable  {
 
 
+	public PlayerKickEvent(Player playerKicked, String kickReason, String leaveMessage) {
+	}
+
 	public String getReason() {
 		return null;
 	}

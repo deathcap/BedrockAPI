@@ -13,6 +13,21 @@ import org.bukkit.material.Torch;
 public class Torch extends SimpleAttachableMaterialData  {
 
 
+	public Torch() {
+	}
+
+	@Deprecated public Torch(int type) {
+	}
+
+	public Torch(Material type) {
+	}
+
+	@Deprecated public Torch(int type, byte data) {
+	}
+
+	@Deprecated public Torch(Material type, byte data) {
+	}
+
 	public BlockFace getAttachedFace() {
 		return null;
 	}

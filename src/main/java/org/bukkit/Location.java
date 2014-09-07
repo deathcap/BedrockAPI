@@ -10,6 +10,12 @@ import org.bukkit.util.Vector;
 public class Location extends Object implements Cloneable  {
 
 
+	public Location(World world, double x, double y, double z) {
+	}
+
+	public Location(World world, double x, double y, double z, float yaw, float pitch) {
+	}
+
 	public void setWorld(World world) {
 	}
 

@@ -12,6 +12,9 @@ import org.bukkit.event.player.PlayerUnregisterChannelEvent;
 public abstract class PlayerChannelEvent extends PlayerEvent  {
 
 
+	public PlayerChannelEvent(Player player, String channel) {
+	}
+
 	public final String getChannel() {
 		return null;
 	}

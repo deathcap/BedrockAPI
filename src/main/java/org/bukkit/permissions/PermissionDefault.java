@@ -12,8 +12,6 @@ public enum PermissionDefault  {
 	NOT_OP,
 	;
 
-
-
 	public boolean getValue(boolean op) {
 		return false;
 	}

@@ -6,6 +6,9 @@ import java.util.Collection;
 public class StringUtil extends Object  {
 
 
+	public StringUtil() {
+	}
+
 	public static <T extends Collection<? super String>> T copyPartialMatches(String token, Iterable<String> originals, T collection) throws UnsupportedOperationException, IllegalArgumentException {
 		return null;
 	}

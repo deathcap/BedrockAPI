@@ -11,6 +11,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerChatTabCompleteEvent extends PlayerEvent  {
 
 
+	public PlayerChatTabCompleteEvent(Player who, String message, Collection<String> completions) {
+	}
+
 	public String getChatMessage() {
 		return null;
 	}

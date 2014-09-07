@@ -11,6 +11,11 @@ import org.bukkit.inventory.Inventory;
 @Deprecated public class PlayerInventoryEvent extends PlayerEvent  {
 
 
+	protected Inventory inventory = null;
+
+	public PlayerInventoryEvent(Player player, Inventory inventory) {
+	}
+
 	public Inventory getInventory() {
 		return null;
 	}

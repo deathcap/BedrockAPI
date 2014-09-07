@@ -72,8 +72,6 @@ public interface Horse extends Animals, Vehicle, InventoryHolder, Tameable  {
 		GRAY,
 		DARK_BROWN,
 		;
-	
-	
 	}
 
 	
@@ -87,8 +85,6 @@ public interface Horse extends Animals, Vehicle, InventoryHolder, Tameable  {
 		WHITE_DOTS,
 		BLACK_DOTS,
 		;
-	
-	
 	}
 
 	
@@ -102,7 +98,5 @@ public interface Horse extends Animals, Vehicle, InventoryHolder, Tameable  {
 		UNDEAD_HORSE,
 		SKELETON_HORSE,
 		;
-	
-	
 	}
 }

@@ -10,6 +10,9 @@ import org.bukkit.inventory.InventoryHolder;
 public class DoubleChest extends Object implements InventoryHolder  {
 
 
+	public DoubleChest(DoubleChestInventory chest) {
+	}
+
 	public Inventory getInventory() {
 		return null;
 	}

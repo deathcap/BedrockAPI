@@ -20,8 +20,6 @@ public enum EnchantmentTarget  {
 	FISHING_ROD,
 	;
 
-
-
 	public boolean includes(Material item) {
         return false;
     }

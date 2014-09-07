@@ -25,6 +25,12 @@ import org.bukkit.event.world.WorldEvent;
 public abstract class Event extends Object  {
 
 
+	public Event() {
+	}
+
+	public Event(boolean isAsync) {
+	}
+
 	public String getEventName() {
 		return null;
 	}
@@ -44,7 +50,5 @@ public abstract class Event extends Object  {
 		DEFAULT,
 		ALLOW,
 		;
-	
-	
 	}
 }

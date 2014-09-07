@@ -12,6 +12,9 @@ import org.bukkit.event.entity.EntityEvent;
 public class ItemDespawnEvent extends EntityEvent implements Cancellable  {
 
 
+	public ItemDespawnEvent(Item despawnee, Location loc) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

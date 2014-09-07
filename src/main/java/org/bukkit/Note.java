@@ -10,6 +10,12 @@ import org.bukkit.Note.Tone;
 public class Note extends Object  {
 
 
+	public Note(int note) {
+	}
+
+	public Note(int octave, Note.Tone tone, boolean sharped) {
+	}
+
 	public static Note flat(int octave, Note.Tone tone) {
 		return null;
 	}
@@ -72,8 +78,6 @@ public class Note extends Object  {
 		F,
 		TONES_COUNT,
 		;
-	
-	
 	
 		@Deprecated public byte getId() {
 			return 0;

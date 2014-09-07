@@ -12,6 +12,9 @@ import org.bukkit.event.entity.EntityEvent;
 public class EntityTameEvent extends EntityEvent implements Cancellable  {
 
 
+	public EntityTameEvent(LivingEntity entity, AnimalTamer owner) {
+	}
+
 	public LivingEntity getEntity() {
 		return null;
 	}

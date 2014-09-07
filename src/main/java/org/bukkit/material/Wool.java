@@ -10,6 +10,24 @@ import org.bukkit.material.Wool;
 public class Wool extends MaterialData implements Colorable  {
 
 
+	public Wool() {
+	}
+
+	public Wool(DyeColor color) {
+	}
+
+	@Deprecated public Wool(int type) {
+	}
+
+	public Wool(Material type) {
+	}
+
+	@Deprecated public Wool(int type, byte data) {
+	}
+
+	@Deprecated public Wool(Material type, byte data) {
+	}
+
 	public DyeColor getColor() {
 		return null;
 	}

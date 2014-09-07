@@ -10,6 +10,24 @@ import org.bukkit.material.Skull;
 public class Skull extends MaterialData implements Directional  {
 
 
+	public Skull() {
+	}
+
+	public Skull(BlockFace direction) {
+	}
+
+	@Deprecated public Skull(int type) {
+	}
+
+	public Skull(Material type) {
+	}
+
+	@Deprecated public Skull(int type, byte data) {
+	}
+
+	@Deprecated public Skull(Material type, byte data) {
+	}
+
 	public void setFacingDirection(BlockFace face) {
 	}
 

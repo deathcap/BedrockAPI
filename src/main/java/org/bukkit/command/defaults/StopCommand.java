@@ -9,6 +9,9 @@ import org.bukkit.command.defaults.VanillaCommand;
 public class StopCommand extends VanillaCommand  {
 
 
+	public StopCommand() {
+	}
+
 	public boolean execute(CommandSender sender, String currentAlias, String[] args) {
 		return false;
 	}

@@ -71,8 +71,6 @@ public enum EntityType  {
 	UNKNOWN,
 	;
 
-
-
 	@Deprecated public String getName() {
 		return null;
 	}

@@ -8,6 +8,9 @@ import org.bukkit.conversations.ConversationContext;
 public class ExactMatchConversationCanceller extends Object implements ConversationCanceller  {
 
 
+	public ExactMatchConversationCanceller(String escapeSequence) {
+	}
+
 	public void setConversation(Conversation conversation) {
 	}
 

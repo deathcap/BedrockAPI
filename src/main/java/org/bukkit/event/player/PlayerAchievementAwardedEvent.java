@@ -12,6 +12,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerAchievementAwardedEvent extends PlayerEvent implements Cancellable  {
 
 
+	public PlayerAchievementAwardedEvent(Player player, Achievement achievement) {
+	}
+
 	public Achievement getAchievement() {
 		return null;
 	}

@@ -11,6 +11,16 @@ import org.bukkit.configuration.file.FileConfiguration;
 public class MemoryConfiguration extends MemorySection implements Configuration  {
 
 
+	protected Configuration defaults = null;
+
+	protected MemoryConfigurationOptions options = null;
+
+	public MemoryConfiguration() {
+	}
+
+	public MemoryConfiguration(Configuration defaults) {
+	}
+
 	public void addDefault(String path, Object value) {
 	}
 

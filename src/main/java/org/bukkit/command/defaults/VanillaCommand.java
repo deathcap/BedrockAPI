@@ -49,6 +49,12 @@ import org.bukkit.command.defaults.WhitelistCommand;
 public abstract class VanillaCommand extends Command  {
 
 
+	protected VanillaCommand(String name) {
+	}
+
+	protected VanillaCommand(String name, String description, String usageMessage, List<String> aliases) {
+	}
+
 	public boolean matches(String input) {
 		return false;
 	}

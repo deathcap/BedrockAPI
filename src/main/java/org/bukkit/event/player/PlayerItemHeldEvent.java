@@ -11,6 +11,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerItemHeldEvent extends PlayerEvent implements Cancellable  {
 
 
+	public PlayerItemHeldEvent(Player player, int previous, int current) {
+	}
+
 	public int getPreviousSlot() {
 		return 0;
 	}

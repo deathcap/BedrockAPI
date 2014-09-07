@@ -8,6 +8,9 @@ import org.bukkit.conversations.ConversationContext;
 public class ManuallyAbandonedConversationCanceller extends Object implements ConversationCanceller  {
 
 
+	public ManuallyAbandonedConversationCanceller() {
+	}
+
 	public void setConversation(Conversation conversation) {
 	}
 

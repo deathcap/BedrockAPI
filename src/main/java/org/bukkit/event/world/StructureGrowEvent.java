@@ -15,6 +15,9 @@ import org.bukkit.event.world.WorldEvent;
 public class StructureGrowEvent extends WorldEvent implements Cancellable  {
 
 
+	public StructureGrowEvent(Location location, TreeType species, boolean bonemeal, Player player, List<BlockState> blocks) {
+	}
+
 	public Location getLocation() {
 		return null;
 	}

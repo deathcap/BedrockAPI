@@ -352,8 +352,6 @@ public enum Material  {
 	RECORD_12,
 	;
 
-
-
 	@Deprecated public int getId() {
 		return 0;
 	}

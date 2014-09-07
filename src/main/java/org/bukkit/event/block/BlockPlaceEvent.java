@@ -15,6 +15,21 @@ import org.bukkit.inventory.ItemStack;
 public class BlockPlaceEvent extends BlockEvent implements Cancellable  {
 
 
+	protected boolean cancel = false;
+
+	protected boolean canBuild = false;
+
+	protected Block placedAgainst = null;
+
+	protected BlockState replacedBlockState = null;
+
+	protected ItemStack itemInHand = null;
+
+	protected Player player = null;
+
+	public BlockPlaceEvent(Block placedBlock, BlockState replacedBlockState, Block placedAgainst, ItemStack itemInHand, Player thePlayer, boolean canBuild) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

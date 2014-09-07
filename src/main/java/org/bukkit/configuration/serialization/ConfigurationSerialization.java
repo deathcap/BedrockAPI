@@ -9,6 +9,11 @@ import org.bukkit.configuration.serialization.ConfigurationSerializable;
 public class ConfigurationSerialization extends Object  {
 
 
+	public static final String SERIALIZED_TYPE_KEY = null;
+
+	protected ConfigurationSerialization(Class<? extends ConfigurationSerializable> clazz) {
+	}
+
 	protected Method getMethod(String name, boolean isStatic) {
 		return null;
 	}

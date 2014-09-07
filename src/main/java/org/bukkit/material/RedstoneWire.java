@@ -9,6 +9,21 @@ import org.bukkit.material.RedstoneWire;
 public class RedstoneWire extends MaterialData implements Redstone  {
 
 
+	public RedstoneWire() {
+	}
+
+	@Deprecated public RedstoneWire(int type) {
+	}
+
+	public RedstoneWire(Material type) {
+	}
+
+	@Deprecated public RedstoneWire(int type, byte data) {
+	}
+
+	@Deprecated public RedstoneWire(Material type, byte data) {
+	}
+
 	public boolean isPowered() {
 		return false;
 	}

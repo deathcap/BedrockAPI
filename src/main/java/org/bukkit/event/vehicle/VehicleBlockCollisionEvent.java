@@ -12,6 +12,9 @@ import org.bukkit.event.vehicle.VehicleEvent;
 public class VehicleBlockCollisionEvent extends VehicleCollisionEvent  {
 
 
+	public VehicleBlockCollisionEvent(Vehicle vehicle, Block block) {
+	}
+
 	public Block getBlock() {
 		return null;
 	}

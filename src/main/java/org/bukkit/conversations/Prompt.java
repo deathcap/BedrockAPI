@@ -15,6 +15,8 @@ import org.bukkit.conversations.ValidatingPrompt;
 public interface Prompt extends Cloneable  {
 
 
+	static final Prompt END_OF_CONVERSATION = null;
+
 	String getPromptText(ConversationContext context);
 
 	boolean blocksForInput(ConversationContext context);

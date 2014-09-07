@@ -11,6 +11,9 @@ import org.bukkit.material.MaterialData;
 public class ShapelessRecipe extends Object implements Recipe  {
 
 
+	public ShapelessRecipe(ItemStack result) {
+	}
+
 	public ShapelessRecipe addIngredient(MaterialData ingredient) {
 		return null;
 	}

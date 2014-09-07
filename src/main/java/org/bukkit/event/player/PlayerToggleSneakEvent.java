@@ -11,6 +11,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerToggleSneakEvent extends PlayerEvent implements Cancellable  {
 
 
+	public PlayerToggleSneakEvent(Player player, boolean isSneaking) {
+	}
+
 	public boolean isSneaking() {
 		return false;
 	}

@@ -36,6 +36,11 @@ import org.bukkit.event.entity.SlimeSplitEvent;
 public abstract class EntityEvent extends Event  {
 
 
+	protected Entity entity = null;
+
+	public EntityEvent(Entity what) {
+	}
+
 	public Entity getEntity() {
 		return null;
 	}

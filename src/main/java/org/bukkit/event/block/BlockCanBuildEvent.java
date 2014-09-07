@@ -11,6 +11,13 @@ import org.bukkit.event.block.BlockEvent;
 public class BlockCanBuildEvent extends BlockEvent  {
 
 
+	protected boolean buildable = false;
+
+	@Deprecated protected int material = 0;
+
+	@Deprecated public BlockCanBuildEvent(Block block, int id, boolean canBuild) {
+	}
+
 	public boolean isBuildable() {
 		return false;
 	}

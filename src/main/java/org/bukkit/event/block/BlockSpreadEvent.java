@@ -14,6 +14,9 @@ import org.bukkit.event.block.BlockGrowEvent;
 public class BlockSpreadEvent extends BlockFormEvent  {
 
 
+	public BlockSpreadEvent(Block block, Block source, BlockState newState) {
+	}
+
 	public Block getSource() {
 		return null;
 	}

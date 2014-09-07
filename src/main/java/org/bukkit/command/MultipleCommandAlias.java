@@ -7,6 +7,9 @@ import org.bukkit.command.CommandSender;
 public class MultipleCommandAlias extends Command  {
 
 
+	public MultipleCommandAlias(String name, Command[] commands) {
+	}
+
 	public Command[] getCommands() {
 		return null;
 	}

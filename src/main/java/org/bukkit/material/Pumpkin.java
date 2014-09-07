@@ -10,6 +10,24 @@ import org.bukkit.material.Pumpkin;
 public class Pumpkin extends MaterialData implements Directional  {
 
 
+	public Pumpkin() {
+	}
+
+	public Pumpkin(BlockFace direction) {
+	}
+
+	@Deprecated public Pumpkin(int type) {
+	}
+
+	public Pumpkin(Material type) {
+	}
+
+	@Deprecated public Pumpkin(int type, byte data) {
+	}
+
+	@Deprecated public Pumpkin(Material type, byte data) {
+	}
+
 	public boolean isLit() {
 		return false;
 	}

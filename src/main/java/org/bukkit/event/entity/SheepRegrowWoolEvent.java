@@ -11,6 +11,9 @@ import org.bukkit.event.entity.EntityEvent;
 public class SheepRegrowWoolEvent extends EntityEvent implements Cancellable  {
 
 
+	public SheepRegrowWoolEvent(Sheep sheep) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

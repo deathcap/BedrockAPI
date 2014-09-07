@@ -21,8 +21,6 @@ public enum ClickType  {
 	UNKNOWN,
 	;
 
-
-
 	public boolean isKeyboardClick() {
 		return false;
 	}

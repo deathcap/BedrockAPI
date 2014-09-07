@@ -16,6 +16,11 @@ import org.bukkit.event.vehicle.VehicleUpdateEvent;
 public abstract class VehicleEvent extends Event  {
 
 
+	protected Vehicle vehicle = null;
+
+	public VehicleEvent(Vehicle vehicle) {
+	}
+
 	public final Vehicle getVehicle() {
 		return null;
 	}

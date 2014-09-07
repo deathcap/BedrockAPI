@@ -6,6 +6,9 @@ import org.bukkit.potion.PotionEffectType;
 public class PotionEffectTypeWrapper extends PotionEffectType  {
 
 
+	protected PotionEffectTypeWrapper(int id) {
+	}
+
 	public double getDurationModifier() {
 		return 0.0;
 	}

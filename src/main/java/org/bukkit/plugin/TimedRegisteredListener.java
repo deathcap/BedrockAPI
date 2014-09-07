@@ -12,6 +12,9 @@ import org.bukkit.plugin.RegisteredListener;
 public class TimedRegisteredListener extends RegisteredListener  {
 
 
+	public TimedRegisteredListener(Listener pluginListener, EventExecutor eventExecutor, EventPriority eventPriority, Plugin registeredPlugin, boolean listenCancelled) {
+	}
+
 	public void callEvent(Event event) throws EventException {
 	}
 

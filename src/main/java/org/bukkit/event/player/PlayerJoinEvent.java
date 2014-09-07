@@ -10,6 +10,9 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerJoinEvent extends PlayerEvent  {
 
 
+	public PlayerJoinEvent(Player playerJoined, String joinMessage) {
+	}
+
 	public String getJoinMessage() {
 		return null;
 	}

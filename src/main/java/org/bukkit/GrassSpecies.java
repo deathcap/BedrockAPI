@@ -11,8 +11,6 @@ public enum GrassSpecies  {
 	FERN_LIKE,
 	;
 
-
-
 	@Deprecated public byte getData() {
 		return 0;
 	}

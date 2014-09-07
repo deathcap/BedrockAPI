@@ -12,6 +12,4 @@ public enum Action  {
 	RIGHT_CLICK_AIR,
 	PHYSICAL,
 	;
-
-
 }

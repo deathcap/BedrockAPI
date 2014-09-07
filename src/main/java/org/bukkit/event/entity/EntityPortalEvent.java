@@ -14,6 +14,13 @@ import org.bukkit.event.entity.EntityTeleportEvent;
 public class EntityPortalEvent extends EntityTeleportEvent  {
 
 
+	protected boolean useTravelAgent = false;
+
+	protected TravelAgent travelAgent = null;
+
+	public EntityPortalEvent(Entity entity, Location from, Location to, TravelAgent pta) {
+	}
+
 	public void useTravelAgent(boolean useTravelAgent) {
 	}
 

@@ -13,6 +13,12 @@ import org.bukkit.event.player.PlayerEvent;
 public class PlayerEggThrowEvent extends PlayerEvent  {
 
 
+	public PlayerEggThrowEvent(Player player, Egg egg, boolean hatching, byte numHatches, EntityType hatchingType) {
+	}
+
+	@Deprecated public PlayerEggThrowEvent(Player player, Egg egg, boolean hatching, byte numHatches, CreatureType hatchingType) {
+	}
+
 	public Egg getEgg() {
 		return null;
 	}

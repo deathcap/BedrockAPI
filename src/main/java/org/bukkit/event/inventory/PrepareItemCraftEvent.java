@@ -12,6 +12,9 @@ import org.bukkit.inventory.Recipe;
 public class PrepareItemCraftEvent extends InventoryEvent  {
 
 
+	public PrepareItemCraftEvent(CraftingInventory what, InventoryView view, boolean isRepair) {
+	}
+
 	public Recipe getRecipe() {
 		return null;
 	}

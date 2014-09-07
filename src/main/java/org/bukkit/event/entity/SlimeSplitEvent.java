@@ -11,6 +11,9 @@ import org.bukkit.event.entity.EntityEvent;
 public class SlimeSplitEvent extends EntityEvent implements Cancellable  {
 
 
+	public SlimeSplitEvent(Slime slime, int count) {
+	}
+
 	public boolean isCancelled() {
 		return false;
 	}

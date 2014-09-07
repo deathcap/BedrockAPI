@@ -12,6 +12,9 @@ import org.bukkit.event.block.BlockExpEvent;
 public class BlockBreakEvent extends BlockExpEvent implements Cancellable  {
 
 
+	public BlockBreakEvent(Block theBlock, Player player) {
+	}
+
 	public Player getPlayer() {
 		return null;
 	}

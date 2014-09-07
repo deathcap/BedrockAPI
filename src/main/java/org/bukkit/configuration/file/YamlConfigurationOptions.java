@@ -10,6 +10,9 @@ import org.bukkit.configuration.file.YamlConfigurationOptions;
 public class YamlConfigurationOptions extends FileConfigurationOptions  {
 
 
+	protected YamlConfigurationOptions(YamlConfiguration configuration) {
+	}
+
 	public YamlConfiguration configuration() {
 		return null;
 	}

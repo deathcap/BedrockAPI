@@ -10,4 +10,7 @@ import org.bukkit.event.vehicle.VehicleEvent;
 
 public abstract class VehicleCollisionEvent extends VehicleEvent  {
 
+
+	public VehicleCollisionEvent(Vehicle vehicle) {
+	}
 }

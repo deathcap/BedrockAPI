@@ -12,6 +12,18 @@ import org.bukkit.event.block.BlockEvent;
 public class BlockFromToEvent extends BlockEvent implements Cancellable  {
 
 
+	protected Block to = null;
+
+	protected BlockFace face = null;
+
+	protected boolean cancel = false;
+
+	public BlockFromToEvent(Block block, BlockFace face) {
+	}
+
+	public BlockFromToEvent(Block block, Block toBlock) {
+	}
+
 	public BlockFace getFace() {
 		return null;
 	}

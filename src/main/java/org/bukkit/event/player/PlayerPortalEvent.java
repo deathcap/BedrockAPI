@@ -16,6 +16,16 @@ import org.bukkit.event.player.PlayerTeleportEvent.TeleportCause;
 public class PlayerPortalEvent extends PlayerTeleportEvent  {
 
 
+	protected boolean useTravelAgent = false;
+
+	protected TravelAgent travelAgent = null;
+
+	public PlayerPortalEvent(Player player, Location from, Location to, TravelAgent pta) {
+	}
+
+	public PlayerPortalEvent(Player player, Location from, Location to, TravelAgent pta, PlayerTeleportEvent.TeleportCause cause) {
+	}
+
 	public void useTravelAgent(boolean useTravelAgent) {
 	}
 

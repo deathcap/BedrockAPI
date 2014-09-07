@@ -16,7 +16,5 @@ public interface PluginAwareness  {
 	
 		UTF8,
 		;
-	
-	
 	}
 }

@@ -11,4 +11,7 @@ import org.bukkit.event.server.ServiceEvent;
 
 public abstract class ServerEvent extends Event  {
 
+
+	public ServerEvent() {
+	}
 }

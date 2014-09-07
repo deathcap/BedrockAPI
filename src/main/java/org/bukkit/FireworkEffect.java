@@ -128,7 +128,5 @@ public final class FireworkEffect extends Object implements ConfigurationSeriali
 		BURST,
 		CREEPER,
 		;
-	
-	
 	}
 }

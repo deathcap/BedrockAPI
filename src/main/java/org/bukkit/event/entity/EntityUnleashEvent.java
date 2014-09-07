@@ -15,6 +15,9 @@ import org.bukkit.event.player.PlayerUnleashEntityEvent;
 public class EntityUnleashEvent extends EntityEvent  {
 
 
+	public EntityUnleashEvent(Entity entity, EntityUnleashEvent.UnleashReason reason) {
+	}
+
 	public EntityUnleashEvent.UnleashReason getReason() {
 		return null;
 	}
@@ -37,7 +40,5 @@ public class EntityUnleashEvent extends EntityEvent  {
 		DISTANCE,
 		UNKNOWN,
 		;
-	
-	
 	}
 }

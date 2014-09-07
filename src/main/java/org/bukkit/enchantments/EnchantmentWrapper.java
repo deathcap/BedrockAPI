@@ -8,6 +8,9 @@ import org.bukkit.inventory.ItemStack;
 public class EnchantmentWrapper extends Enchantment  {
 
 
+	public EnchantmentWrapper(int id) {
+	}
+
 	public Enchantment getEnchantment() {
 		return null;
 	}
