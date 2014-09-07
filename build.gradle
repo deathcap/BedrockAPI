@@ -23,6 +23,8 @@ repositories {
 }
 
 dependencies {
+    compile 'org.avaje:ebean:2.8.1'
+    compile 'org.yaml:snakeyaml:1.14'
 }
 
 shadow {
