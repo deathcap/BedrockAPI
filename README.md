@@ -12,7 +12,7 @@ to be safe in case it is legally required as a derivative work of Bukkit),
 as are all the tools and scripts used to generate it. cheers, -deathcap*
 
 
-Based on the [javadoc documentation](http://jd.bukkit.org/rb/apidocs/), with stubs generated using [unjavadoc](https://github.com/deathcap/unjavadoc).
+Based on the [javadoc documentation](https://web.archive.org/web/20140910003234/http://jd.bukkit.org/rb/apidocs/) with stubs generated using [unjavadoc](https://github.com/deathcap/unjavadoc).
 No code from the official [Bukkit API](https://github.com/Bukkit/Bukkit) is used in this repository, all was written using only the API documentation for reference.
 
 Very incomplete: currently this code compiles (run `./gradlew`), but due to the large number of missing method implementations, that's about it. Forks welcome.
